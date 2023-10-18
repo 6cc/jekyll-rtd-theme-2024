@@ -39,7 +39,7 @@ function preprocessP2() {
   butFunc.onclick = function(){removeFrame();locateDoc();};
   interactBar.appendChild(butFunc);
   let urlPriority = document.querySelector('input#url-priority');
-  urlPriority.addEventListener("click", (event) => {
+  urlPriority.addEventListener('click', (event) => {
     sourceSwitch();
   });
   interactBar.appendChild(urlPriority);
@@ -143,7 +143,14 @@ function htmlAlchemy(tecStImBed) {
       dynaContain[i].insertBefore(dynaField, dynaContain[i].childNodes[3]);
     }
 
-    let visiVar = queryString('visible', singleLineS[i][0]);
+    let visiVar = QueryString('visible', singleLineS[i][0]);
+    const regexpHide = /(imagefap|moviefap|pornhub|phncdn|hentai-cosplays|porn-images-xxx|hentai-img)\.com\//i;
+    for (const element of singleLineS[i]) {
+      if (regexpHide.test(element)) {
+        visiVar = 0;
+        break;
+      }
+    }
     dynaContain[i].className = visiVar == 1 ? 'cell-card' : 'not-visible';
     let voidDiv = document.createElement('div');
     voidDiv.className = visiVar;
@@ -263,7 +270,7 @@ function assemblePackage(tagType, strURL){
       let randomColor = Math.floor(Math.random()*16777215).toString(16);
       iconRank.height = 24;
       iconRank.src = "https://img.shields.io/badge/"
-       + ratingStar(queryString('r', strURL.toString()))
+       + ratingStar(QueryString('r', strURL.toString()))
        + '-推荐度-' + randomColor;
       return iconRank;
     break;
@@ -331,7 +338,7 @@ function assemblePackage(tagType, strURL){
       thumbSwitch.height = 64;
       
       fetch('https://api.i-meto.com/meting/api?type=song&id='
-       + queryString('id', strURL)).then(
+       + QueryString('id', strURL)).then(
         function(u){ return u.json();}
         ).then(
           function(json){
@@ -423,9 +430,9 @@ function switchMeting(currentNode, url) {
   currentNode.appendChild(divc);
 }
 
-function queryString(item, text){
-   foundString = text.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)","i"));
-   return foundString ? foundString[1] : foundString;
+function QueryString(item, text){
+  let foundString = text.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)","i"));
+  return foundString ? foundString[1] : foundString;
 }
 
 function reloadBullet(triggerType, urlData, currentContainer) {
@@ -499,5 +506,5 @@ function ratingStar(evaluateScore) {
 
 function removeFrame() {
   let contentDiv = document.querySelector('div#frame-division');
-  contentDiv !== null ? contentDiv.remove() : void(0);
+  contentDiv !== null ? contentDiv.remove() : void 0;
 }
