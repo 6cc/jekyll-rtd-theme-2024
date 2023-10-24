@@ -102,6 +102,14 @@ function htmlAlchemy(tecStImBed) {
 
   let seqTag = /\b6\/\/s=1/i;
   let tabTag = /\b6\/\/t=1/i;
+  const domainH =
+   `afast\.ws
+    |hentai-cosplays\.com|porn-images-xxx\.com|hentai-img\.com
+    |imagefap\.com|moviefap\.com
+    |nagy-dudak\.blog\.hu
+    |pornhub\.com|phncdn\.com
+   `;
+  const domainHide = new RegExp(domainH, 'i');
   let adjacentAccumulate = [];
   let dynaContain = [];
   let htmlGain = document.createDocumentFragment();
@@ -135,7 +143,8 @@ function htmlAlchemy(tecStImBed) {
         dynaContain[i].appendChild(seqT);
       }
     }
-    
+
+    let visiVar =  domainHide.test(segmentS[i]) ? 0 : 1;
     if(tabTag.test(segmentS[i])) {
       let dynaField = document.createElement('div');
       dynaField.className = 'dynamic-container';
@@ -143,14 +152,7 @@ function htmlAlchemy(tecStImBed) {
       dynaContain[i].insertBefore(dynaField, dynaContain[i].childNodes[3]);
     }
 
-    let visiVar = QueryString('visible', singleLineS[i][0]);
-    const regexpHide = /(imagefap|moviefap|pornhub|phncdn|hentai-cosplays|porn-images-xxx|hentai-img)\.com\//i;
-    for (const element of singleLineS[i]) {
-      if (regexpHide.test(element)) {
-        visiVar = 0;
-        break;
-      }
-    }
+    visiVar = QueryString('v', singleLineS[i][0]) != 1 ? visiVar : 1;
     dynaContain[i].className = visiVar == 1 ? 'cell-card' : 'not-visible';
     let voidDiv = document.createElement('div');
     voidDiv.className = visiVar;
