@@ -44,5 +44,8 @@ https://appscross.com/2023/11/cross-platform-alternative-clash/
 
 3.3 订阅链接
 
+https://gh.api.99988866.xyz/
+
 porn-video-xxx.com
+s3t3d2y8.afcdn.net
 videos-upload.com

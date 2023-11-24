@@ -1,18 +1,20 @@
 scienceGlance
 
-　6//sp1it=1　6//?⭐=0　&📅=2023/11/8 11:03:35　&💻=0　&🎞️=lop6e6ju　&!=🌸
-2023.11.08 | 最新Clash/v2ray高速免费节点，最高速度8.18M/S - freeClash
-https://freeclash.org/f/719.html
-
-https://freeclash.org/wp-content/uploads/2023/11/1108.yaml
-https://freeclash.org/wp-content/uploads/2023/11/1108.txt
-
 　6//sp1it=1　6//?⭐=3　&when=2023/10/5 12:01:27　&!=🛑　&visible=1
 「10月5日」最高速度24.2M/S，高速免费节点SSR/V2ray/Clash/Shadowrocket订阅链接 | ClashNode
 https://clashnode.com/p/1607.html
 
 https://clashnode.com/wp-content/uploads/2023/11/20231105.yaml
 https://clashnode.com/wp-content/uploads/2023/11/20231105.txt
+1cN
+
+　6//sp1it=1　6//?⭐=0　&📅=2023/11/8 11:03:35　&💻=0　&🎞️=lop6e6ju　&!=🌸
+2023.11.08 | 最新Clash/v2ray高速免费节点，最高速度8.18M/S - freeClash
+https://freeclash.org/f/719.html
+
+https://freeclash.org/wp-content/uploads/2023/11/1108.yaml
+https://freeclash.org/wp-content/uploads/2023/11/1108.txt
+2fC
 
 　6//sp1it=1　6//?⭐=3　&when=2023/10/5 11:59:50　&!=🛑　&visible=1
 「10月4日」最高速度12.32M/S，2023年最新高速SSR/V2ray/Clash订阅链接免费节点 | NodeFree
@@ -20,6 +22,7 @@ https://nodefree.org/p/1543.html
 
 https://nodefree.org/dy/2023/11/20231104.yaml
 https://nodefree.org/dy/2023/11/20231104.txt
+3nF
 
 　6//sp1it=1　6//?⭐=3　&when=2023/10/5 12:02:12　&!=🛑　&visible=1
 「10月5日」2023年最新高速SSR/V2ray/Clash/Shadowrocket免费节点订阅链接 – v2rayShare
@@ -27,12 +30,20 @@ https://v2rayshare.com/p/2347.html
 
 https://v2rayshare.com/wp-content/uploads/2023/11/20231105.yaml
 https://v2rayshare.com/wp-content/uploads/2023/11/20231105.txt
+4vS
 
 https://tt.vg/freeclash
 https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini
 
 https://tt.vg/freev2
 https://v2ray.neocities.org/v2ray.txt
+6vG
+
+　6//sp1it=1　6//?r=⭐　&d=2023/11/24 11:30:35　&💻=0　&b=lpc2ejb6　&!=🌸
+免费Clash节点订阅地址链接推荐 | Clash饭
+https://clashfan.com/freenode/
+
+https://www.qilin2.com/api/v1/client/subscribe?token=94876b53fae3fe0b1de6330acf67108f
 
 　6//sp1it=1　6//?⭐=0　&📅=2023/11/14 10:59:08　&💻=0　&🎞️=loxqvklw　&!=🌸
 共享节点app，内置海量免费优秀节点，完全免费使用 | ShadowShare
@@ -44,9 +55,13 @@ https://shadowshare.v2cross.com/android/
 Clash 节点订阅地址分享-Clash Sub
 https://clashsub.com/clash-node-subscribes-share/
 
+https://anaer.github.io/Sub/clash.yaml
+
 　6//sp1it=1　6//?⭐=0　&📅=2023/11/14 10:57:43　&💻=0　&🎞️=loxqtqal　&!=🌸
 免费 Clash 订阅——2023 中国国内可用的免费翻墙VPN加速器、Clash节点还有哪些？
 https://clashsub.com/free-subscribe/
+
+https://fku-ppg.co.uk/
 
 freefq
 https://hub.gitmirror.com/https://github.com/freefq/free/blob/master/v2
