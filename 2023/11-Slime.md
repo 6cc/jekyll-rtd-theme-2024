@@ -55,9 +55,6 @@ https://dogemanga.com/images/pages/YZ4tms10.jpg
 明明不互相合作就无法生存下去，却还总喜欢在自己人里分上下级关系。
 https://dogemanga.com/images/pages/OypDlOV_.jpg
 
-我所斩杀的并不是人，而是敌人。
-https://dogemanga.com/images/pages/8j-8gzbc.jpg
-
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg
 工具
@@ -70,3 +67,33 @@ https://dogemanga.com/images/pages/jWlZE7XS.jpg
 https://dogemanga.com/images/pages/Jidr_AZe.jpg
 https://dogemanga.com/images/pages/j3bX_r2v.jpg
 https://dogemanga.com/images/pages/spnZXmQS.jpg
+本作品は内容に
+過激な表現を含む場合があります。
+hon sakuhin wa naiyo ni kageki nani hyougen wa fukumu baai ga ari masu .
+https://dogemanga.com/images/pages/-Q0-I2MS.jpg
+https://dogemanga.com/images/pages/nQzro5Bn.jpg
+https://dogemanga.com/images/pages/nQz5jHHS.jpg
+
+怨恨的一族，是永远重复着仇恨的连锁活下去的修罗的末裔。
+https://dogemanga.com/images/pages/UyXs0Res.jpg
+
+虽说是同一族也并不是说想法就死一样的
+https://dogemanga.com/images/pages/es3bclOT.jpg
+我们就是一直遵从着这种傻逼的规定
+https://dogemanga.com/images/pages/jjbs3h-p.jpg
+
+有女儿，这就是你最致命的弱点
+https://dogemanga.com/images/pages/VyI0XfLV.jpg
+
+怒目圆睁
+https://dogemanga.com/images/pages/mb3gzgNf.jpg
+
+我所斩杀的并不是人，而是敌人。
+https://dogemanga.com/images/pages/0GcSNPVE.jpg
+https://dogemanga.com/images/pages/8j-8gzbc.jpg
+
+老卫
+https://dogemanga.com/images/pages/BXzViUzu.jpg
+
+饶恕也是一种强大
+https://dogemanga.com/images/pages/hCUaScPn.jpg
