@@ -46,6 +46,11 @@ https://appscross.com/2023/11/cross-platform-alternative-clash/
 
 https://gh.api.99988866.xyz/
 
+　6//sp1it=1　6//?r=⭐　&d=2023/12/18 10:44:00　&💻=0　&b=lqabb2df　&!=🌸
+matchHref()
+https://alphago.sndo.com/microsoft/article/rivers/newsfeed/1531576099383816194/ID0P8Q7E39OTO54.html?channel=f0ea262f9a1a493d97498f6a0b2eff90
+https://alphago.sndo.com/microsoft/article/rivers/newsfeed/1531576099383816194/IC006PLX31RS0QH.html?channel=f0ea262f9a1a493d97498f6a0b2eff90
+
 porn-video-xxx.com
 s3t3d2y8.afcdn.net
 https://ads-g.juicyads.com/network/user181880/58645-1693400968-0064952001693400968.png

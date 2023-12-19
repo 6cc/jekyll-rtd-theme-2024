@@ -1,4 +1,16 @@
 
+　6//sp1it=1　6//?r=⭐　&d=2023/12/10 21:29:08　&💻=0　&b=lpzitwko　&!=🌸
+TureNas配置windows SMB共享_truenas smb-CSDN博客
+https://blog.csdn.net/w741852961/article/details/125655440
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/8 20:38:48　&💻=0　&b=lpwm5gee　&!=🌸
+TrueNAS APP应用添加TrueCharts社区catalog目录 - Sagit
+https://www.truenasscale.com/2021/12/09/56.html
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/8 20:38:56　&💻=0　&b=lpwm5mkz　&!=🌸
+TrueNAS APP应用添加TrueCharts社区catalog目录 - 哔哩哔哩
+https://www.bilibili.com/read/cv12874712/
+
 　6//sp1it=1　6//?r=⭐　&d=2023/12/7 10:13:08　&💻=0　&b=lpukczlq　&!=🌸
 数码教程 篇十二：手把手教你安装TrueNas(基础篇)_NAS存储_什么值得买
 https://post.smzdm.com/p/a6d8m6vg/
@@ -80,6 +92,66 @@ Converged （融合）
 Active-active （活跃）
 Linux containers （Linux 容器）
 Easy-to-manage （易于管理）
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/11 22:43:58　&💻=0　&b=lq10xz3j　&!=🌸
+CrownCloud Wiki - How To Install Webmin On Ubuntu 23 10
+https://wiki.crowncloud.net/?How_to_Install_Webmin_on_Ubuntu_23_10
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/11 22:44:40　&💻=0　&b=lq10yvpi　&!=🌸
+How to Install Webmin on Ubuntu 23.10 - Devtutorial
+https://devtutorial.io/how-to-install-webmin-on-ubuntu-23-10-p3240.html
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/11 22:49:01　&💻=0　&b=lq114hfq　&!=🌸
+在 Ubuntu 20.04 中安装和使用 Webmin
+https://cn.linux-console.net/?p=16836
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/13 11:52:46　&💻=0　&b=lq38k895　&!=🌸
+ubuntu搭建samba共享文件服务 - 知乎
+https://zhuanlan.zhihu.com/p/496434930
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/11 22:31:50　&💻=0　&b=lq10idvn　&!=🌸
+如何在 Ubuntu Server 中以简单的方式设置 Samba 共享
+https://zhongguo.eskere.club/%E5%A6%82%E4%BD%95%E5%9C%A8-ubuntu-server-%E4%B8%AD%E4%BB%A5%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E5%BC%8F%E8%AE%BE%E7%BD%AE-samba-%E5%85%B1%E4%BA%AB/2021-10-22/
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/13 11:50:35　&💻=0　&b=lq38hfet　&!=🌸
+【详细步骤】Ubuntu安装Samba服务及配置共享文件夹_ubuntu samba-CSDN博客
+https://blog.csdn.net/qq_44078824/article/details/119847027
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/11 22:16:19　&💻=0　&b=lq0zyfca　&!=🌸
+Ubuntu Server 个人影音服务器，实现NAS、远程下载、私人云盘等-CSDN博客
+https://blog.csdn.net/weixin_52802362/article/details/117112557
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/19 14:38:12　&💻=0　&b=lqbz43mt　&!=🌸
+国外20个最佳的控制面板，可轻松管理服务器 - 知乎
+https://zhuanlan.zhihu.com/p/170487267
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/11 22:20:42　&💻=0　&b=lq104227　&!=🌸
+如何在 Ubuntu 20.04 上安装 Webmin - 知乎
+https://zhuanlan.zhihu.com/p/141989606
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/11 22:23:21　&💻=0　&b=lq107glu　&!=🌸
+Cockpit：一款强大的Linux图形化监控工具 - 知乎
+https://zhuanlan.zhihu.com/p/471475727
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/13 10:25:38　&💻=0　&b=lq35g6ld　&!=🌸
+万由UNAS安装体验，国产NAS系统，官方"QC"支持，媲美群晖NAS，体验还不错 - 知乎
+https://zhuanlan.zhihu.com/p/472223152
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/13 10:25:56　&💻=0　&b=lq35gkrl　&!=🌸
+为什么选择黑群晖而不使用万由U-NAS？ - 知乎
+https://www.zhihu.com/question/316965597
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/13 10:44:12　&💻=0　&b=lq36422g　&!=🌸
+第六章 存储管理 — U-NAS 4.0 文档
+https://www.u-nas.cn/doc/4.0/storage.html#smb
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/13 14:51:13　&💻=0　&b=lq3exqbz　&!=🌸
+10种方法实现truenas的内网穿透 | 生于1988年
+https://www.zhangxianwei.com.cn/neiwangchuantou/
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/18 10:19:34　&💻=0　&b=lqaafneo　&!=🌸
+垃圾佬的狂欢，200元DIY一套NAS
+https://www.zhihu.com/tardis/zm/art/466811396?source_id=1005
 
 　6//sp1it=1　6//?r=⭐　&d=2023/12/7 15:49:21　&💻=0　&b=lpuwddjv　&!=🌸
 黑群晖这一篇就够了
