@@ -1,4 +1,37 @@
 
+　6//sp1it=1　6//?r=⭐　&d=2023/12/30 10:14:12　&💻=0　&b=lqrfiyja　&!=🌸
+Install and Configure Samba | Ubuntu
+https://ubuntu.com/tutorials/install-and-configure-samba#2-installing-samba
+
+sudo apt update
+sudo apt install samba
+
+smbd -V
+
+mkdir /home/<username>/sambashare/
+
+sudo nano /etc/samba/smb.conf
+
+[sambashare]
+    comment = Samba on Ubuntu
+    path = /home/username/sambashare
+    read only = no
+    browsable = yes
+
+🍀Then press Ctrl-O to save and Ctrl-X to exit from the nano text editor.
+
+sudo service smbd restart
+
+sudo ufw allow samba
+
+sudo smbpasswd -a username
+
+🍀\\ip-address\sambashare
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/26 10:14:05　&💻=0　&b=lqlprezh　&!=🌸
+Truenas+Nextcloud 配置
+https://vinf.top/p/truenas-nextcloud/
+
 　6//sp1it=1　6//?r=⭐　&d=2023/12/10 21:29:08　&💻=0　&b=lpzitwko　&!=🌸
 TureNas配置windows SMB共享_truenas smb-CSDN博客
 https://blog.csdn.net/w741852961/article/details/125655440
@@ -17,6 +50,12 @@ https://post.smzdm.com/p/a6d8m6vg/
 
 珍藏12t大姐姐全没了(此处有哭声)，
 给大姐姐们一个安全的大房子。
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/24 17:31:26　&💻=0　&b=lqjai4yq　&!=🌸
+Xigmanas，初次使用便丢了我的数据，但我还是喜欢 - 知乎
+https://zhuanlan.zhihu.com/p/261146229
+
+希望我的NAS坚持的久一点，毕竟我的小姐姐还在里面。。。
 
 　6//sp1it=1　6//?r=⭐　&d=2023/12/7 10:46:27　&💻=0　&b=lpuljui0　&!=🌸
 TrueNAS SCALE 以官方推荐的方式直接使用docker、docker compose - Sagit
@@ -121,6 +160,12 @@ https://blog.csdn.net/qq_44078824/article/details/119847027
 Ubuntu Server 个人影音服务器，实现NAS、远程下载、私人云盘等-CSDN博客
 https://blog.csdn.net/weixin_52802362/article/details/117112557
 
+　6//sp1it=1　6//?r=⭐　&d=2023/12/20 10:19:44　&💻=0　&b=lqd5bjxi　&!=🌸
+9 Awesome Web Hosting Control Panel and Server Management Software
+https://geekflare.com/server-management-tools/
+
+Ajenti
+
 　6//sp1it=1　6//?r=⭐　&d=2023/12/19 14:38:12　&💻=0　&b=lqbz43mt　&!=🌸
 国外20个最佳的控制面板，可轻松管理服务器 - 知乎
 https://zhuanlan.zhihu.com/p/170487267
@@ -153,8 +198,39 @@ https://www.zhangxianwei.com.cn/neiwangchuantou/
 垃圾佬的狂欢，200元DIY一套NAS
 https://www.zhihu.com/tardis/zm/art/466811396?source_id=1005
 
+　6//sp1it=1　6//?r=⭐　&d=2023/12/24 17:20:33　&💻=0　&b=lqja45a3　&!=🌸
+XigmaNas系统（一）：常见NAS系统选择比较_xigmanas硬件要求-CSDN博客
+https://blog.csdn.net/liuyuncc/article/details/90313494
+
+FREENAS、XigmaNas(Nas4free)、OpenMediaVault、万由U-Nas
+
+　6//sp1it=1　6//?r=⭐　&d=2023/12/24 17:22:09　&💻=0　&b=lqja673i　&!=🌸
+EasyNAS Features | EasyNAS
+https://easynas.org/wiki/easynas-features/
+
+BTRFS
+Pentium* III 500 MHz or higher processor (Pentium 4 2.4 GHz or higher or any AMD64 or Intel64 processor recommended)
+Main memory: 1 GB physical RAM (2 GB recommended)
+
 　6//sp1it=1　6//?r=⭐　&d=2023/12/7 15:49:21　&💻=0　&b=lpuwddjv　&!=🌸
 黑群晖这一篇就够了
 https://www.zhihu.com/tardis/zm/art/582855616?source_id=1005
 
 https://pic3.zhimg.com/v2-5d6f3bd21feca0124ffcf22463ec5a16_b.webp?consumer=ZHI_MENG
+
+外网地址: http://60.27.232.212:25864/05c8038304
+[1Panel Log]: 内网地址: http://192.168.1.113:25864/05c8038304
+[1Panel Log]: 面板用户: c502e7657d
+[1Panel Log]: 面板密码: 55cc580249
+[1Panel Log]:
+[1Panel Log]: 项目官网: https://1panel.cn
+[1Panel Log]: 项目文档: https://1panel.cn/docs
+[1Panel Log]: 代码仓库: https://github.com/1Panel-dev/1Panel
+[1Panel Log]:
+[1Panel Log]: 如果使用的是云服务器，请至安全组开放 25864 端口
+
+
+外网面板地址: http://60.27.232.212:42417/f13f9ea2
+ 内网面板地址: http://192.168.1.113:42417/f13f9ea2
+ username: tfovmtcf
+ password: 343c445c
