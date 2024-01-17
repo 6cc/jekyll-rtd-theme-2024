@@ -121,6 +121,7 @@ https://hub.gitmirror.com/
 
 　https://raw.staticdn.net/
 
+https://mirror.ghproxy.com/
 https://ghproxy.com/
 
 　https://ghps.cc/

@@ -208,6 +208,10 @@ FREENAS、XigmaNas(Nas4free)、OpenMediaVault、万由U-Nas
 EasyNAS Features | EasyNAS
 https://easynas.org/wiki/easynas-features/
 
+Username:  admin
+
+Password: admin
+
 BTRFS
 Pentium* III 500 MHz or higher processor (Pentium 4 2.4 GHz or higher or any AMD64 or Intel64 processor recommended)
 Main memory: 1 GB physical RAM (2 GB recommended)

@@ -55,3 +55,5 @@ porn-video-xxx.com
 s3t3d2y8.afcdn.net
 https://ads-g.juicyads.com/network/user181880/58645-1693400968-0064952001693400968.png
 videos-upload.com
+
+https://ads-g.juicyads.com/network/user188030/57505-1686564662-0887175001686564662.gif
