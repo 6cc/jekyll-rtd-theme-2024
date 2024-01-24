@@ -1,11 +1,9 @@
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/16 15:04:29　&💻=0　&b=lrg0dqqf　&!=🌸
 2024年#nhk大... - @涅槃字幕组的微博 - 微博
-https://weibo.com/5442042794/NBe6efNbU#comment
+https://weibo.com/5442042794/NBe6efNbU
 
 https://www.alipan.com/s/VGGrmCsWQvV
-
-https://weibo.cn/sinaurl?u=https%3A%2F%2Fwww.alipan.com%2Fs%2FVGGrmCsWQvV
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/11 16:14:36　&💻=0　&b=lr8xonw0　&!=🌸
 2024大河剧《致光之君》吉高由里子/霸王龙压制组/更新1集/网盘下载 - 日剧跑
