@@ -85,6 +85,22 @@ https://iwxf.netlify.app
 慎二
 https://jiang.netlify.com
 
+https://github1s.com/keiko233/clash-nyanpasu
+
+　6//sp1it=1　6//?r=⭐　&d=2024/1/29 13:55:59　&💻=0　&b=lryinqcy　&!=🌸
+GitHub镜像 - 最优网址 | 镜像站汇总
+https://www.sockstack.cn/github
+
+https://kkgithub.com	可用
+√	https://hub.njuu.cf	可用
+√	https://hub.nuaa.cf	可用
+√	https://hub.yzuu.cf	可用
+√	https://gh.sb250.gq
+GitHub 加速下载站	状态
+√	https://gitclone.com	可用
+√	https://ghproxy.com	可用
+√	https://github.ur1.fun
+
 Alvin9999
 https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
 https://hub.fgit.cf/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
