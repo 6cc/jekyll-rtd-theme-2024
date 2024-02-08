@@ -92,7 +92,7 @@ https://dogemanga.com/images/pages/mb3gzgNf.jpg
 https://dogemanga.com/images/pages/0GcSNPVE.jpg
 https://dogemanga.com/images/pages/8j-8gzbc.jpg
 
-老卫
+老卫，色情，暴力，阴间
 https://dogemanga.com/images/pages/BXzViUzu.jpg
 
 饶恕也是一种强大
