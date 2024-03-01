@@ -209,12 +209,15 @@ EasyNAS Features | EasyNAS
 https://easynas.org/wiki/easynas-features/
 
 Username:  admin
-
 Password: admin
 
 BTRFS
 Pentium* III 500 MHz or higher processor (Pentium 4 2.4 GHz or higher or any AMD64 or Intel64 processor recommended)
 Main memory: 1 GB physical RAM (2 GB recommended)
+
+　6//sp1it=1　6//?r=⭐　&d=2024/2/29 18:17:42　&💻=0　&b=lt72npex　&!=🌸
+搭建家庭 NAS 服务器有什么好方案？_cockpit webmin对比-CSDN博客
+https://blog.csdn.net/NicolasLearner/article/details/117125176
 
 　6//sp1it=1　6//?r=⭐　&d=2023/12/7 15:49:21　&💻=0　&b=lpuwddjv　&!=🌸
 黑群晖这一篇就够了

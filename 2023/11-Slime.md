@@ -55,6 +55,19 @@ https://dogemanga.com/images/pages/YZ4tms10.jpg
 明明不互相合作就无法生存下去，却还总喜欢在自己人里分上下级关系。
 https://dogemanga.com/images/pages/OypDlOV_.jpg
 
+和父亲大人约会
+https://dogemanga.com/images/pages/puOqlbFs.jpg
+
+能赢才是正义。
+https://dogemanga.com/images/pages/dR-G0jA0.jpg
+
+不像某些人那样脑子顽固到完全不听别人说话。
+引起无谓的争斗，不想某些人。
+https://dogemanga.com/images/pages/b2Z0pl1A.jpg
+
+比起使用恐怖火威压等强硬手段，卖对方人情能有高出数倍的成功率。
+https://dogemanga.com/images/pages/GYWxNESo.jpg
+
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg
 工具
