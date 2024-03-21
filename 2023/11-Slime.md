@@ -62,11 +62,30 @@ https://dogemanga.com/images/pages/puOqlbFs.jpg
 https://dogemanga.com/images/pages/dR-G0jA0.jpg
 
 不像某些人那样脑子顽固到完全不听别人说话。
-引起无谓的争斗，不想某些人。
+引起无谓的争斗，不像某些人。
 https://dogemanga.com/images/pages/b2Z0pl1A.jpg
 
 比起使用恐怖火威压等强硬手段，卖对方人情能有高出数倍的成功率。
 https://dogemanga.com/images/pages/GYWxNESo.jpg
+
+我身边的人总会自说自话地配合我，自动为我的行为辩解，往有利与我的方向带节奏。
+https://dogemanga.com/images/pages/UTBtC_cv.jpg
+
+干脆改写所有人的记忆好了。
+https://dogemanga.com/images/pages/9YWO4DxL.jpg
+
+哥布塔有些过分依赖运气，而岚牙则是有喜欢顺应本能战斗的坏习惯。
+https://dogemanga.com/images/pages/yBSNNzs9.jpg
+
+英雄霸道
+是一种能够
+对周围的人进行接近洗脑级别的思维诱导的能力。
+我们不会受其影响，在智慧之王的究极能力面前，几乎所有的低级能力都会失效。
+
+就算我什么都不做，周围的人也会自行替我解释好一切。
+https://dogemanga.com/images/pages/dzJJevSg.jpg
+
+正幸的同伴们都把他当作神来崇拜，所以他也没办法和他们坦诚地交流。
 
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg
