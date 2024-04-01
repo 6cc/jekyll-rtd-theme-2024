@@ -1,4 +1,24 @@
 
+　6//sp1it=1　6//?r=⭐　&d=2024/3/29 13:50:42　&💻=0　&b=luc8w1j8　&!=🌸
+javascript - Changing the SpeechSynthesis voice not working - Stack Overflow
+https://stackoverflow.com/questions/61016951/changing-the-speechsynthesis-voice-not-working
+
+utterThis.voice=synth.getVoices()[61];
+
+61云溪
+64辽宁
+68陕西
+
+lang:
+zh-CN-liaoning
+zh-CN-shaanxi
+
+name:
+voiceURI:
+Microsoft Xiaobei Online (Natural) - Chinese (Northeastern Mandarin)
+
+Microsoft Yunxi Online (Natural) - Chinese (Mainland)
+
 　6//sp1it=1　6//?r=⭐　&d=2024/2/2 14:50:38　&💻=0　&b=ls4adffw　&!=🌸
 使用 JavaScript 原生 API 开发文本转语音（tts）开发 · excing/blog · Discussion #17
 https://github.com/excing/blog/discussions/17
