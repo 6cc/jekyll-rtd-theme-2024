@@ -1,3 +1,26 @@
+Ubuntu Touch 2021版刷机教程：支持57款设备
+https://www.bilibili.com/read/cv10185784/
+
+魅族MX4
+三星S3 Neo+ (GT-I9301I)
+
+linux-postmarketos-qcom-msm8974
+https://pkgs.postmarketos.org/package/master/postmarketos/armv7/linux-postmarketos-qcom-msm8974
+
+Grub2Lumia
+https://github.com/zravi/Grub2Lumia
+
+Nokia Lumia 930 (nokia-martini)
+https://wiki.postmarketos.org/wiki/Nokia_Lumia_930_(nokia-martini)
+
+Lumia929Pkg
+https://github.com/RedGreenBlue09/Lumia929Pkg
+
+Lumia930Pkg
+https://github.com/rickliu2000/Lumia930Pkg
+
+高通 骁龙800（MSM8974）
+Mobian
 
 　6//sp1it=1　6//?r=⭐　&d=2024/3/31 22:02:31　&💻=0　&b=luflc8qg　&!=🌸
 如何在2020年任意设备上刷入Nethunter_nethunter官网-CSDN博客
