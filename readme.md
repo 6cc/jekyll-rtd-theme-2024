@@ -1,36 +1,28 @@
-scienceGlance
-
-　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:18:34　&💻=0　&b=lr8kysx5　&!=🌸
-ClashNode | SSR/V2ray/Clash免费节点
-https://clashnode.com/
-
-https://clashnode.com/wp-content/uploads/2024/03/20240301.txt
-
-https://clashnode.com/wp-content/uploads/2024/03/20240301.yaml
+# scienceGlance
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:20:15　&💻=0　&b=lr8l0yy5　&!=🌸
 freeClash_免费的Clash/v2ray节点订阅
 https://freeclash.org/
 
-https://freeclash.org/wp-content/uploads/2024/03/0301.yaml
+https://freeclash.org/wp-content/uploads/2024/04/0401.yaml
 
-https://freeclash.org/wp-content/uploads/2024/03/0301.txt
+https://freeclash.org/wp-content/uploads/2024/04/0401.txt
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:22:50　&💻=0　&b=lr8l4apk　&!=🌸
 NodeFree | SSR/V2ray/Clash免费节点
 https://nodefree.org/
 
-https://nodefree.org/dy/2024/03/20240301.txt
+https://nodefree.org/dy/2024/04/20240401.txt
 
-https://nodefree.org/dy/2024/03/20240301.yaml
+https://nodefree.org/dy/2024/04/20240401.yaml
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:23:27　&💻=0　&b=lr8l5359　&!=🌸
 v2rayShare – SSR/V2ray/Clash免费节点
 https://v2rayshare.com/
 
-https://v2rayshare.com/wp-content/uploads/2024/03/20240301.txt
+https://v2rayshare.com/wp-content/uploads/2024/04/20240401.txt
 
-https://v2rayshare.com/wp-content/uploads/2024/03/20240301.yaml
+https://v2rayshare.com/wp-content/uploads/2024/04/20240401.yaml
 
 https://tt.vg/freeclash
 
@@ -39,7 +31,15 @@ https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fv2r
 https://tt.vg/freev2
 
 https://v2ray.neocities.org/v2ray.txt
-6vG
+
+　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:18:34　&💻=0　&b=lr8kysx5　&!=🌸
+<del>ClashNode | SSR/V2ray/Clash免费节点</del>
+
+<del>https://clashnode.com/</del>
+
+<del>https://clashnode.com/wp-content/uploads/2024/04/20240401.txt</del>
+
+<del>https://clashnode.com/wp-content/uploads/2024/04/20240401.yaml</del>
 
 　6//sp1it=1　6//?r=⭐　&d=2023/11/24 11:30:35　&💻=0　&b=lpc2ejb6　&!=🌸
 免费Clash节点订阅地址链接推荐 | Clash饭
