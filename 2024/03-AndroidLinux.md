@@ -1,3 +1,86 @@
+
+　6//?r=⭐　&d=2024/4/17 20:55:01　&b=lv3tewxv
+史上最详细的SurfaceRT越狱运行exe教程 – XNA(MonoGame)游戏开发
+https://www.xnadevelop.com/windows/surfacert-running-exe/
+
+https://pan.baidu.com/s/1bGbGE9a4dHqpbP1XZ_4Xkw
+提取码：4xif
+
+　6//?r=⭐　&d=2024/4/17 21:05:19　&b=lv3ts59r
+2022年最强Surface RT复生秘籍！ - 哔哩哔哩
+https://www.bilibili.com/read/cv17483017/
+
+https://pan.baidu.com/s/1Y6CRanJG2KttH4qDTLtu5A
+1145
+
+　6//?r=⭐　&d=2024/4/17 20:58:04　&b=lv3titm7
+rickliu2000/linux_nokia_msm8974: A partially working linux kernel for nokia msm8974 devices
+https://github.com/rickliu2000/linux_nokia_msm8974
+
+　6//?r=⭐　&d=2024/4/16 11:44:53　&b=lv1ubknb
+[CLOSED] Can I install a Linux distro on an old Windows phone? - Linux Mint Forums
+https://forums.linuxmint.com/viewtopic.php?t=360449
+
+Peter Linu：1520 
+Moem » Tue Nov 02, 2021 3:35 am
+
+No, that is not possible. That phone has the wrong architecture to run anything but Win8.1 or possibly W10, in the specific ARM version
+
+　6//?r=⭐　&d=2024/4/16 11:39:51　&b=lv1u53rh
+Install Linux on Lumia 950/XL
+https://empyreal96.github.io/Empys-board/LinuxOn950s.html
+
+　6//?r=⭐　&d=2024/4/16 11:25:49　&b=lv1tn2ar
+7 Linux Smartphone Operating Systems to Install on Your Device
+https://www.makeuseof.com/tag/linux-smartphone-operating-systems/
+
+1. Ubuntu Touch
+2. postmarketOS
+3. Sailfish OS
+4. Mobian
+5. Manjaro ARM
+6. Arch Linux ARM
+7. openSUSE
+armbian
+AndroNix
+
+　6//?r=⭐　&d=2024/4/16 10:52:22　&b=lv1sg205
+Surface RT / RT2 安装 Linux 文字版教程 - 哔哩哔哩
+https://www.bilibili.com/read/cv16306637/
+
+Raspberry Pi OS
+https://www.raspberrypi.com/software/
+
+　6//?r=⭐　&d=2024/4/16 10:49:07　&b=lv1sbvaj
+ARM/SurfaceRT - Ubuntu Wiki
+https://wiki.ubuntu.com/ARM/SurfaceRT
+
+　6//?r=⭐　&d=2024/4/16 10:27:37　&b=lv1rk84f
+linux & windows手机 （长期更新） - GKLBB - 博客园
+https://www.cnblogs.com/GKLBB/p/13746711.html
+
+原生非虚拟化
+purism librem
+Pinephone 
+ubuntu touch
+postmarketOS
+
+虚拟化
+nethunter
+andrax
+maru os
+iinux deploy
+
+　6//?r=⭐　&d=2024/4/15 22:11:46　&b=lv119wyn
+为诺基亚 950XL 刷入 Windows 11 ARM！？Win11 好用吗？ - 知乎
+https://zhuanlan.zhihu.com/p/412306032
+
+WOA Deployer
+
+　6//?r=⭐　&d=2024/4/15 22:16:11　&b=lv11fkxj
+《刷机迷》1.66发布啦 - 刷机迷程序发布 - 刷机迷社区 - Powered by Discuz!
+https://forum.shuajimi.com/forum.php?mod=viewthread&tid=1
+
 Ubuntu Touch 2021版刷机教程：支持57款设备
 https://www.bilibili.com/read/cv10185784/
 
