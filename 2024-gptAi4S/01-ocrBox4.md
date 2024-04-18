@@ -1,3 +1,57 @@
+
+　6//?r=⭐　&d=2024/4/18 18:09:50　&b=lv52yc5b
+AiChat ai.gptyylx.com
+https://ai4s.gpt-666.com/#/chat/1712892001827
+
+// 创建四个文本框
+const input1 = document.createElement('input');
+input1.type = 'text';
+input1.value = 'https://api.ocr.space/parse/imageurl?apikey=K88766003188957&url=';
+document.body.appendChild(input1);
+
+const input2 = document.createElement('input');
+input2.type = 'text';
+input2.placeholder = '粘贴图片 URL 这里';
+document.body.appendChild(input2);
+
+const input3 = document.createElement('input');
+input3.type = 'text';
+input3.value = '&language=chs&OCREngine=2';
+document.body.appendChild(input3);
+
+const input4 = document.createElement('input');
+input4.type = 'text';
+input4.placeholder = 'OCR 解析结果将显示在这里';
+document.body.appendChild(input4);
+
+// 监听第二个文本框输入事件
+input2.addEventListener('input', async () => {
+    // 合并成 API 请求链接
+    const apiUrl = input1.value + input2.value + input3.value;
+
+    try {
+        // 发送 API 请求
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+
+        // 获取 OCR 解析结果
+        const parsedText = data.ParsedResults[0].ParsedText;
+
+        // 输出到第四个文本框
+        input4.value = parsedText;
+
+        // 使用 TTS 云服务朗读
+        const speech = new SpeechSynthesisUtterance(parsedText);
+        speech.lang = 'zh-CN';
+        speechSynthesis.speak(speech);
+
+        // 写入剪贴板
+        navigator.clipboard.writeText(parsedText);
+    } catch (error) {
+        console.error(error);
+    }
+});
+
 2024/1/26 14:57:53
 gpt-3.5-turbo
 https://ai4s.gpt-666.com/#/chat/1706077145915
