@@ -23,6 +23,21 @@ Microsoft Yunxi Online (Natural) - Chinese (Mainland)
 使用 JavaScript 原生 API 开发文本转语音（tts）开发 · excing/blog · Discussion #17
 https://github.com/excing/blog/discussions/17
 
+https://fastly.jsdelivr.net/npm/franc@6.1.0/+esm
+
+const voices = await new Promise(resolve => {
+    const voices = synth.getVoices();
+    resolve(voices);
+  });
+
+utterance.volume = options.volume || 1.0;
+
+utterance.addEventListener('boundary', (event) => {
+  const { charIndex, elapsedTime } = event;
+  const progress = charIndex / utterance.text.length;
+  console.log(`当前朗读进度：${progress * 100}%`);
+});
+
 <button onclick="textToSpeech('当鼠标在页面上移动时', 'zh-CN-liaoning', 'Microsoft Xiaobei Online (Natural) - Chinese (Northeastern Mandarin) (zh-CN-liaoning)')">Xiaobei</button>
 
 textToSpeech('三观相近之人的互相吸引。', 'zh-CN-liaoning', 'Microsoft Yunxi Online (Natural) - Chinese (Mainland)');
@@ -59,6 +74,16 @@ https://cloud.tencent.com/developer/ask/sof/1429716/answer/1961304
 　6//sp1it=1　6//?r=⭐　&d=2024/3/3 17:46:01　&💻=0　&b=ltbbuizr　&!=🌸
 Text to speech player with buttons Play, Pause, Stop and voice choice | <alebal web Blog>
 https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html
+
+if(synth.speaking){ /* stop narration */
+                /* for safari */
+                flag = false;
+                synth.cancel();
+            }
+
+utterance.onend = function(){
+                    flag = false;
+                };
 
 https://jsfiddle.net/sb5wfomk/2/
 
