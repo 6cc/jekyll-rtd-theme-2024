@@ -1,4 +1,20 @@
 
+　6//?r=⭐　&d=2024/4/29 14:28:23　&b=lvkkvwve
+javascript - Async Await Promise does not work : promiseresult is undefined - Stack Overflow
+https://stackoverflow.com/questions/66951019/async-await-promise-does-not-work-promiseresult-is-undefined
+|
+
+　6//?r=⭐　&d=2024/4/29 14:32:02　&b=lvkl0lpn
+javascript - Web speech API: Consistently get the supported speech synthesis voices on iOS safari - Stack Overflow
+https://stackoverflow.com/questions/28948562/web-speech-api-consistently-get-the-supported-speech-synthesis-voices-on-ios-sa
+|
+speechSynthesis.cancel();
+stopSpeechJob();
+startSpeechJob();
+|
+Detecting a mobile browser
+https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
+
 　6//sp1it=1　6//?r=⭐　&d=2024/3/29 13:50:42　&💻=0　&b=luc8w1j8　&!=🌸
 javascript - Changing the SpeechSynthesis voice not working - Stack Overflow
 https://stackoverflow.com/questions/61016951/changing-the-speechsynthesis-voice-not-working
