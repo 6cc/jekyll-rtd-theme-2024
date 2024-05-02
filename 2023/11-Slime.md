@@ -87,6 +87,10 @@ https://dogemanga.com/images/pages/dzJJevSg.jpg
 
 正幸的同伴们都把他当作神来崇拜，所以他也没办法和他们坦诚地交流。
 
+假如您继续发布过激言论，做出不当行为，我们就要采取措施了。
+
+为乐诸位能有舒适的冒险体验，需要遵守一些最低限度的规则。
+
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg
 工具

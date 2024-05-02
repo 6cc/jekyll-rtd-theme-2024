@@ -1,4 +1,15 @@
 
+　6//?r=⭐　&d=2024/5/2 11:59:19　&b=lvopvs7x
+Speech synthesiser
+https://mdn.github.io/dom-examples/web-speech-api/speak-easy-synthesis/
+|
+[61]'Microsoft Yunxi Online (Natural) - Chinese (Mainland)'
+[64]'Microsoft Xiaobei Online (Natural) - Chinese (Northeastern Mandarin)'
+[68]'Microsoft Xiaoni Online (Natural) - Chinese (Zhongyuan Mandarin Shaanxi)'
+[180]'Microsoft Keita Online (Natural) - Japanese (Japan)'
+[181]'Microsoft Nanami Online (Natural) - Japanese (Japan)'
+https://mdn.github.io/dom-examples/web-speech-api/speak-easy-synthesis/script.js
+
 　6//?r=⭐　&d=2024/4/29 14:28:23　&b=lvkkvwve
 javascript - Async Await Promise does not work : promiseresult is undefined - Stack Overflow
 https://stackoverflow.com/questions/66951019/async-await-promise-does-not-work-promiseresult-is-undefined
