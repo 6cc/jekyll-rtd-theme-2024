@@ -50,7 +50,8 @@ Microsoft Yunxi Online (Natural) - Chinese (Mainland)
 使用 JavaScript 原生 API 开发文本转语音（tts）开发 · excing/blog · Discussion #17
 https://github.com/excing/blog/discussions/17
 
-https://fastly.jsdelivr.net/npm/franc@6.1.0/+esm
+const { franc } = await import("https://cdn.jsdelivr.net/npm/franc@6.1.0/+esm");
+  const lang = franc(text);
 
 const voices = await new Promise(resolve => {
     const voices = synth.getVoices();
