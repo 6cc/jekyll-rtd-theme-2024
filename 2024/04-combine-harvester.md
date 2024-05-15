@@ -1,5 +1,6 @@
-# 联合收割机combine-harvester
-00后女生打工垮脸严重，向公司申报“颜值折损费”，老板爽快答应
+combine-harvester联合收割机
+
+# 00后女生打工垮脸严重，向公司申报“颜值折损费”，老板爽快答应
 https://www.msn.cn/zh-cn/news/other/00%E5%90%8E%E5%A5%B3%E7%94%9F%E6%89%93%E5%B7%A5%E5%9E%AE%E8%84%B8%E4%B8%A5%E9%87%8D-%E5%90%91%E5%85%AC%E5%8F%B8%E7%94%B3%E6%8A%A5-%E9%A2%9C%E5%80%BC%E6%8A%98%E6%8D%9F%E8%B4%B9-%E8%80%81%E6%9D%BF%E7%88%BD%E5%BF%AB%E7%AD%94%E5%BA%94/ar-BB1ltJP8?cvid=bb9bb61bb35c4024842b0b5cfc2206f6&ei=25#
 
 我满身班味儿，医生都绕路走。公司的业绩是蒸蒸日上，我的颜值是断崖式下降。
