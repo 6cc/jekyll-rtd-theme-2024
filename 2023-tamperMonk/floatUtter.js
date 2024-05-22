@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floatUtterance-0.519
+// @name        floatUtterance-0.52
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/5/20 05:10:00
+// @description 2024/5/22 05:10:00
 // ==/UserScript==
 
 const bottomHorizonBar = () => {
@@ -179,7 +179,7 @@ const pierceElem = (hoverElem) => {
   let conditImgSrc = '';
   if (conditImg) {
     conditImgSrc = hoverElem.src;
-  } else if (conditImg && conditMsnArticle) {
+  } else if (conditMsnArticle) {
     const divWrapper = hoverElem.parentElement.querySelector('div.article-image-height-wrapper');
     conditImgSrc = divWrapper.querySelector('img.article-image').src;
   }
@@ -279,7 +279,7 @@ const filterUrl = (funcParam, queryUrl) => {
   const youtuBeR = /^https?:\/\/(?:(?:youtu\.be\/)|(?:(?:www\.)?youtube\.com\/(?:(?:watch\?(?:[^&]+&)?vi?=)|(?:vi?\/)|(?:shorts\/))))([a-zA-Z0-9_-]{11,})/i;
   const baiduR = /\bhttps?:\/\/pics\d\.baidu\.com\/feed\/[0-9A-z]+\.(?:jpe?g|gif|png).+/i;
   const bingR = /^https?:\/\/.*(cn|mm).bing.(net|com)\/th.id.(.*rik=\w+|.*ORMS.\w+|.*OIP-C.[-\w]+|.*OJ.\w+)/i;
-  const gtimgR = /^https?:\/\/inews\.gtimg\.com\/newsapp_bt\/0\/\d*\//i;
+  const gtimgR = /^https?:\/\/inews\.gtimg\.com\/\w+\/.+\/\d+/i;
   const imgRegEX = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])\.(?:gif|img|jpe?g|png|mp4|svg|webp)+/i;
   const music163R = /^https?:\/\/music\.163\.com\/#?\/?\w+\?id\=\d+/i;
   const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i;
@@ -307,7 +307,7 @@ const filterUrl = (funcParam, queryUrl) => {
       break;
 
       case gtimgR.test(queryUrl):
-      return 'img';
+      return funcParam !== 'trim' ? 'img' : queryUrl.match(gtimgR)[0];
       break;
 
       case imgRegEX.test(queryUrl):
@@ -403,78 +403,6 @@ const articleMsn = class retrieveShadowEtc  {
     }
   }
 }
-
-sideVertialBar();
-bottomHorizonBar();
-let elementContent = '';
-let cpImageSource = '';
-pierceRefer();
-let statusElem = document.querySelector('#status');
-let progressElem = document.querySelector('progress');
-let loadedImageCount, imageCount;
-
-document.addEventListener('mouseover', function(event) {
-  const hoverElem = event.target;
-  elementContent = hoverElem.innerText ||
-    hoverElem.href || hoverElem.src ||
-    hoverElem.value;
-  const topHorizonPara = document.querySelector('#topHorizonPara');
-  topHorizonPara.innerText = '[Tag]' + hoverElem.tagName + ' ' +
-    elementContent + ' [class]' + hoverElem.className;
-
-  const enableHover = document.querySelector('#enableHover');
-  const divFloat = document.querySelector('#divFloat');
-  if (divFloat !== null && hoverElem.className !== 'tooltiptext') {
-    divFloat.remove();
-  } else if ( hoverElem.tagName !== 'body' &&
-             hoverElem.className !== 'tooltiptext' &&
-             hoverElem.querySelector('div.tooltiptext') == null &&
-             enableHover.checked ) {
-    pierceElem( hoverElem );
-  }
-
-  if ( matchHref() === 'msnCn') {
-    cpImageSource = new articleMsn(hoverElem).imgSrc;
-  }
-
-});
-
-document.addEventListener('keydown', function(event) {
-    switch (event.altKey && event.key) {
-      case '[':
-        const msnArticleImages = retrieveMsn();
-        const adjacentAccumulate = document.createElement('div');
-        adjacentAccumulate.className = 'dynamic-container';
-        adjacentAccumulate.style.padding = '4px';
-        Fancybox.bind("[data-fancybox]", {
-          // Your custom options
-        });
-        const sidebar = document.querySelector('#sidebar');
-        reloadBullet('', msnArticleImages, adjacentAccumulate);
-        sidebar.appendChild(adjacentAccumulate);
-        break;
-      case ']':
-        ocrSpace(elementContent);
-        break;
-      case ',':
-        if ( matchHref() === 'msnCn') {
-          elementContent = cpImageSource;
-        }
-        const currentOur = new Date().getHours();
-        const decentVol = currentOur > 10 ? NaN : .2;
-        navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
-        articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
-        break;
-      case '\\':
-        const entityImg = matchHref();
-        const imgCount = 0;
-        const virtualClipboard = `6//?r=⭐\n${document.title}\n${window.location.href}\n|\n${entityImg}${imgCount}图
-        `;
-        const topHorizonPara = document.querySelector('#topHorizonPara');
-        topHorizonPara.title = virtualClipboard;
-        break
-    }
-  });
 
 const pierceRefer = () => {
   let javasS = document.createElement('script');
@@ -581,10 +509,6 @@ const getItemsFragment = (arrayIn) => {
   return fragment;
 };
 
-const func2 = (x, y) => {
-  console.log(undefined);
-};
-
 const sequenceGenerate = (urlFinal) => {
   let fileName = urlFinal.match(/[^\/=\D]+(?=\.[^\/.]*$)/)[0].
   match(/[]?\d*\.?\d+(?:[Ee][\+\-]?\d+)?/)[0];
@@ -596,3 +520,79 @@ const sequenceGenerate = (urlFinal) => {
   }
   return fragment;
 };
+
+const func2 = (x, y) => {
+  console.log(undefined);
+};
+
+sideVertialBar();
+bottomHorizonBar();
+let elementContent = '';
+let cpImageSource = '';
+pierceRefer();
+let statusElem = document.querySelector('#status');
+let progressElem = document.querySelector('progress');
+let loadedImageCount, imageCount;
+
+document.addEventListener('mouseover', function(event) {
+  const hoverElem = event.target;
+  elementContent = hoverElem.innerText ||
+    hoverElem.href || hoverElem.src ||
+    hoverElem.value;
+  const topHorizonPara = document.querySelector('#topHorizonPara');
+  topHorizonPara.innerText = '[Tag]' + hoverElem.tagName + ' ' +
+    elementContent + ' [class]' + hoverElem.className;
+
+  const enableHover = document.querySelector('#enableHover');
+  const divFloat = document.querySelector('#divFloat');
+  if (divFloat !== null && hoverElem.className !== 'tooltiptext') {
+    divFloat.remove();
+  } else if ( hoverElem.tagName !== 'body' &&
+             hoverElem.className !== 'tooltiptext' &&
+             hoverElem.querySelector('div.tooltiptext') == null &&
+             enableHover.checked ) {
+    pierceElem( hoverElem );
+  }
+
+  if ( matchHref() === 'msnCn') {
+    cpImageSource = new articleMsn(hoverElem).imgSrc;
+  }
+
+});
+
+document.addEventListener('keydown', function(event) {
+    switch (event.altKey && event.key) {
+      case '[':
+        const msnArticleImages = retrieveMsn();
+        const adjacentAccumulate = document.createElement('div');
+        adjacentAccumulate.className = 'dynamic-container';
+        adjacentAccumulate.style.padding = '4px';
+        Fancybox.bind("[data-fancybox]", {
+          // Your custom options
+        });
+        const sidebar = document.querySelector('#sidebar');
+        reloadBullet('', msnArticleImages, adjacentAccumulate);
+        sidebar.appendChild(adjacentAccumulate);
+        break;
+      case ']':
+        ocrSpace(elementContent);
+        break;
+      case ',':
+        if ( matchHref() === 'msnCn') {
+          elementContent = cpImageSource;
+        }
+        const currentOur = new Date().getHours();
+        const decentVol = currentOur > 10 ? NaN : .2;
+        navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
+        articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
+        break;
+      case '\\':
+        const entityImg = matchHref();
+        const imgCount = 0;
+        const virtualClipboard = `6//?r=⭐\n${document.title}\n${window.location.href}\n|\n${entityImg}${imgCount}图
+        `;
+        const topHorizonPara = document.querySelector('#topHorizonPara');
+        topHorizonPara.title = virtualClipboard;
+        break
+    }
+  });
