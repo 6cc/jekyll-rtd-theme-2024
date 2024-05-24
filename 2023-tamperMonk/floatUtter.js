@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        floatUtterance-0.52
+// @name        floatUtterance-0.524-1
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
@@ -27,7 +27,7 @@ const bottomHorizonBar = () => {
   let isHFixed = false;
   let isHExpanded = false;
 
-  document.addEventListener('mousemove', (event) => {
+  document.addEventListener('mouseover', (event) => {
     if (!isHFixed) {
       const distanceToEdge = event.clientY;
       if (distanceToEdge > window.innerHeight - 10 && !isHExpanded) {
@@ -40,24 +40,24 @@ const bottomHorizonBar = () => {
     }
   });
 
-    const pinHorizon = document.createElement('input');
-    pinHorizon.type = 'checkbox';
-    pinHorizon.className = 'tooltiptext';
-    pinHorizon.style.position = 'absolute';
-    pinHorizon.style.left = '40px';
-    pinHorizon.addEventListener('change', () => {
-      isHFixed = pinHorizon.checked;
-      if (isHFixed) {
-        sidebar.style.width = '40px';
-        isHExpanded = true;
-      }
-    });
-    topBar.appendChild(pinHorizon);
+  const pinHorizon = document.createElement('input');
+  pinHorizon.type = 'checkbox';
+  pinHorizon.className = 'tooltiptext';
+  pinHorizon.style.position = 'absolute';
+  pinHorizon.style.left = '40px';
+  pinHorizon.addEventListener('change', () => {
+    isHFixed = pinHorizon.checked;
+    if (isHFixed) {
+      sidebar.style.width = '40px';
+      isHExpanded = true;
+    }
+  });
+  topBar.appendChild(pinHorizon);
 
-    const topHorizonPara = document.createElement('p');
-    topHorizonPara.id = 'topHorizonPara';
-    topHorizonPara.style.color = '#ADFF2F';
-    topBar.appendChild(topHorizonPara);
+  const topHorizonPara = document.createElement('p');
+  topHorizonPara.id = 'topHorizonPara';
+  topHorizonPara.style.color = '#ADFF2F';
+  topBar.appendChild(topHorizonPara);
 };
 
 const sideVertialBar = () => {
@@ -78,21 +78,47 @@ const sideVertialBar = () => {
   sidebar.style.height = '640px';
   document.body.appendChild(sidebar);
 
-    let isVFixed = false;
-    let isVExpanded = false;
+  let isVFixed = false;
+  let isVExpanded = false;
 
-    document.addEventListener('mousemove', (event) => {
-      if (!isVFixed) {
-        const distanceToEdge = event.clientX;
-        if (distanceToEdge > window.innerWidth - 19 && !isVExpanded) {
-          sidebar.style.width = '228px';
-          isVExpanded = true;
-        } else if (distanceToEdge < window.innerWidth - 244 && isVExpanded) {
-          sidebar.style.width = '0px';
-          isVExpanded = false;
+  document.addEventListener('mouseover', (event) => {
+    if (!isVFixed) {
+      const distanceToEdge = event.clientX;
+      if (distanceToEdge > window.innerWidth - 19 && !isVExpanded) {
+        sidebar.style.width = '284px';
+        isVExpanded = true;
+
+        const cpArticle = document.querySelector('cp-article');
+        const gallerySlideshow = document.querySelector('gallery-slideshow');
+        let msnDataImgS = [];
+        if (cpArticle !== null) {
+          msnDataImgS = new articleMsn().retrieveMsn();
+        } else if (gallerySlideshow !== null) {
+          const gallerySlideComp = gallerySlideshow.shadowRoot.querySelectorAll('gallery-slide-component');
+          const fakeImg = /nativeAd\d+_/;
+          for (const item of gallerySlideComp) {
+            if (fakeImg.test(item.id) === false) {
+              msnDataImgS.push('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/' + item.id + '.img');
+            }
+          }
         }
+        const imgExist = sidebar.querySelector('div.dynamic-container');
+        if (imgExist === null) {
+          const adjacentAccumulate = document.createElement('div');
+          adjacentAccumulate.className = 'dynamic-container';
+          adjacentAccumulate.style.padding = '4px';
+          Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+          });
+          reloadBullet('', msnDataImgS, adjacentAccumulate);
+          sidebar.appendChild(adjacentAccumulate);
+        }
+      } else if (distanceToEdge < window.innerWidth - 300 && isVExpanded) {
+        sidebar.style.width = '0px';
+        isVExpanded = false;
       }
-    });
+    }
+  });
 
   const sideVertialPara = document.createElement('p');
   sideVertialPara.className = 'tooltiptext';
@@ -102,7 +128,6 @@ const sideVertialBar = () => {
 
   const pinVertial = document.createElement('input');
   pinVertial.type = 'checkbox';
-  pinVertial.style.position = 'absolute';
   pinVertial.style.top = '40px';
   pinVertial.className = 'tooltiptext';
   pinVertial.addEventListener('change', () => {
@@ -116,7 +141,6 @@ const sideVertialBar = () => {
 
   const enableHover = document.createElement('input');
   enableHover.type = 'checkbox';
-    enableHover.style.position = 'absolute';
   enableHover.style.top = '80px';
   enableHover.id = 'enableHover';
   enableHover.className = 'tooltiptext';
@@ -174,14 +198,13 @@ const pierceElem = (hoverElem) => {
     buttOcr.className = 'tooltiptext';
     buttOcr.textContent = 'ocrSpace';
   const conditImg = hoverElem.localName === 'img';
-  const conditMsnArticle = matchHref() === 'msnCn' && hoverElem.localName === 'a'
-  && hoverElem.className === 'image_switchModeLinkContainer';
+  const conditMsnArticle = matchHref() === 'msnCn' && hoverElem.localName === 'div'
+  && hoverElem.className === 'article-image-container';
   let conditImgSrc = '';
   if (conditImg) {
     conditImgSrc = hoverElem.src;
   } else if (conditMsnArticle) {
-    const divWrapper = hoverElem.parentElement.querySelector('div.article-image-height-wrapper');
-    conditImgSrc = divWrapper.querySelector('img.article-image').src;
+    conditImgSrc = hoverElem.querySelector('img.article-image').src;
   }
     buttOcr.addEventListener('mouseover', function() {
       const srcTrim = filterUrl ('trim', conditImgSrc);
@@ -220,28 +243,10 @@ const matchHref = () => {
     case msnCn.test(window.location.href):
       return 'msnCn';
       break;
-    case msnCn.test(window.location.href) && param == 'allImgS':
-      const msnArticleImages = retrieveMsn();
-      return msnArticleImages;
-      break;
     default:
       return '';
       break;
   }
-};
-
-const retrieveMsn = () => {
-  const msnCpArticle = document.querySelector('cp-article');
-  const map1 = msnCpArticle._data.articleImages;
-  let entityImg = [];
-  let imgCount = 0;
-  const iterator1 = map1[Symbol.iterator]();
-  for (const item of iterator1) {
-    const msnImg = filterUrl ('trim', item[1].url);
-    entityImg.push(msnImg);
-    imgCount ++;
-  }
-  return entityImg;
 };
 
 const iMpaleShadowN = (hoverElem) => {
@@ -329,7 +334,6 @@ const filterUrl = (funcParam, queryUrl) => {
         '' : queryUrl;
       break;
   }
-
 }
 
 const articuExpress = (text, vol) => {
@@ -380,7 +384,7 @@ const articleMsn = class retrieveShadowEtc  {
     switch (hoverLClass) {
       case 'cp-article-image':
         const imgModeSwtchr = this.hoverElem.shadowRoot.querySelector(
-        'a.image_switchModeLinkContainer');
+        'div.article-image-container');
         if (imgModeSwtchr.querySelector('input.shadowInput') === null) {
           iMpaleShadowN(imgModeSwtchr);
         }
@@ -402,6 +406,21 @@ const articleMsn = class retrieveShadowEtc  {
         return this.hoverElem.textContent;
     }
   }
+
+  retrieveMsn = () => {
+    const msnCpArticle = document.querySelector('cp-article');
+    const map1 = msnCpArticle._data.articleImages;
+    let entityImg = [];
+    let imgCount = 0;
+    const iterator1 = map1[Symbol.iterator]();
+    for (const item of iterator1) {
+      const msnImg = filterUrl ('trim', item[1].url);
+      entityImg.push(msnImg);
+      imgCount ++;
+    }
+    return entityImg;
+  };
+
 }
 
 const pierceRefer = () => {
@@ -434,9 +453,9 @@ const pierceRefer = () => {
 const getImageItem = (imgUrl) => {
   let img = new Image();
   let start_time = Date.now();
-  img.style.maxHeight = '75px';
-  img.style.maxWidth = '100px';
-  img.style.borderRadius = '4px';
+  img.style.maxHeight = '72px';
+  img.style.maxWidth = '144px';
+  img.style.borderRadius = '5px';
   img.src = imgUrl;
   let anchorTag = document.createElement('a');
 
@@ -456,9 +475,15 @@ const getImageItem = (imgUrl) => {
   };
   let set = setInterval(check,40);
 
-  let liTag = document.createElement('span');
+  let liTag = document.createElement('li');
   liTag.className = 'is-loading';
-  liTag.style.margin = '0 2px 2px 0';
+  liTag.style.float = 'left';
+  liTag.style.listStyle = 'none';
+  liTag.style.margin = '0 4px 0px 0';
+  liTag.style.backgroundPosition = 'center center';
+  liTag.style.backgroundRepeat = 'no-repeat';
+  liTag.style.backgroundColor = 'rgba(241,241,241,.9)';
+  liTag.style.backgroundImage = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/loading.gif';
   liTag.appendChild(img);
   anchorTag.setAttribute('data-fancybox', 'gallery');
   anchorTag.href = imgUrl;
@@ -563,16 +588,7 @@ document.addEventListener('mouseover', function(event) {
 document.addEventListener('keydown', function(event) {
     switch (event.altKey && event.key) {
       case '[':
-        const msnArticleImages = retrieveMsn();
-        const adjacentAccumulate = document.createElement('div');
-        adjacentAccumulate.className = 'dynamic-container';
-        adjacentAccumulate.style.padding = '4px';
-        Fancybox.bind("[data-fancybox]", {
-          // Your custom options
-        });
-        const sidebar = document.querySelector('#sidebar');
-        reloadBullet('', msnArticleImages, adjacentAccumulate);
-        sidebar.appendChild(adjacentAccumulate);
+        console.log(undefined);
         break;
       case ']':
         ocrSpace(elementContent);
