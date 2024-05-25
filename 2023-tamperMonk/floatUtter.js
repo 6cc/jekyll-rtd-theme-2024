@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        floatUtterance-0.524-1
+// @name        floatUtterance-0.525
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
@@ -220,8 +220,11 @@ const pierceElem = (hoverElem) => {
     const elemSpec = document.createElement('pre');
     elemSpec.id = 'elemSpec';
     divFloat.appendChild(elemSpec);
-
-    hoverElem.parentElement.insertBefore(divFloat, hoverElem);
+    if (conditImg) {
+      hoverElem.parentElement.insertBefore(divFloat, hoverElem);
+    } else if (conditMsnArticle) {
+      hoverElem.insertBefore(divFloat, hoverElem.firstChild);
+    }
 };
 
 const titleUrlSelecTime = (elemContent) => {
