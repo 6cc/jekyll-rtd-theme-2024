@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floatUtterance-0.525
+// @name        floatUtterance-0.529-4
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/5/22 05:10:00
+// @description 2024/5/29 05:27:00
 // ==/UserScript==
 
 const bottomHorizonBar = () => {
@@ -31,33 +31,66 @@ const bottomHorizonBar = () => {
     if (!isHFixed) {
       const distanceToEdge = event.clientY;
       if (distanceToEdge > window.innerHeight - 10 && !isHExpanded) {
-        topBar.style.height = '40px';
+        topBar.style.height = '200px';
         isHExpanded = true;
-      } else if (distanceToEdge < window.innerHeight - 40 && isHExpanded) {
+      } else if (distanceToEdge < window.innerHeight - 200 && isHExpanded) {
         topBar.style.height = '1px';
         isHExpanded = false;
       }
     }
   });
 
+  const topHorizonPara = document.createElement('label');
+  topHorizonPara.id = 'topHorizonPara';
+  topHorizonPara.textContent = 'Pin';
+  topHorizonPara.style.color = '#ADFF2F';
+  topBar.appendChild(topHorizonPara);
+
   const pinHorizon = document.createElement('input');
   pinHorizon.type = 'checkbox';
   pinHorizon.className = 'tooltiptext';
-  pinHorizon.style.position = 'absolute';
   pinHorizon.style.left = '40px';
   pinHorizon.addEventListener('change', () => {
     isHFixed = pinHorizon.checked;
     if (isHFixed) {
-      sidebar.style.width = '40px';
+      topBar.style.height = '200px';
       isHExpanded = true;
     }
   });
-  topBar.appendChild(pinHorizon);
+  topHorizonPara.appendChild(pinHorizon);
 
-  const topHorizonPara = document.createElement('p');
-  topHorizonPara.id = 'topHorizonPara';
-  topHorizonPara.style.color = '#ADFF2F';
-  topBar.appendChild(topHorizonPara);
+  const buttonInput = document.createElement('button');
+  buttonInput.textContent = 'run';
+  topHorizonPara.appendChild(buttonInput);
+
+  const urlInput = document.createElement('input');
+  urlInput.type = 'url';
+  urlInput.size = '60';
+  urlInput.value = 'https://6cc.github.io/2024/05-i.md';
+  topHorizonPara.appendChild(urlInput);
+
+  const textareaIde = document.createElement('textarea');
+  textareaIde.id = 'textareaIde';
+  textareaIde.className = 'textareaIde';
+  textareaIde.cols = '125';
+  textareaIde.rows = '10';
+  textareaIde.style.border = '2px dashed #ADFF2F';
+  textareaIde.style.margin = '0 0 0 1px';
+  topBar.appendChild(textareaIde);
+
+  const buttonGo = document.createElement('button');
+  buttonGo.textContent = 'go';
+  buttonGo.addEventListener('mouseup', function() {
+    getFile(urlInput.value).then(content =>{
+      // Using split method and passing "\n" as parameter for splitting
+      let array =  content.trim().split("\n");
+      textareaIde.value = content;
+    }).catch(error =>{
+      console.log(error);
+    });
+  });
+  topHorizonPara.appendChild(buttonGo);
+
 };
 
 const sideVertialBar = () => {
@@ -88,20 +121,7 @@ const sideVertialBar = () => {
         sidebar.style.width = '284px';
         isVExpanded = true;
 
-        const cpArticle = document.querySelector('cp-article');
-        const gallerySlideshow = document.querySelector('gallery-slideshow');
-        let msnDataImgS = [];
-        if (cpArticle !== null) {
-          msnDataImgS = new articleMsn().retrieveMsn();
-        } else if (gallerySlideshow !== null) {
-          const gallerySlideComp = gallerySlideshow.shadowRoot.querySelectorAll('gallery-slide-component');
-          const fakeImg = /nativeAd\d+_/;
-          for (const item of gallerySlideComp) {
-            if (fakeImg.test(item.id) === false) {
-              msnDataImgS.push('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/' + item.id + '.img');
-            }
-          }
-        }
+        const msnImgS = new articleMsn().retrieveMsn();
         const imgExist = sidebar.querySelector('div.dynamic-container');
         if (imgExist === null) {
           const adjacentAccumulate = document.createElement('div');
@@ -110,7 +130,7 @@ const sideVertialBar = () => {
           Fancybox.bind("[data-fancybox]", {
             // Your custom options
           });
-          reloadBullet('', msnDataImgS, adjacentAccumulate);
+          reloadBullet('', msnImgS, adjacentAccumulate);
           sidebar.appendChild(adjacentAccumulate);
         }
       } else if (distanceToEdge < window.innerWidth - 300 && isVExpanded) {
@@ -133,8 +153,8 @@ const sideVertialBar = () => {
   pinVertial.addEventListener('change', () => {
     isVFixed = pinVertial.checked;
     if (isVFixed) {
-        sidebar.style.width = '40px';
-        isVExpanded = true;
+      sidebar.style.width = '284px';
+      isVExpanded = true;
     }
   });
   sidebar.appendChild(pinVertial);
@@ -149,54 +169,53 @@ const sideVertialBar = () => {
 
 const pierceElem = (hoverElem) => {
   const divFloat = document.createElement('div');
-    divFloat.id = 'divFloat';
-    divFloat.className = 'tooltiptext';
-    divFloat.style.position = 'absolute';
-    divFloat.style.overflow = 'auto';
-    divFloat.style.zIndex = '9999';
-    divFloat.style.backgroundColor = 'rgba(241,241,241,.9)';
-    divFloat.style.boxShadow = 'inset 0 -3em 3em rgba(0, 0, 0, 0.1),' +
-    '0 0 0 2px rgb(255, 255, 255),' +
-    '0.3em 0.3em 1em rgba(0, 0, 0, 0.3)';
+  divFloat.id = 'divFloat';
+  divFloat.className = 'tooltiptext';
+  divFloat.style.position = 'absolute';
+  divFloat.style.overflow = 'auto';
+  divFloat.style.zIndex = '9999';
+  divFloat.style.backgroundColor = 'rgba(241,241,241,.9)';
+  divFloat.style.boxShadow = 'inset 0 -3em 3em rgba(0, 0, 0, 0.1),' +
+    '0 0 0 2px rgb(255, 255, 255),' + '0.3em 0.3em 1em rgba(0, 0, 0, 0.3)';
 
-    const utterText = document.createElement('textarea');
-    utterText.id = 'utterText';
-    utterText.className = 'tooltiptext';
-    utterText.value = hoverElem.innerText;
-    divFloat.appendChild(utterText);
+  const utterText = document.createElement('textarea');
+  utterText.id = 'utterText';
+  utterText.className = 'tooltiptext';
+  utterText.value = hoverElem.innerText;
+  divFloat.appendChild(utterText);
 
-    const br = document.createElement('br');
-    divFloat.appendChild(br);
+  const br = document.createElement('br');
+  divFloat.appendChild(br);
 
-    const bUtterance = document.createElement('button');
-    bUtterance.className = 'tooltiptext';
-    bUtterance.textContent = 'utterance';
-    bUtterance.addEventListener('mouseover', function() {
-      if (utterText.value.length <= 40) {
-        artIculate(utterText.value, 68);
-      }
-    });
-    bUtterance.addEventListener('mouseup', function() {
-      artIculate(utterText.value);
-    });
-    divFloat.appendChild(bUtterance);
+  const bUtterance = document.createElement('button');
+  bUtterance.className = 'tooltiptext';
+  bUtterance.textContent = 'utterance';
+  bUtterance.addEventListener('mouseover', function() {
+    if (utterText.value.length <= 40) {
+      artIculate(utterText.value, 68);
+    }
+  });
+  bUtterance.addEventListener('mouseup', function() {
+    artIculate(utterText.value);
+  });
+  divFloat.appendChild(bUtterance);
 
-    const buttJp = document.createElement('button');
-    buttJp.className = 'tooltiptext';
-    buttJp.textContent = 'buttJp';
-    buttJp.addEventListener('mouseover', function() {
-      if (utterText.value.length <= 40) {
-        artIculate(utterText.value, 180);
-      }
-    });
-    buttJp.addEventListener('mouseup', function() {
+  const buttJp = document.createElement('button');
+  buttJp.className = 'tooltiptext';
+  buttJp.textContent = 'buttJp';
+  buttJp.addEventListener('mouseover', function() {
+    if (utterText.value.length <= 40) {
       artIculate(utterText.value, 180);
-    });
-    divFloat.appendChild(buttJp);
+    }
+  });
+  buttJp.addEventListener('mouseup', function() {
+    artIculate(utterText.value, 180);
+  });
+  divFloat.appendChild(buttJp);
 
-    const buttOcr = document.createElement('button');
-    buttOcr.className = 'tooltiptext';
-    buttOcr.textContent = 'ocrSpace';
+  const buttOcr = document.createElement('button');
+  buttOcr.className = 'tooltiptext';
+  buttOcr.textContent = 'ocrSpace';
   const conditImg = hoverElem.localName === 'img';
   const conditMsnArticle = matchHref() === 'msnCn' && hoverElem.localName === 'div'
   && hoverElem.className === 'article-image-container';
@@ -206,25 +225,31 @@ const pierceElem = (hoverElem) => {
   } else if (conditMsnArticle) {
     conditImgSrc = hoverElem.querySelector('img.article-image').src;
   }
-    buttOcr.addEventListener('mouseover', function() {
-      const srcTrim = filterUrl ('trim', conditImgSrc);
-      ocrSpace(srcTrim, utterText);
-    });
-    buttOcr.addEventListener('mouseup', function() {
-      buttOcr.title = filterUrl ('trim', conditImgSrc);
-    });
-    divFloat.appendChild(buttOcr);
+  buttOcr.addEventListener('mouseover', function() {
+    const srcTrim = filterUrl ('trim', conditImgSrc);
+    ocrSpace(srcTrim, utterText);
+  });
+  buttOcr.addEventListener('mouseup', function() {
+    buttOcr.title = filterUrl ('trim', conditImgSrc);
+  });
+  divFloat.appendChild(buttOcr);
 
-    const hr = document.createElement('hr');
-    divFloat.appendChild(hr);
-    const elemSpec = document.createElement('pre');
-    elemSpec.id = 'elemSpec';
-    divFloat.appendChild(elemSpec);
-    if (conditImg) {
-      hoverElem.parentElement.insertBefore(divFloat, hoverElem);
-    } else if (conditMsnArticle) {
-      hoverElem.insertBefore(divFloat, hoverElem.firstChild);
-    }
+  const hr = document.createElement('hr');
+  divFloat.appendChild(hr);
+  const elemSpec = document.createElement('pre');
+  elemSpec.id = 'elemSpec';
+  divFloat.appendChild(elemSpec);
+  if (conditImg) {
+    hoverElem.parentElement.insertBefore(divFloat, hoverElem);
+  } else if (conditMsnArticle) {
+    hoverElem.insertBefore(divFloat, hoverElem.firstChild);
+  }
+};
+
+const getFile = async (fileURL) => {
+  let fileContent = await fetch(fileURL);
+  fileContent = await fileContent.text();
+  return fileContent;
 };
 
 const titleUrlSelecTime = (elemContent) => {
@@ -382,7 +407,7 @@ const articleMsn = class retrieveShadowEtc  {
     return this.hoverImgSrc();
   }
   // 方法
-  hoverImgSrc() {
+  hoverImgSrc = () => {
     const hoverLClass = this.hoverElem.localName;
     switch (hoverLClass) {
       case 'cp-article-image':
@@ -411,17 +436,30 @@ const articleMsn = class retrieveShadowEtc  {
   }
 
   retrieveMsn = () => {
-    const msnCpArticle = document.querySelector('cp-article');
-    const map1 = msnCpArticle._data.articleImages;
-    let entityImg = [];
-    let imgCount = 0;
-    const iterator1 = map1[Symbol.iterator]();
-    for (const item of iterator1) {
-      const msnImg = filterUrl ('trim', item[1].url);
-      entityImg.push(msnImg);
-      imgCount ++;
+    const cpArticle = document.querySelector('cp-article');
+    const gallerySlideshow = document.querySelector('gallery-slideshow');
+    if (cpArticle !== null) {
+      const map1 = cpArticle._data.articleImages;
+      let entityImg = [];
+      let imgCount = 0;
+      const iterator1 = map1[Symbol.iterator]();
+      for (const item of iterator1) {
+        const msnImg = filterUrl ('trim', item[1].url);
+        entityImg.push(msnImg);
+        imgCount ++;
+      }
+      return entityImg;
+    } else if (gallerySlideshow !== null) {
+      const gallerySlideComp = gallerySlideshow.shadowRoot.querySelectorAll('gallery-slide-component');
+      const fakeImg = /nativeAd\d+_/;
+      let gallerySlide = [];
+      for (const item of gallerySlideComp) {
+        if (fakeImg.test(item.id) === false) {
+          gallerySlide.push('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/' + item.id + '.img');
+        }
+      }
+      return gallerySlide;
     }
-    return entityImg;
   };
 
 }
@@ -456,8 +494,8 @@ const pierceRefer = () => {
 const getImageItem = (imgUrl) => {
   let img = new Image();
   let start_time = Date.now();
-  img.style.maxHeight = '72px';
   img.style.maxWidth = '144px';
+  img.style.maxHeight = '72px';
   img.style.borderRadius = '5px';
   img.src = imgUrl;
   let anchorTag = document.createElement('a');
@@ -568,9 +606,6 @@ document.addEventListener('mouseover', function(event) {
     hoverElem.href || hoverElem.src ||
     hoverElem.value;
   const topHorizonPara = document.querySelector('#topHorizonPara');
-  topHorizonPara.innerText = '[Tag]' + hoverElem.tagName + ' ' +
-    elementContent + ' [class]' + hoverElem.className;
-
   const enableHover = document.querySelector('#enableHover');
   const divFloat = document.querySelector('#divFloat');
   if (divFloat !== null && hoverElem.className !== 'tooltiptext') {
@@ -589,7 +624,7 @@ document.addEventListener('mouseover', function(event) {
 });
 
 document.addEventListener('keydown', function(event) {
-    switch (event.altKey && event.key) {
+  switch (event.altKey && event.key) {
       case '[':
         console.log(undefined);
         break;
@@ -613,5 +648,5 @@ document.addEventListener('keydown', function(event) {
         const topHorizonPara = document.querySelector('#topHorizonPara');
         topHorizonPara.title = virtualClipboard;
         break
-    }
-  });
+  }
+});
