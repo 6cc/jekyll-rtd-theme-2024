@@ -1,4 +1,8 @@
 
+　6//sp1it=1　6//?r=⭐　&d=2024/3/29 18:11:56　&💻=0　&b=luci80cf　&!=🌸
+html - Dynamic Floating window by javascript - Stack Overflow
+https://stackoverflow.com/questions/380244/dynamic-floating-window-by-javascript
+
 　6//?r=⭐　&d=2024/4/21 10:28:25　&b=lv8wsi9z
 javascript - jquery floating div on hover - Stack Overflow
 https://stackoverflow.com/questions/18783117/jquery-floating-div-on-hover
@@ -61,10 +65,6 @@ javascript - Display fixed title when content comes into view - Stack Overflow
 https://stackoverflow.com/questions/24725877/display-fixed-title-when-content-comes-into-view
 
 http://jsfiddle.net/pevans02/rAU46/
-
-　6//sp1it=1　6//?r=⭐　&d=2024/3/29 18:11:56　&💻=0　&b=luci80cf　&!=🌸
-html - Dynamic Floating window by javascript - Stack Overflow
-https://stackoverflow.com/questions/380244/dynamic-floating-window-by-javascript
 
 CSS Tooltip
 https://www.w3schools.com/css/css_tooltip.asp
