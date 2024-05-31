@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floatUtterance-0.529-4
+// @name        floatUtterance-0.531-3
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/5/29 05:27:00
+// @description 2024/5/31 05:29:00
 // ==/UserScript==
 
 const bottomHorizonBar = () => {
@@ -34,7 +34,7 @@ const bottomHorizonBar = () => {
         topBar.style.height = '200px';
         isHExpanded = true;
       } else if (distanceToEdge < window.innerHeight - 200 && isHExpanded) {
-        topBar.style.height = '1px';
+        topBar.style.height = '2px';
         isHExpanded = false;
       }
     }
@@ -66,7 +66,7 @@ const bottomHorizonBar = () => {
   const urlInput = document.createElement('input');
   urlInput.type = 'url';
   urlInput.size = '60';
-  urlInput.value = 'https://6cc.github.io/2024/05-i.md';
+  urlInput.value = 'https://6cc.github.io/2024/05-n.md';
   topHorizonPara.appendChild(urlInput);
 
   const textareaIde = document.createElement('textarea');
@@ -81,13 +81,7 @@ const bottomHorizonBar = () => {
   const buttonGo = document.createElement('button');
   buttonGo.textContent = 'go';
   buttonGo.addEventListener('mouseup', function() {
-    getFile(urlInput.value).then(content =>{
-      // Using split method and passing "\n" as parameter for splitting
-      let array =  content.trim().split("\n");
-      textareaIde.value = content;
-    }).catch(error =>{
-      console.log(error);
-    });
+    getFile(urlInput.value, textareaIde);
   });
   topHorizonPara.appendChild(buttonGo);
 
@@ -246,10 +240,13 @@ const pierceElem = (hoverElem) => {
   }
 };
 
-const getFile = async (fileURL) => {
-  let fileContent = await fetch(fileURL);
-  fileContent = await fileContent.text();
-  return fileContent;
+const getFile = (fileURL, targetElem) => {
+  (async () => {
+    const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
+    const docData = await response.text();
+    let linesArray =  docData.trim().split('\n');
+    targetElem.innerText = linesArray;
+  })();
 };
 
 const titleUrlSelecTime = (elemContent) => {
@@ -494,8 +491,8 @@ const pierceRefer = () => {
 const getImageItem = (imgUrl) => {
   let img = new Image();
   let start_time = Date.now();
-  img.style.maxWidth = '144px';
   img.style.maxHeight = '72px';
+  img.style.maxWidth = '144px';
   img.style.borderRadius = '5px';
   img.src = imgUrl;
   let anchorTag = document.createElement('a');
@@ -606,6 +603,7 @@ document.addEventListener('mouseover', function(event) {
     hoverElem.href || hoverElem.src ||
     hoverElem.value;
   const topHorizonPara = document.querySelector('#topHorizonPara');
+  topHorizonPara.title = '[Tag]' + hoverElem.tagName + ' [class]' + hoverElem.className;
   const enableHover = document.querySelector('#enableHover');
   const divFloat = document.querySelector('#divFloat');
   if (divFloat !== null && hoverElem.className !== 'tooltiptext') {
