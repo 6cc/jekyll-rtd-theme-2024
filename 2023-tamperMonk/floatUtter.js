@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        floatUtterance-0.531-3
+// @name        floatUtterance-0.6
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
@@ -21,7 +21,7 @@ const bottomHorizonBar = () => {
   topBar.style.left = '40px';
   topBar.style.bottom = '0';
   topBar.style.width = '960px';
-  topBar.style.height = '16px';
+  topBar.style.height = '1px';
   document.body.appendChild(topBar);
 
   let isHFixed = false;
@@ -115,18 +115,25 @@ const sideVertialBar = () => {
         sidebar.style.width = '284px';
         isVExpanded = true;
 
-        const msnImgS = new articleMsn().retrieveMsn();
-        const imgExist = sidebar.querySelector('div.dynamic-container');
-        if (imgExist === null) {
-          const adjacentAccumulate = document.createElement('div');
-          adjacentAccumulate.className = 'dynamic-container';
-          adjacentAccumulate.style.padding = '4px';
-          Fancybox.bind("[data-fancybox]", {
-            // Your custom options
-          });
-          reloadBullet('', msnImgS, adjacentAccumulate);
-          sidebar.appendChild(adjacentAccumulate);
+        const windowLocation = matchHref();
+        switch (windowLocation) {
+            case 'msnCn':
+            const imagesloadedExist = document.querySelector('script#imagesloadedPkgdMinJs');
+            const msnImgS = new articleMsn().retrieveMsn();
+            const imgExist = sidebar.querySelector('div.dynamic-container');
+            if (imagesloadedExist !== null && imgExist === null) {
+              const adjacentAccumulate = document.createElement('div');
+              adjacentAccumulate.className = 'dynamic-container';
+              adjacentAccumulate.style.padding = '4px';
+              reloadBullet('', msnImgS, adjacentAccumulate);
+              sidebar.appendChild(adjacentAccumulate);
+            }
+            break;
+            default:
+            console.log('Not MSN');
+            break;
         }
+
       } else if (distanceToEdge < window.innerWidth - 300 && isVExpanded) {
         sidebar.style.width = '0px';
         isVExpanded = false;
@@ -395,6 +402,153 @@ const artIculate = async (text, voiceIndex, vol) => {
 //appreciate koldobika https://stackoverflow.com/questions/66951019/async-await-promise-does-not-work-promiseresult-is-undefined
 //appreciate docta_faustus https://stackoverflow.com/questions/61016951/changing-the-speechsynthesis-voice-not-working
 
+class FloatWindow extends HTMLElement {
+    constructor() {
+      super()
+      this.attachShadow({mode: 'open'})
+      this.shadowRoot.innerHTML = `
+      <style>
+        .window {
+          position: absolute;
+          background-color: white;
+          border: 1px solid gray;
+          box-shadow: 0 0 10px rgba(0,0,0,0.5);
+          display: none;
+        }
+
+        .titleBar {
+          background-color: lightgray;
+          padding: 5px;
+          cursor: move;
+        }
+
+        .closeBtn {
+          float: right;
+          cursor: pointer;
+        }
+
+      </style>
+      <div class="window">
+        <div class="titleBar">
+          <span class="title"><slot name="header"></slot></span>
+          <span class="closeBtn">×</span>
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </div>
+    `
+
+      this.window = this.shadowRoot.querySelector('.window')
+      this.window.style.width = this.getAttribute("width")
+      this.window.style.height = this.getAttribute("height")
+      this.titleBar = this.shadowRoot.querySelector('.titleBar')
+      this.closeBtn = this.shadowRoot.querySelector('.closeBtn')
+      this.content = this.shadowRoot.querySelector('.content')
+
+      this.mouseDownX = 0
+      this.mouseDownY = 0
+      this.translateX = 0
+      this.translateY = 0
+
+      // for resize use
+      this._width = 0
+      this._height = 0
+
+      this.titleBar.addEventListener('mousedown', this.dragStart.bind(this))
+      this.closeBtn.addEventListener('click', this.close.bind(this))
+
+      this.window.addEventListener('mousemove', this.updateCursor.bind(this))
+
+      // resize
+      this.window.addEventListener('mousedown', (e)=>{
+        if (this.window.style.cursor.includes("resize")) {
+          this.mouseDownX = e.clientX
+          this.mouseDownY = e.clientY
+          this._width = this.window.offsetWidth
+          this._height = this.window.offsetHeight
+          const handler = this.resizeHandler.bind(this)
+          document.addEventListener('mousemove', handler)
+          document.addEventListener('mouseup', () => {
+            document.removeEventListener("mousemove", handler)
+          }, {once: true})
+        }
+      })
+    }
+
+    open() {
+      this.window.style.display = 'block'
+    }
+
+    close() {
+      this.window.style.display = 'none'
+    }
+
+    toggle() {
+      const display = this.window.style.display
+      display === '' || display === 'none' ? this.open() : this.close()
+    }
+
+    dragStart(e) {
+      const m = this.window.style.transform.match(/translate\((-?\d*\.?\d+)px, (-?\d*\.?\d+)px\)/)
+      if (m) {
+        this.translateX = Number(m[1])
+        this.translateY = Number(m[2])
+      }
+      this.translateX = e.clientX - this.translateX
+      this.translateY = e.clientY - this.translateY
+      const handler = this.drag.bind(this)
+      document.addEventListener('mousemove', handler)
+      document.addEventListener('mouseup',
+        () => document.removeEventListener("mousemove", handler),
+        {once: true}
+      )
+    }
+
+    drag(e) {
+      const x = e.clientX - this.translateX
+      const y = e.clientY - this.translateY
+      this.window.style.transform = `translate(${x}px, ${y}px)`
+    }
+
+    updateCursor(e) {
+      const threshold = 10
+      const isNearBottom = (this.window.offsetHeight - e.offsetY) < threshold
+      const isNearLeft = e.offsetX < threshold
+      const isNearRight = (this.window.offsetWidth - e.offsetX) < threshold
+      if (isNearBottom && isNearLeft) {
+        this.window.style.cursor = "ne-resize"
+      } else if (isNearBottom && isNearRight) {
+        this.window.style.cursor = "nw-resize"
+      } else if (isNearLeft || isNearRight) {
+        this.window.style.cursor = 'col-resize'
+      } else if (isNearBottom) {
+        this.window.style.cursor = 'row-resize'
+      } else {
+        this.window.style.cursor = 'initial'
+      }
+    }
+
+    resizeHandler(e) {
+      let [dx, dy] = [0, 0]
+      switch (this.window.style.cursor) {
+        case 'row-resize':
+          dy = e.clientY - this.mouseDownY
+          break
+        case 'col-resize':
+          dx = e.clientX - this.mouseDownX
+          break
+        default:
+          dy = e.clientY - this.mouseDownY
+          dx = e.clientX - this.mouseDownX
+      }
+
+      this.window.style.width = `${this._width + dx}px`
+      this.window.style.height = `${this._height + dy}px`
+    }
+  }
+//appreciate Carson https://stackoverflow.com/questions/380244/dynamic-floating-window-by-javascript
+
 const articleMsn = class retrieveShadowEtc  {
   constructor( hoverElem ) {
     this.hoverElem = hoverElem;
@@ -462,22 +616,35 @@ const articleMsn = class retrieveShadowEtc  {
 }
 
 const pierceRefer = () => {
-  let javasS = document.createElement('script');
-  javasS.id = 'java-sript';
-  javasS.setAttribute('type', 'text/javascript');
-  javasS.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js";
-  document.documentElement.appendChild(javasS);
-  let styleSheet = document.createElement('link');
-  styleSheet.id = 'style-sheet';
-  styleSheet.setAttribute('rel', 'stylesheet');
-  styleSheet.setAttribute('type', 'text/css');
-  styleSheet.href = "https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.min.css";
-  document.documentElement.appendChild(styleSheet);
-  let javasSript = document.createElement('script');
-  javasSript.id = 'java-sript';
-  javasSript.setAttribute('type', 'text/javascript');
-  javasSript.src = "https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.umd.min.js";
-  document.documentElement.appendChild(javasSript);
+  const treeMinJs = document.createElement('script');
+  treeMinJs.id = 'treeMinJs';
+  treeMinJs.setAttribute('type', 'text/javascript');
+  treeMinJs.src = 'https://cdnjs.cloudflare.com/ajax/libs/treejs/1.8.3/tree.min.js';
+  treeMinJs.addEventListener('load', () => {
+    createTree('treeContainer');
+  });
+  document.documentElement.appendChild(treeMinJs);
+  const imagesloadedPkgdMinJs = document.createElement('script');
+  imagesloadedPkgdMinJs.id = 'imagesloadedPkgdMinJs';
+  imagesloadedPkgdMinJs.setAttribute('type', 'text/javascript');
+  imagesloadedPkgdMinJs.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js';
+  document.documentElement.appendChild(imagesloadedPkgdMinJs);
+  const fancyboxMinCss = document.createElement('link');
+  fancyboxMinCss.id = 'fancyboxMinCss';
+  fancyboxMinCss.setAttribute('rel', 'stylesheet');
+  fancyboxMinCss.setAttribute('type', 'text/css');
+  fancyboxMinCss.href = 'https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.min.css';
+  document.documentElement.appendChild(fancyboxMinCss);
+  const fancyboxUmdMinJs = document.createElement('script');
+  fancyboxUmdMinJs.id = 'fancyboxUmdMinJs';
+  fancyboxUmdMinJs.setAttribute('type', 'text/javascript');
+  fancyboxUmdMinJs.src = 'https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.umd.min.js';
+  fancyboxUmdMinJs.addEventListener('load', () => {
+    Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });
+  });
+  document.documentElement.appendChild(fancyboxUmdMinJs);
 
   let statusDiv = document.createElement('div');
   statusDiv.id = 'status';
@@ -584,6 +751,65 @@ const sequenceGenerate = (urlFinal) => {
   return fragment;
 };
 
+const stackWindow = () => {
+  customElements.define('float-window', FloatWindow);
+  const floatLayer = document.createElement('float-window');
+  floatLayer.style.opacity = .9;
+  floatLayer.window.style.overflow = 'auto';
+  floatLayer.window.style.left = '64px';
+  floatLayer.window.style.top = '64px';
+  floatLayer.window.style.width = '200px';
+  floatLayer.window.style.height = '250px';
+  floatLayer.style.backgroundColor = 'rgba(34,34,34,.9)';
+
+  const buttonInput = document.createElement('button');
+  buttonInput.textContent = 'run';
+  buttonInput.addEventListener('mouseup', function() {
+    const floatW = document.querySelectorAll('span.treejs-label');
+    floatW[2].textContent = 'run';
+    floatW[2].addEventListener('mouseup', function() {
+      floatW[2].textContent = 'mouseup';
+    });
+  });
+  floatLayer.appendChild(buttonInput);
+  document.body.appendChild(floatLayer);
+  floatLayer.open();
+
+  const treeContainer = document.createElement('div');
+  treeContainer.id = 'treeContainer';
+  floatLayer.appendChild(treeContainer);
+};
+
+const createTree = (container) => {
+  const treeData = [
+  {
+    id: '0',
+    text: 'node-0',
+    children: [
+      {
+        id: '0-0',
+        text: 'node-0-0',
+        children: [
+          {id: '0-0-0', text: 'node-0-0-0'},
+          {id: '0-0-1', text: 'node-0-0-1'},
+          {id: '0-0-2', text: 'node-0-0-2'},
+        ],
+      },
+      {id: '0-1', text: 'node-0-1'},
+    ],
+  },
+  {
+    id: '1',
+    text: 'node-1',
+    children: [{id: '1-0', text: 'node-1-0'}, {id: '1-1', text: 'node-1-1'}],
+  },
+];
+
+const myTree = new Tree('#' + container, {
+  data: treeData,
+});
+};
+
 const func2 = (x, y) => {
   console.log(undefined);
 };
@@ -593,6 +819,7 @@ bottomHorizonBar();
 let elementContent = '';
 let cpImageSource = '';
 pierceRefer();
+stackWindow();
 let statusElem = document.querySelector('#status');
 let progressElem = document.querySelector('progress');
 let loadedImageCount, imageCount;
