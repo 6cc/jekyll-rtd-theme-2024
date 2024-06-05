@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floatUtterance-0.602-2
+// @name        floatUtterance-0.603-2
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/5/31 05:29:00
+// @description 2024/6/03 06:01:00
 // ==/UserScript==
 
 const bottomHorizonBar = () => {
@@ -61,6 +61,9 @@ const bottomHorizonBar = () => {
 
   const buttonInput = document.createElement('button');
   buttonInput.textContent = 'run';
+  buttonInput.addEventListener('mouseup', function() {
+    getFile(urlInput.value, textareaIde);
+  });
   topHorizonPara.appendChild(buttonInput);
 
   const urlInput = document.createElement('input');
@@ -76,12 +79,15 @@ const bottomHorizonBar = () => {
   textareaIde.rows = '10';
   textareaIde.style.border = '2px dashed #ADFF2F';
   textareaIde.style.margin = '0 0 0 1px';
+  textareaIde.addEventListener('change', () => {
+    console.log('textareaIde changed');
+  });
   topBar.appendChild(textareaIde);
 
   const buttonGo = document.createElement('button');
   buttonGo.textContent = 'go';
   buttonGo.addEventListener('mouseup', function() {
-    getFile(urlInput.value, textareaIde);
+    buttonInput.click();
   });
   topHorizonPara.appendChild(buttonGo);
 
@@ -130,7 +136,7 @@ const sideVertialBar = () => {
             }
             break;
             default:
-            console.log('Not MSN');
+            console.log('general page except MSN');
             break;
         }
 
@@ -251,15 +257,28 @@ const getFile = (fileURL, targetElem) => {
   (async () => {
     const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
     const docData = await response.text();
-    let linesArray =  docData.trim().split('\n');
-    targetElem.innerText = linesArray;
+    const entityCell = parseDecompose(docData);
+    console.log(entityCell);
+    targetElem.innerText = entityCell;
   })();
 };
 
+const parseDecompose = (rawInput) => {
+  const linesArray = rawInput.trim().split('>　　　　　　　　');
+  const unitEntire = [];
+
+  for (const item of linesArray) {
+    const entityData = item.trim().split('\n');
+    unitEntire.push(entityData);
+  }
+  return unitEntire;
+};
+//appreciate txtfiddle https://txtfiddle.com/~i44veub/remove-empty-lines
+
 const titleUrlSelecTime = (elemContent) => {
   const resultCombine = `
-　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
-${document.title}
+>　　　　　　　　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
+## ${document.title}
 ${window.location.href}
 |
 ${window.getSelection().toString()}
@@ -436,6 +455,9 @@ class FloatWindow extends HTMLElement {
         <div class="content">
           <slot></slot>
         </div>
+        <br>
+        <p class="coordinate"></p>
+        <p class="measure"></p>
       </div>
     `
 
@@ -445,6 +467,8 @@ class FloatWindow extends HTMLElement {
       this.titleBar = this.shadowRoot.querySelector('.titleBar')
       this.closeBtn = this.shadowRoot.querySelector('.closeBtn')
       this.content = this.shadowRoot.querySelector('.content')
+      this.coordinate = this.shadowRoot.querySelector('.coordinate');
+      this.measure = this.shadowRoot.querySelector('.measure');
 
       this.mouseDownX = 0
       this.mouseDownY = 0
@@ -509,6 +533,7 @@ class FloatWindow extends HTMLElement {
       const x = e.clientX - this.translateX
       const y = e.clientY - this.translateY
       this.window.style.transform = `translate(${x}px, ${y}px)`
+      this.coordinate.textContent = 'xLeft:' + x + ' yTop' + y;
     }
 
     updateCursor(e) {
@@ -545,6 +570,8 @@ class FloatWindow extends HTMLElement {
 
       this.window.style.width = `${this._width + dx}px`
       this.window.style.height = `${this._height + dy}px`
+      this.measure.textContent = 'Height:'
+       + this.window.style.height + ' Width:' + this.window.style.width;
     }
   }
 //appreciate Carson https://stackoverflow.com/questions/380244/dynamic-floating-window-by-javascript
@@ -646,9 +673,9 @@ const pierceRefer = () => {
 
 const pierceElement = () => {
   customElements.define('float-window', FloatWindow);
-  const statusDiv = document.createElement('div');
+  let statusDiv = document.createElement('div');
   statusDiv.id = 'status';
-  const progress = document.createElement('progress');
+  let progress = document.createElement('progress');
   progress.max = 7;
   progress.value = 0;
   statusDiv.appendChild(progress);
@@ -753,7 +780,7 @@ const sequenceGenerate = (urlFinal) => {
 
 const stackWindow = (idString, wLeft, wTop, wWidth, wHeight) => {
   const floatLayer = document.createElement('float-window');
-  floatLayer.id = idString;
+  floatLayer.id = idString === '' ? 'reignSupreme' : idString;
   floatLayer.style.opacity = .9;
   floatLayer.window.style.overflow = 'auto';
   floatLayer.window.style.left = wLeft + 'px';
@@ -761,6 +788,7 @@ const stackWindow = (idString, wLeft, wTop, wWidth, wHeight) => {
   floatLayer.window.style.width = wWidth + 'px';
   floatLayer.window.style.height = wHeight + 'px';
   floatLayer.style.backgroundColor = 'rgba(34,34,34,.9)';
+
   const headerSlot = document.createElement('span');
   headerSlot.setAttribute('slot', 'header');
   headerSlot.textContent = idString;
@@ -814,8 +842,8 @@ let elementContent = '';
 let cpImageSource = '';
 pierceRefer();
 pierceElement();
-const statusElem = document.querySelector('#status');
-const progressElem = document.querySelector('progress');
+let statusElem = document.querySelector('#status');
+let progressElem = document.querySelector('progress');
 let loadedImageCount, imageCount;
 
 document.addEventListener('mouseover', function(event) {
@@ -844,25 +872,30 @@ document.addEventListener('mouseover', function(event) {
 
 document.addEventListener('keydown', function(event) {
   switch (event.altKey && event.key) {
-      case '[':
-        console.log(undefined);
-        break;
-      case ']':
-        console.log(undefined);
-        break;
-      case '1':
-        stackWindow('#' + event.key + ' charCodeAt:' + event.key.charCodeAt(), 40, 40, 200, 250);
-        break;
-      case '2':
-        stackWindow('#' + event.key + ' charCodeAt:' + event.key.charCodeAt(), 400, 400, 200, 250);
-        break;
-      case '3':
-        stackWindow('floatTree', 200, 200, 320, 240);
-        createTree('treeContainer');
-        break;
-      case '4':
-        stackWindow('', 40, 40, 640, 480);
-        break;
+    case '[':
+      console.log(undefined);
+      break;
+    case ']':
+      console.log(undefined);
+      break;
+    case '0':
+      stackWindow('fiddle', 400, 500, 640, 480);
+      break;
+    case '1':
+      stackWindow('#' + event.key + ' charCodeAt:'
+       + event.key.charCodeAt(), 40, 40, 200, 250);
+      break;
+    case '2':
+      stackWindow('#' + event.key + ' charCodeAt:'
+       + event.key.charCodeAt(), 400, 400, 200, 250);
+      break;
+    case '3':
+      stackWindow('floatTree', 200, 200, 320, 240);
+      createTree('treeContainer');
+      break;
+    case '4':
+      stackWindow('', 40, 200, 640, 480);
+      break;
       case ',':
         if ( matchHref() === 'msnCn') {
           elementContent = cpImageSource;
