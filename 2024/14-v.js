@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        floatUtterance-0.603-2
+// @name        floatUtterance-0.605-1
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
@@ -61,9 +61,6 @@ const bottomHorizonBar = () => {
 
   const buttonInput = document.createElement('button');
   buttonInput.textContent = 'run';
-  buttonInput.addEventListener('mouseup', function() {
-    getFile(urlInput.value, textareaIde);
-  });
   topHorizonPara.appendChild(buttonInput);
 
   const urlInput = document.createElement('input');
@@ -87,7 +84,7 @@ const bottomHorizonBar = () => {
   const buttonGo = document.createElement('button');
   buttonGo.textContent = 'go';
   buttonGo.addEventListener('mouseup', function() {
-    buttonInput.click();
+    getFile(urlInput.value, textareaIde);
   });
   topHorizonPara.appendChild(buttonGo);
 
@@ -257,9 +254,9 @@ const getFile = (fileURL, targetElem) => {
   (async () => {
     const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
     const docData = await response.text();
-    const entityCell = parseDecompose(docData);
-    console.log(entityCell);
-    targetElem.innerText = entityCell;
+    let linesArray = parseDecompose(docData);
+    console.log(linesArray);
+    targetElem.innerText = linesArray;
   })();
 };
 
@@ -269,16 +266,39 @@ const parseDecompose = (rawInput) => {
 
   for (const item of linesArray) {
     const entityData = item.trim().split('\n');
-    unitEntire.push(entityData);
+    const mergedObject = adjacentAccumulate(entityData);
+    unitEntire.push(mergedObject);
   }
   return unitEntire;
 };
-//appreciate txtfiddle https://txtfiddle.com/~i44veub/remove-empty-lines
+
+const adjacentAccumulate = (arrayInput) => {
+  const arrayOutput = [];
+  let temp = [];
+
+  arrayInput.forEach((item, index) => {
+    if (filterUrl('', item) === 'img') {
+      if (temp.length > 0) {
+        temp.push(item);
+      } else {
+        temp = [item];
+      }
+
+      if (index === arrayInput.length - 1 || filterUrl('', arrayInput[index + 1]) !== 'img') {
+        arrayOutput.push(["img", temp.length > 1 ? temp.slice() : temp[0]]);
+        temp = [];
+      }
+    } else {
+      arrayOutput.push(["", item]);
+    }
+  });
+  return arrayOutput;
+};
 
 const titleUrlSelecTime = (elemContent) => {
   const resultCombine = `
->　　　　　　　　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
-## ${document.title}
+　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
+${document.title}
 ${window.location.href}
 |
 ${window.getSelection().toString()}

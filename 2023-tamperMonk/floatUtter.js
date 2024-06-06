@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        floatUtterance-0.603
+// @name        floatUtterance-0.606-2
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
@@ -61,6 +61,9 @@ const bottomHorizonBar = () => {
 
   const buttonInput = document.createElement('button');
   buttonInput.textContent = 'run';
+  buttonInput.addEventListener('mouseup', function() {
+    getFile(urlInput.value, textareaIde);
+  });
   topHorizonPara.appendChild(buttonInput);
 
   const urlInput = document.createElement('input');
@@ -254,16 +257,55 @@ const getFile = (fileURL, targetElem) => {
   (async () => {
     const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
     const docData = await response.text();
-    let linesArray =  docData.trim().split('>　　　　　　　　');
-    console.log(linesArray);
-    targetElem.innerText = linesArray;
+    const parsedObject = decomposeReconstruct(docData);
+    console.log(parsedObject);
+    targetElem.innerText = docData;
   })();
 };
 
+const decomposeReconstruct = (rawInput) => {
+  const linesArray = rawInput.trim().split('>　　　　　　　　');
+  const unitCellS = [];
+
+  for (const item of linesArray) {
+    const cellLineS = item.trim().split('\n');
+    const mergedObject = adjacentAccumulate(cellLineS);
+    unitCellS.push(mergedObject);
+  }
+
+  return unitCellS;
+};
+
+const adjacentAccumulate = (arrayInput) => {
+  const arrayOutput = [];
+  let temp = [];
+
+  arrayInput.forEach((item, index) => {
+    if (filterUrl('', item) === 'img') {
+      if (temp.length > 0) {
+        temp.push(item);
+      } else {
+        temp = [item];
+      }
+
+      if (index === arrayInput.length - 1 || filterUrl('', arrayInput[index + 1]) !== 'img') {
+        arrayOutput.push(["img", temp.length > 1 ? temp.slice() : temp[0]]);
+        temp = [];
+      }
+    } else {
+      arrayOutput.push(["", item]);
+    }
+  });
+  return arrayOutput;
+};
+
+//appreciate txtfiddle https://txtfiddle.com/~i44veub/remove-empty-lines
+//appreciate chatGpt 4o
+
 const titleUrlSelecTime = (elemContent) => {
   const resultCombine = `
-　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
-${document.title}
+>　　　　　　　　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
+## ${document.title}
 ${window.location.href}
 |
 ${window.getSelection().toString()}
@@ -787,7 +829,7 @@ const createTree = (container) => {
   treeContainer.id = 'treeContainer';
   const floatLayer = document.querySelector('float-window#floatTree');
   floatLayer.appendChild(treeContainer);
-  
+
   const treeData = [
   {
     id: '0',
