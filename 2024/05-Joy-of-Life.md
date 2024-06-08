@@ -519,3 +519,44 @@ https://www.msn.cn/zh-cn/news/other/%E5%BA%86%E4%BD%99%E5%B9%B4-%E5%8F%B6%E8%BD%
 所有的黑锅罪恶都由别人背了，他还借此清洗掉皇后一族的势力。
 
 更没有料到，陈萍萍竟然为了一个死了20多年的女人，来向自己复仇。
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/7 09:44:04　&b=lx40wijd
+## 《庆余年2》结局：原来，这才是明青达不敢对老妈下毒手的真相
+https://www.msn.cn/zh-cn/news/other/%E5%BA%86%E4%BD%99%E5%B9%B42-%E7%BB%93%E5%B1%80-%E5%8E%9F%E6%9D%A5-%E8%BF%99%E6%89%8D%E6%98%AF%E6%98%8E%E9%9D%92%E8%BE%BE%E4%B8%8D%E6%95%A2%E5%AF%B9%E8%80%81%E5%A6%88%E4%B8%8B%E6%AF%92%E6%89%8B%E7%9A%84%E7%9C%9F%E7%9B%B8/ar-BB1nIyOG?ocid=msedgdhp&pc=U531&cvid=6662640c16ef4ef7acfad0b1de84b039&ei=14
+|
+利用按摩的机会，企图从背后突然袭击，意图用掐脖子的方式置明老太君于死地。
+明老太君已经察觉到了明青达所做的这个举动。
+
+明老太君误以为儿子之所以迟迟未采取行动，是因为心中对她这位母亲有所顾忌，不敢轻易下手。
+
+尽管身为一家之主，明青达的待遇却与家中下人相差无几。
+
+尽管他有足够的能力亲自动手，然而，鉴于他对明老太君的深仇大恨，他并不会如此轻易地让她退出舞台。
+
+明青达放过明老太君的行为，并非出于亲情考虑，而是他对母亲更为深重的算计与谋略。
+
+范闲所面临的江南之旅，无疑是一场严峻的考验。
+
+经过明家母子那冷酷无情的表现，范闲逐渐领悟到，即便是在普通的百姓家庭中，人们也会因为利益的纷争而拼得你死我活，不惜一切代价去争夺。
+
+范闲的目标是让那些强者领悟到，没有任何人能够永远地独揽大权，只手遮天。
+
+那些看似拥有一切的人，最终也可能发现自己手中空无一物。
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/7 09:42:28　&b=lx40ufu6
+>被《墨雨云间》孔雪儿惊艳了，好身材遮不住，红肚兜吊带装太吸睛
+https://www.msn.cn/zh-cn/news/other/%E8%A2%AB-%E5%A2%A8%E9%9B%A8%E4%BA%91%E9%97%B4-%E5%AD%94%E9%9B%AA%E5%84%BF%E6%83%8A%E8%89%B3%E4%BA%86-%E5%A5%BD%E8%BA%AB%E6%9D%90%E9%81%AE%E4%B8%8D%E4%BD%8F-%E7%BA%A2%E8%82%9A%E5%85%9C%E5%90%8A%E5%B8%A6%E8%A3%85%E5%A4%AA%E5%90%B8%E7%9D%9B/ar-BB1nLNB8?ocid=msedgdhp&pc=U531&cvid=6662640c16ef4ef7acfad0b1de84b039&ei=8
+|
+你今日稳坐帝位靠的
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1nLLf4.img?w=534&h=368&m=6&x=425&y=148&s=109&d=109
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/7 13:37:37　&b=lx498utx
+## 庆余年2：直到神使惨死，庆帝还不知，四大宗师在五竹面前不算啥
+https://www.msn.cn/zh-cn/news/other/%E5%BA%86%E4%BD%99%E5%B9%B42-%E7%9B%B4%E5%88%B0%E7%A5%9E%E4%BD%BF%E6%83%A8%E6%AD%BB-%E5%BA%86%E5%B8%9D%E8%BF%98%E4%B8%8D%E7%9F%A5-%E5%9B%9B%E5%A4%A7%E5%AE%97%E5%B8%88%E5%9C%A8%E4%BA%94%E7%AB%B9%E9%9D%A2%E5%89%8D%E4%B8%8D%E7%AE%97%E5%95%A5/ar-BB1nIMyF?ocid=msedgntp&pc=U531&cvid=666282d1140648f2a3ce3f28c1cc040b&ei=50#
+|
+卖的是内库的库债，
+范闲成功的得到了接近两千万两的银子，补上了内库的亏空，
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1nIP4s.img?w=534&h=310&m=6&x=283&y=130&s=119&d=119
+
+长辈不欠你什么
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1nIMy6.img?w=534&h=383&m=6&x=300&y=122&s=124&d=124
