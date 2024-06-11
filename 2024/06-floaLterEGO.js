@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        floatUtterance-0.605-1
+// @name        floaLterEGO-0.61
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
@@ -61,6 +61,10 @@ const bottomHorizonBar = () => {
 
   const buttonInput = document.createElement('button');
   buttonInput.textContent = 'run';
+  buttonInput.addEventListener('mouseup', function() {
+    const parsedObject = decomposeReconstruct(textareaIde.value);
+    console.log(parsedObject);
+  });
   topHorizonPara.appendChild(buttonInput);
 
   const urlInput = document.createElement('input');
@@ -171,6 +175,61 @@ const sideVertialBar = () => {
   sidebar.appendChild(enableHover);
 };
 
+const createElem = (createTag, containerElem, attachMethod, schemaOut, valueStr, className, id) => {
+  const elemUnit = document.createElement(createTag || 'div');
+  elemUnit.id = id || '';
+  elemUnit.className = className || '';
+  switch (schemaOut) {
+      case 'innerText':
+      elemUnit.innerText = valueStr || '';
+      break;
+      case 'href':
+      elemUnit.href = valueStr || '';
+      break;
+      case 'src':
+      elemUnit.src = valueStr || '';
+      break;
+      case 'textContent':
+      elemUnit.textContent = valueStr || '';
+      break;
+      case 'title':
+      elemUnit.title = valueStr || '';
+      break;
+      case 'value':
+      elemUnit.value = valueStr || '';
+      break;
+      default:
+      elemUnit.dataset._ = valueStr || '';
+      break;
+  }
+
+  let containerSafety = '';
+  const isContainerElem = containerElem.nodeType === 1;
+  const isContainerStr = typeof containerElem === 'string';
+  if (isContainerElem) {
+    containerSafety = containerElem;
+  } else if (isContainerStr && containerElem !== ''){
+    containerSafety = document.querySelector(containerElem);
+  } else if (isContainerStr && containerElem === '' && attachMethod === ''){
+    containerSafety = document.body;
+  }
+
+  switch (attachMethod) {
+      case 'insertBefore':
+      if (containerElem.parentElement !== null && containerElem !== null) {
+        containerElem.parentElement.insertBefore(elemUnit, containerElem);
+      }
+      break;
+      case 'insertAfter':
+      if (containerElem.parentElement !== null && containerElem.nextElementSibling !== null) {
+        containerElem.parentElement.insertBefore(elemUnit, containerElem.nextElementSibling);
+      }
+      break;
+      default:
+      containerSafety.appendChild(elemUnit);
+  }
+};
+
 const pierceElem = (hoverElem) => {
   const divFloat = document.createElement('div');
   divFloat.id = 'divFloat';
@@ -254,30 +313,31 @@ const getFile = (fileURL, targetElem) => {
   (async () => {
     const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
     const docData = await response.text();
-    let linesArray = parseDecompose(docData);
-    console.log(linesArray);
-    targetElem.innerText = linesArray;
+    targetElem.value = docData;
   })();
 };
 
-const parseDecompose = (rawInput) => {
+const decomposeReconstruct = (rawInput) => {
   const linesArray = rawInput.trim().split('>　　　　　　　　');
-  const unitEntire = [];
+  const unitCellS = [];
 
   for (const item of linesArray) {
-    const entityData = item.trim().split('\n');
-    const mergedObject = adjacentAccumulate(entityData);
-    unitEntire.push(mergedObject);
+    const cellLineS = item.trim().split('\n');
+    const mergedObject = adjacentAccumulate(cellLineS);
+    unitCellS.push(mergedObject);
   }
-  return unitEntire;
+
+  return unitCellS;
 };
+//appreciate txtfiddle https://txtfiddle.com/~i44veub/remove-empty-lines
 
 const adjacentAccumulate = (arrayInput) => {
   const arrayOutput = [];
   let temp = [];
 
   arrayInput.forEach((item, index) => {
-    if (filterUrl('', item) === 'img') {
+    const testItem = filterUrl('', item);
+    if (testItem === 'img') {
       if (temp.length > 0) {
         temp.push(item);
       } else {
@@ -285,20 +345,21 @@ const adjacentAccumulate = (arrayInput) => {
       }
 
       if (index === arrayInput.length - 1 || filterUrl('', arrayInput[index + 1]) !== 'img') {
-        arrayOutput.push(["img", temp.length > 1 ? temp.slice() : temp[0]]);
+        arrayOutput.push(['gal', temp.length > 1 ? temp.slice() : temp[0]]);
         temp = [];
       }
     } else {
-      arrayOutput.push(["", item]);
+      arrayOutput.push([testItem, item]);
     }
   });
   return arrayOutput;
 };
+//appreciate chatGpt 4o
 
 const titleUrlSelecTime = (elemContent) => {
   const resultCombine = `
-　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
-${document.title}
+>　　　　　　　　6//?r=⭐　&d=${new Date().toLocaleString()}　&b=${(Date.now()).toString(36)}
+## ${document.title}
 ${window.location.href}
 |
 ${window.getSelection().toString()}
@@ -350,6 +411,7 @@ const ocrSpace = async (urlImg, destElem) => {
 //GPT3.5 Turbo
 
 const filterUrl = (funcParam, queryUrl) => {
+  const sixComment = /\d\S\S\S\w+\S.*\s\S\w+\S\d{2,4}\S\d{1,2}\S\d{1,2}\s\d{1,2}\S\d{1,2}\S\d{1,2}.*/i;
   const rankTag = /\b6\/\/.r=\d/i;
   const twImgR = /\bhttps?:\/\/pbs.twimg.com\/media\/([\w-]{15,})/i;
   const youtuBeR = /^https?:\/\/(?:(?:youtu\.be\/)|(?:(?:www\.)?youtube\.com\/(?:(?:watch\?(?:[^&]+&)?vi?=)|(?:vi?\/)|(?:shorts\/))))([a-zA-Z0-9_-]{11,})/i;
@@ -361,6 +423,10 @@ const filterUrl = (funcParam, queryUrl) => {
   const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i;
 
   switch (true) {
+    case sixComment.test(queryUrl):
+      return '6Comment';
+      break;
+
       case rankTag.test(queryUrl):
       return 'rankTag';
       break;
@@ -402,7 +468,7 @@ const filterUrl = (funcParam, queryUrl) => {
 
       default:
       return funcParam !== 'trim' ?
-        '' : queryUrl;
+        'div' : queryUrl;
       break;
   }
 }
@@ -800,7 +866,7 @@ const sequenceGenerate = (urlFinal) => {
 
 const stackWindow = (idString, wLeft, wTop, wWidth, wHeight) => {
   const floatLayer = document.createElement('float-window');
-  floatLayer.id = idString === '' ? 'reignSupreme' : idString;
+  floatLayer.id = idString === '' ? 'usurpFrame' : idString;
   floatLayer.style.opacity = .9;
   floatLayer.window.style.overflow = 'auto';
   floatLayer.window.style.left = wLeft + 'px';

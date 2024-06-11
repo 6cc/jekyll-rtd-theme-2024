@@ -266,13 +266,22 @@ const getFile = (fileURL, targetElem) => {
 const decomposeReconstruct = (rawInput) => {
   const linesArray = rawInput.trim().split('>　　　　　　　　');
   const unitCellS = [];
+  const usurpFrame = document.querySelector('float-window#usurpFrame');
 
   for (const item of linesArray) {
     const cellLineS = item.trim().split('\n');
     const mergedObject = adjacentAccumulate(cellLineS);
+    const unitCard = document.createElement('div');
+    unitCard.className = 'unitCard';
+    usurpFrame.appendChild(unitCard);
+
+    for (const element of mergedObject) {
+      const unitSuit = assemblePackage(element[0], element[1]);
+      unitCard.appendChild(unitSuit);
+    }
+
     unitCellS.push(mergedObject);
   }
-
   return unitCellS;
 };
 
@@ -707,7 +716,126 @@ const pierceElement = () => {
   progress.value = 0;
   statusDiv.appendChild(progress);
   document.body.appendChild(statusDiv);
+  stackWindow('', 40, 200, 640, 480);
 };
+
+function assemblePackage(tagType, strURL){
+  switch (tagType) {
+    case 'seqTag':
+      let seqAuto = document.createElement("div");
+      seqAuto.className = 'dynamic-container';
+      reloadBullet('sequence', strURL, seqAuto);
+      return seqAuto;
+    break;
+
+    case 'rankTag':
+      let iconRank = document.createElement('img');
+      let randomColor = Math.floor(Math.random()*16777215).toString(16);
+      iconRank.height = 24;
+      iconRank.src = "https://img.shields.io/badge/"
+       + ratingStar(QueryString('r', strURL.toString()))
+       + '-推荐度-' + randomColor;
+      return iconRank;
+    break;
+
+    case 'Tab':
+      let imgTab = document.createElement('img');
+      imgTab.src = strURL;
+      imgTab.onclick = function(){reloadBullet('sequence', strURL
+      .toString(), this.parentNode.parentNode.nextElementSibling);};
+      let spanTab = document.createElement('li');
+      spanTab.className = 'is-loading';
+      spanTab.appendChild(imgTab);
+      updateProgress( spanTab );
+      return spanTab;
+    break;
+
+    case 'h3':
+      let h3Text = document.createElement('h3');
+      h3Text.innerText = strURL;
+      return h3Text;
+    break;
+
+    case 'twImgR':
+      let preFixT = document.getElementById('prefixKit').value;
+      let urlIntegrity = preFixT + 'https://pbs.twimg.com/media/' + strURL +
+       '?format=jpg&name=orig';
+      return getImageItem( urlIntegrity );
+    break;
+
+    case 'img':
+      let adjacentAccumulate = document.createElement('div');
+      adjacentAccumulate.className = 'dynamic-container';
+      reloadBullet('', strURL, adjacentAccumulate);
+      return adjacentAccumulate;
+    break;
+
+    case 'youtuBeR':
+      let HyperLinkY = document.createElement('a');
+      HyperLinkY.href = 'https://youtu.be/' + strURL;
+      HyperLinkY.innerText = 'https://youtu.be/' + strURL;
+      let preFix = document.getElementById('prefixKit').value;
+      let urlIntegrit = preFix + 'https://i.ytimg.com/vi/' + strURL + '/hqdefault.jpg';
+      let FancySuite = getImageItem( urlIntegrit );
+      let urlIntegri = preFix + 'https://i.ytimg.com/vi/' + strURL + '/maxresdefault.jpg';
+
+      (async () => {
+        if (await imageExists(urlIntegri)){
+          FancySuite.querySelector('li img').src = urlIntegri;
+          FancySuite.querySelector('a').href = urlIntegri;
+        }
+      })()
+
+      let FancySuiteY = document.createElement("div");
+      FancySuiteY.appendChild(HyperLinkY);
+      FancySuiteY.appendChild(FancySuite);
+      return FancySuiteY;
+    break;
+
+    case 'meting-js':
+      let hyPlayERLink = document.createElement("a");
+      hyPlayERLink.href = strURL;
+      hyPlayERLink.innerText = strURL;
+      let breakLine = document.createElement("br");
+      let thumbSwitch = document.createElement('img');
+      thumbSwitch.height = 64;
+      
+      fetch('https://api.i-meto.com/meting/api?type=song&id='
+       + QueryString('id', strURL)).then(
+        function(u){ return u.json();}
+        ).then(
+          function(json){
+            thumbSwitch.src = json[0].pic;
+        }
+      )
+      
+      thumbSwitch.onclick = function(){switchMeting(this.parentNode, strURL);};
+      let metingTag = document.createElement("div");
+      metingTag.appendChild(hyPlayERLink);
+      metingTag.appendChild(breakLine);
+      metingTag.appendChild(thumbSwitch);
+      return metingTag;
+    break;
+
+    case 'a':
+      let hyperLink = document.createElement('a');
+      hyperLink.href = strURL;
+      hyperLink.innerText = strURL;
+      let hoverLink = document.createElement('div');
+      hoverLink.appendChild(hyperLink);
+      hoverLink.className = 'urlCollapsing';
+      return hoverLink;
+    break;
+
+    default:
+      let PureText = document.createElement('div');
+      let HoRizonDelimit = document.createElement('hr');
+      PureText.append(strURL);
+      PureText.appendChild(HoRizonDelimit);
+      return PureText;
+    break;
+  }
+}
 
 const getImageItem = (imgUrl) => {
   let img = new Image();
@@ -749,6 +877,24 @@ const getImageItem = (imgUrl) => {
   anchorTag.appendChild(liTag);
   return anchorTag;
 };
+
+function switchMeting(currentNode, url) {
+  let ElementE = document.querySelector('div.onePlayer');
+  ElementE.remove();
+  let metingJs = document.createElement('meting-js');
+  metingJs.setAttribute('autoplay', true);
+  metingJs.setAttribute('auto', url);
+  metingJs.setAttribute('loop', 'none');
+  let divc = document.createElement('div');
+  divc.className = 'onePlayer';
+  divc.appendChild(metingJs);
+  currentNode.appendChild(divc);
+}
+
+function QueryString(item, text){
+  let foundString = text.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)","i"));
+  return foundString ? foundString[1] : foundString;
+}
 
 const reloadBullet = (triggerType, urlData, currentContainer) => {
   let fragment = triggerType !== 'sequence' ?
