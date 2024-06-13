@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floaLterEGO-0.61
+// @name        floaLterEGO-0.613
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/6/03 06:01:00
+// @description 2024/6/13 06:10:00
 // ==/UserScript==
 
 const bottomHorizonBar = () => {
@@ -348,10 +348,11 @@ const adjacentAccumulate = (arrayInput) => {
   arrayInput.forEach((item, index) => {
     const testItem = filterUrl('', item);
     if (testItem === 'img') {
+      const itemTrimmed = filterUrl('trim', item);
       if (temp.length > 0) {
-        temp.push(item);
+        temp.push(itemTrimmed);
       } else {
-        temp = [item];
+        temp = [itemTrimmed];
       }
 
       if (index === arrayInput.length - 1 || filterUrl('', arrayInput[index + 1]) !== 'img') {
@@ -426,7 +427,7 @@ const filterUrl = (funcParam, queryUrl) => {
   const twImgR = /\bhttps?:\/\/pbs.twimg.com\/media\/([\w-]{15,})/i;
   const youtuBeR = /^https?:\/\/(?:(?:youtu\.be\/)|(?:(?:www\.)?youtube\.com\/(?:(?:watch\?(?:[^&]+&)?vi?=)|(?:vi?\/)|(?:shorts\/))))([a-zA-Z0-9_-]{11,})/i;
   const baiduR = /\bhttps?:\/\/pics\d\.baidu\.com\/feed\/[0-9A-z]+\.(?:jpe?g|gif|png).+/i;
-  const bingR = /^https?:\/\/.*(cn|mm).bing.(net|com)\/th.id.(.*rik=\w+|.*ORMS.\w+|.*OIP-C.[-\w]+|.*OJ.\w+)/i;
+  const bingR = /^https?:\/\/.+\.bing\.\w+.th\Sid\S\w+[\.\-\w]+/i;
   const gtimgR = /^https?:\/\/inews\.gtimg\.com\/\w+\/.+\/\d+/i;
   const imgRegEX = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])\.(?:gif|img|jpe?g|png|mp4|svg|webp)+/i;
   const music163R = /^https?:\/\/music\.163\.com\/#?\/?\w+\?id\=\d+/i;
@@ -446,7 +447,8 @@ const filterUrl = (funcParam, queryUrl) => {
       break;
 
       case youtuBeR.test(queryUrl):
-      return 'youtuBeR';
+      return funcParam !== 'trim' ?
+      'youtuBeR' : queryUrl.match(youtuBeR)[1];
       break;
 
       case baiduR.test(queryUrl):
@@ -459,7 +461,8 @@ const filterUrl = (funcParam, queryUrl) => {
       break;
 
       case gtimgR.test(queryUrl):
-      return funcParam !== 'trim' ? 'img' : queryUrl.match(gtimgR)[0];
+      return funcParam !== 'trim' ?
+      'img' : queryUrl.match(gtimgR)[0];
       break;
 
       case imgRegEX.test(queryUrl):
@@ -820,22 +823,23 @@ const assemblePackage = (tagType, strURL) => {
     break;
 
     case 'youtuBeR':
-      let HyperLinkY = document.createElement('a');
-      HyperLinkY.href = 'https://youtu.be/' + strURL;
-      HyperLinkY.innerText = 'https://youtu.be/' + strURL;
-      let preFix = document.getElementById('prefixKit').value;
-      let urlIntegrit = preFix + 'https://i.ytimg.com/vi/' + strURL + '/hqdefault.jpg';
-      let FancySuite = getImageItem( urlIntegrit );
-      let urlIntegri = preFix + 'https://i.ytimg.com/vi/' + strURL + '/maxresdefault.jpg';
+      const entityId = filterUrl ('trim', strURL);
+      const HyperLinkY = document.createElement('a');
+      HyperLinkY.href = 'https://youtu.be/' + entityId;
+      HyperLinkY.innerText = 'https://youtu.be/' + entityId;
+      const preFix = 'https://slack-imgs.com/?url=';
+      const urlIntegrit = preFix + 'https://i.ytimg.com/vi/' + entityId + '/hqdefault.jpg';
+      const FancySuite = getImageItem( urlIntegrit );
+      const urlIntegri = preFix + 'https://i.ytimg.com/vi/' + entityId + '/maxresdefault.jpg';
 
       (async () => {
         if (await imageExists(urlIntegri)){
           FancySuite.querySelector('li img').src = urlIntegri;
-          FancySuite.querySelector('a').href = urlIntegri;
+          FancySuite.href = urlIntegri;
         }
       })()
 
-      let FancySuiteY = document.createElement("div");
+      const FancySuiteY = document.createElement('div');
       FancySuiteY.appendChild(HyperLinkY);
       FancySuiteY.appendChild(FancySuite);
       return FancySuiteY;

@@ -550,6 +550,13 @@ https://www.msn.cn/zh-cn/news/other/%E8%A2%AB-%E5%A2%A8%E9%9B%A8%E4%BA%91%E9%97%
 你今日稳坐帝位靠的
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1nLLf4.img?w=534&h=368&m=6&x=425&y=148&s=109&d=109
 
+>　　　　　　　　6//?r=⭐　&d=2024/6/13 10:57:30　&b=lxco61ti
+## 《庆余年》两季庆帝64岁和69岁，差距明显
+https://www.msn.cn/zh-cn/news/other/%E5%BA%86%E4%BD%99%E5%B9%B4-%E4%B8%A4%E5%AD%A3%E5%BA%86%E5%B8%9D64%E5%B2%81%E5%92%8C69%E5%B2%81-%E5%B7%AE%E8%B7%9D%E6%98%8E%E6%98%BE/ar-BB1o7Eta?ocid=msedgntp&pc=U531&cvid=666a57fc853b4136a8345f78a9b64523&ei=30#
+|
+长辈不欠你什么
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1o7S1i.img?w=534&h=518&m=6&x=221&y=183&s=150&d=150
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/7 13:37:37　&b=lx498utx
 ## 庆余年2：直到神使惨死，庆帝还不知，四大宗师在五竹面前不算啥
 https://www.msn.cn/zh-cn/news/other/%E5%BA%86%E4%BD%99%E5%B9%B42-%E7%9B%B4%E5%88%B0%E7%A5%9E%E4%BD%BF%E6%83%A8%E6%AD%BB-%E5%BA%86%E5%B8%9D%E8%BF%98%E4%B8%8D%E7%9F%A5-%E5%9B%9B%E5%A4%A7%E5%AE%97%E5%B8%88%E5%9C%A8%E4%BA%94%E7%AB%B9%E9%9D%A2%E5%89%8D%E4%B8%8D%E7%AE%97%E5%95%A5/ar-BB1nIMyF?ocid=msedgntp&pc=U531&cvid=666282d1140648f2a3ce3f28c1cc040b&ei=50#
