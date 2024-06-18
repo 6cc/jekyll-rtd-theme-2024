@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floaLterEGO-0.61
+// @name        floaLterEGO-0.618
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/6/03 06:01:00
+// @description 2024/6/18 06:03:00
 // ==/UserScript==
 
 const bottomHorizonBar = () => {
@@ -175,6 +175,11 @@ const sideVertialBar = () => {
   sidebar.appendChild(enableHover);
 };
 
+const checkUnique = (strIdentify) => {
+  const docQuerySel = document.querySelector(strIdentify);
+  return docQuerySel === null ? true : false;
+};
+
 const createElem = (createTag, containerElem, attachMethod, schemaOut, valueStr, className, id) => {
   const elemUnit = document.createElement(createTag || 'div');
   elemUnit.id = id || '';
@@ -320,6 +325,7 @@ const getFile = (fileURL, targetElem) => {
 const decomposeReconstruct = (rawInput) => {
   const linesArray = rawInput.trim().split('>　　　　　　　　');
   const unitCellS = [];
+  stackWindow('', 40, 200, 640, 480);
   const usurpFrame = document.querySelector('float-window#usurpFrame');
 
   for (const item of linesArray) {
@@ -348,10 +354,11 @@ const adjacentAccumulate = (arrayInput) => {
   arrayInput.forEach((item, index) => {
     const testItem = filterUrl('', item);
     if (testItem === 'img') {
+      const itemTrimmed = filterUrl('trim', item);
       if (temp.length > 0) {
-        temp.push(item);
+        temp.push(itemTrimmed);
       } else {
-        temp = [item];
+        temp = [itemTrimmed];
       }
 
       if (index === arrayInput.length - 1 || filterUrl('', arrayInput[index + 1]) !== 'img') {
@@ -426,7 +433,7 @@ const filterUrl = (funcParam, queryUrl) => {
   const twImgR = /\bhttps?:\/\/pbs.twimg.com\/media\/([\w-]{15,})/i;
   const youtuBeR = /^https?:\/\/(?:(?:youtu\.be\/)|(?:(?:www\.)?youtube\.com\/(?:(?:watch\?(?:[^&]+&)?vi?=)|(?:vi?\/)|(?:shorts\/))))([a-zA-Z0-9_-]{11,})/i;
   const baiduR = /\bhttps?:\/\/pics\d\.baidu\.com\/feed\/[0-9A-z]+\.(?:jpe?g|gif|png).+/i;
-  const bingR = /^https?:\/\/.*(cn|mm).bing.(net|com)\/th.id.(.*rik=\w+|.*ORMS.\w+|.*OIP-C.[-\w]+|.*OJ.\w+)/i;
+  const bingR = /^https?:\/\/.+\.bing\.\w+.th\Sid\S\w+[\.\-\w]+/i;
   const gtimgR = /^https?:\/\/inews\.gtimg\.com\/\w+\/.+\/\d+/i;
   const imgRegEX = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])\.(?:gif|img|jpe?g|png|mp4|svg|webp)+/i;
   const music163R = /^https?:\/\/music\.163\.com\/#?\/?\w+\?id\=\d+/i;
@@ -446,7 +453,8 @@ const filterUrl = (funcParam, queryUrl) => {
       break;
 
       case youtuBeR.test(queryUrl):
-      return 'youtuBeR';
+      return funcParam !== 'trim' ?
+      'youtuBeR' : queryUrl.match(youtuBeR)[1];
       break;
 
       case baiduR.test(queryUrl):
@@ -455,16 +463,17 @@ const filterUrl = (funcParam, queryUrl) => {
 
       case bingR.test(queryUrl):
       return funcParam !== 'trim' ?
-        'img' : queryUrl.match(bingR)[0];
+      'img' : queryUrl.match(bingR)[0];
       break;
 
       case gtimgR.test(queryUrl):
-      return funcParam !== 'trim' ? 'img' : queryUrl.match(gtimgR)[0];
+      return funcParam !== 'trim' ?
+      'img' : queryUrl.match(gtimgR)[0];
       break;
 
       case imgRegEX.test(queryUrl):
       return funcParam !== 'trim' ?
-        'img' : queryUrl.match(imgRegEX)[0];
+      'img' : queryUrl.match(imgRegEX)[0];
       break;
 
       case music163R.test(queryUrl):
@@ -473,12 +482,12 @@ const filterUrl = (funcParam, queryUrl) => {
 
       case urlRegex.test(queryUrl):
       return funcParam !== 'trim' ?
-        'a' : queryUrl;
+      'a' : queryUrl;
       break;
 
       default:
       return funcParam !== 'trim' ?
-        'div' : queryUrl;
+      'p' : queryUrl;
       break;
   }
 }
@@ -763,6 +772,11 @@ const pierceRefer = () => {
     Fancybox.bind("[data-fancybox]", {
       // Your custom options
     });
+    const style = document.createElement("style");
+    style.id = 'dynaContainer';
+    document.head.appendChild(style);
+    const sheet = style.sheet;
+    sheet.insertRule('.dynamic-container::after { clear: both; content: ""; display: block; }', 0);
   });
   document.documentElement.appendChild(fancyboxUmdMinJs);
 };
@@ -813,29 +827,30 @@ const assemblePackage = (tagType, strURL) => {
 
     case 'img':
     case 'gal':
-      let adjacentAccumulate = document.createElement('div');
-      adjacentAccumulate.className = 'dynamic-container';
-      reloadBullet('', strURL, adjacentAccumulate);
-      return adjacentAccumulate;
+      const dynamicContainer = document.createElement('div');
+      dynamicContainer.className = 'dynamic-container';
+      reloadBullet('', strURL, dynamicContainer);
+      return dynamicContainer;
     break;
 
     case 'youtuBeR':
-      let HyperLinkY = document.createElement('a');
-      HyperLinkY.href = 'https://youtu.be/' + strURL;
-      HyperLinkY.innerText = 'https://youtu.be/' + strURL;
-      let preFix = document.getElementById('prefixKit').value;
-      let urlIntegrit = preFix + 'https://i.ytimg.com/vi/' + strURL + '/hqdefault.jpg';
-      let FancySuite = getImageItem( urlIntegrit );
-      let urlIntegri = preFix + 'https://i.ytimg.com/vi/' + strURL + '/maxresdefault.jpg';
+      const entityId = filterUrl ('trim', strURL);
+      const HyperLinkY = document.createElement('a');
+      HyperLinkY.href = 'https://youtu.be/' + entityId;
+      HyperLinkY.innerText = 'https://youtu.be/' + entityId;
+      const preFix = 'https://slack-imgs.com/?url=';
+      const urlIntegrit = preFix + 'https://i.ytimg.com/vi/' + entityId + '/hqdefault.jpg';
+      const FancySuite = getImageItem( urlIntegrit );
+      const urlIntegri = preFix + 'https://i.ytimg.com/vi/' + entityId + '/maxresdefault.jpg';
 
       (async () => {
         if (await imageExists(urlIntegri)){
           FancySuite.querySelector('li img').src = urlIntegri;
-          FancySuite.querySelector('a').href = urlIntegri;
+          FancySuite.href = urlIntegri;
         }
       })()
 
-      let FancySuiteY = document.createElement("div");
+      const FancySuiteY = document.createElement('div');
       FancySuiteY.appendChild(HyperLinkY);
       FancySuiteY.appendChild(FancySuite);
       return FancySuiteY;
@@ -952,7 +967,7 @@ const switchMeting = (currentNode, url) => {
   currentNode.appendChild(divc);
 };
 
-const QueryString = (x, y) => {
+const QueryString = (item, text) => {
   let foundString = text.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)","i"));
   return foundString ? foundString[1] : foundString;
 };
@@ -973,7 +988,6 @@ const pierceElement = () => {
   progress.value = 0;
   statusDiv.appendChild(progress);
   document.body.appendChild(statusDiv);
-  stackWindow('', 40, 200, 640, 480);
 };
 
 const updateProgress = (currentContainer) => {

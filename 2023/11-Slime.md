@@ -91,6 +91,10 @@ https://dogemanga.com/images/pages/dzJJevSg.jpg
 
 为乐诸位能有舒适的冒险体验，需要遵守一些最低限度的规则。
 
+只有双方都愿意新人对方才有所为的信用，并不是完全听另一方的要求摆布。
+https://dogemanga.com/images/pages/52UOnYHL.jpg
+
+## 隐语岛
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg
 工具
