@@ -693,3 +693,20 @@ https://www.msn.cn/zh-cn/news/other/%E5%BA%86%E4%BD%99%E5%B9%B4-%E9%87%8C%E7%9A%
 
 自绝与群众和军中势力，
 太后是你唯一的依靠。
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/18 10:52:08　&b=lxjt6ewi
+## 《庆余年》四大宗师排名，谁排最后？五竹可能突围四人合围？
+https://www.msn.cn/zh-cn/news/other/%E5%BA%86%E4%BD%99%E5%B9%B4-%E5%9B%9B%E5%A4%A7%E5%AE%97%E5%B8%88%E6%8E%92%E5%90%8D-%E8%B0%81%E6%8E%92%E6%9C%80%E5%90%8E-%E4%BA%94%E7%AB%B9%E5%8F%AF%E8%83%BD%E7%AA%81%E5%9B%B4%E5%9B%9B%E4%BA%BA%E5%90%88%E5%9B%B4/ar-BB1olyVf?ocid=msedgntp&pc=U531&cvid=6670f5fe9525474e854dfcfab31dc8db&ei=17
+|
+叶轻眉和五竹
+怀揣着伟大的梦想，想要将“人人平等”的理念传播到世界的每一个角落，打破封建皇权的桎梏。
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/18 11:00:19　&b=lxjtgxtw
+## 庆余年2：七位大宗师排名，庆帝仅排第三，四顾剑第四，五竹最强_腾讯新闻
+https://new.qq.com/rain/a/20240604A0AELN00
+|
+有这个 也未必斗得过大宗师
+https://inews.gtimg.com/news_bt/OWOqXVm_FNEV0Agqkz195ces9QnLLNfPwZm4e1zxHAtksAA/1000
+
+已不被人间常理束缚
+https://inews.gtimg.com/news_bt/OXu5eSfsRKZXvAr0MebugULVbqTPeB8OsIe2NW08zKmewAA/1000

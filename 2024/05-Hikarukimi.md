@@ -436,6 +436,7 @@ https://v.ijujitv.cc/play/51187-5-19.html
 ## 涅槃2024年#nhk大河剧##致光之君
 https://weibo.com/5442042794
 |
+https://www.alipan.com/s/YW57H5ZW4vQ
 https://www.alipan.com/s/DUFthNn8Lq6
 h01g
 
@@ -465,3 +466,9 @@ https://www.bilibili.com/read/cv35260161/?jump_opus=1
 
 《致光之君》第二十五话简报
 2024年06月10日 20:471323浏览 · 19点赞 · 25评论
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/21 09:57:20　&b=lxo1jhlu
+## 大河字幕组-怎么办家康（2023）
+https://www.aliyundrive.com/s/Rgszj8b24mo
+|
+1 怎么办家康4K精修版（13）

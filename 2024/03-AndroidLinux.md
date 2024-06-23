@@ -1,4 +1,8 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/6/21 15:00:48　&b=lxocdr85
+## 给 Lumia 950 XL 跑 Debian 9 w/ 主线内核 - V2EX
+https://cn.v2ex.com/t/505213
+
 　6//?r=⭐　&d=2024/4/17 20:55:01　&b=lv3tewxv
 史上最详细的SurfaceRT越狱运行exe教程 – XNA(MonoGame)游戏开发
 https://www.xnadevelop.com/windows/surfacert-running-exe/
