@@ -139,3 +139,28 @@ https://stackoverflow.com/questions/70123466/how-to-convert-li-navbar-dropdown-w
   display: block;
 }
 </style>
+
+请提供js代码，用下面的数据生成菜单，菜单的层级结构参照数组的层级结构，
+也就是说菜单项包含"about"，"file"，"edit"，"view"，"help"，
+菜单项"about"下没有子菜单项，
+菜单项"file"包含1子菜单项"open"，
+菜单项"edit"项包含2个子菜单项，分别是"copy"和"paste"，
+菜单项"view"包含1子菜单项"zoom"，子菜单项"zoom"包含2个子菜单项，分别是"in"和"out"，
+菜单项"help"项下也没有子菜单。
+const arr = [
+  "about"
+  ["file", ["open"]],
+  ["edit", ["copy", "paste"]],
+  ["view", ["zoom", ["in", "out"]]],
+  "help"
+];
+
+运行结果仍然是"in"里面包含"out"，我希望"in"和"out"是并列的关系，都是2级子菜单。
+
+js代码生成菜单，菜单的层级结构如下，
+菜单项5个，包含"about"，"file"，"edit"，"view"，"help"，
+"about"下没有子菜单项，
+"file"包含1子菜单项"open"，
+"edit"项包含2个子菜单项，分别是"copy"和"paste"，
+"view"包含1子菜单项"zoom"，"zoom"包含2个子菜单项，"in"和"out"，
+"help"项下没有子菜单。

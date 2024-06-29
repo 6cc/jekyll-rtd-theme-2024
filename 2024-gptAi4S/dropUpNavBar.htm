@@ -1,90 +1,163 @@
-<textarea rows="30" cols="60" id="code">
-</textarea>
+<script>
 
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-</div>
+const createMenuModule = () => {
+    createTrigger();
+    createNavBar();
+    createNavButton();
+    createDropUp();
+    createDropUp();
+    createNavButton();
+};
 
-<style type="text/css">
-/* Navbar container */
-.navbar {
-  overflow: visible;
-  background-color: #333;
-  font-family: Arial;
+const createTrigger = () => {
+    const triggerField = document.createElement('div');
+    triggerField.id = 'triggerField';
+    triggerField.style.position = 'fixed';
+    triggerField.style.bottom = '0px';
+    triggerField.style.right = '0px';
+    triggerField.style.width = '40px';
+    triggerField.style.height = '40px';
+    triggerField.style.backgroundColor = '#333';
+    // Function to show navBar
+    triggerField.addEventListener('mouseover', () => {
+    navBar.style.display = 'block';
+    });
+    document.body.appendChild(triggerField);
+};
+
+const createNavBar = () => {
+    const triggerField = document.querySelector('div#triggerField');
+    // Create navBar
+    const navBar = document.createElement('div');
+    navBar.id = 'navBar';
+    navBar.style.position = 'fixed';
+    navBar.style.bottom = '40px';
+    navBar.style.width = '818px';
+    navBar.style.height = '40px';
+    navBar.style.backgroundColor = '#555';
+    navBar.style.display = 'none';
+    document.body.insertBefore(navBar, triggerField);
+
+    // Function to hide navBar
+    navBar.addEventListener('mouseleave', () => {
+    navBar.style.display = 'none';
+    });
+
+    // Create and style the navbar container
+};
+
+const createNavButton = () => {
+    const navBar = document.querySelector('div#navBar');
+    // Create and add links
+    const homeLink = createNavLink('#home', 'Home');
+    navBar.appendChild(homeLink);
+};
+
+const createDropUp = () => {
+    // Create and style the dropdown container
+    const dropdown = document.createElement('div');
+    dropdown.style.float = 'left';
+    dropdown.style.position = 'relative';
+    const navBar = document.querySelector('div#navBar');
+    navBar.appendChild(dropdown);
+
+    // Create and style the dropdown button
+    const dropbtn = document.createElement('button');
+    dropbtn.innerHTML = 'Dropdown <i class="fa fa-caret-down"></i>';
+    dropbtn.style.fontSize = '16px';
+    dropbtn.style.border = 'none';
+    dropbtn.style.outline = 'none';
+    dropbtn.style.color = 'white';
+    dropbtn.style.padding = '14px 16px';
+    dropbtn.style.backgroundColor = 'inherit';
+    dropbtn.style.fontFamily = 'inherit';
+    dropbtn.style.margin = '0';
+    dropbtn.addEventListener('mouseover', () => {
+        dropbtn.style.backgroundColor = 'red';
+    });
+    dropbtn.addEventListener('mouseout', () => {
+        dropbtn.style.backgroundColor = '#333';
+    });
+    dropdown.appendChild(dropbtn);
+
+    // Create and style the dropdown content container
+    const dropdownContent = document.createElement('div');
+    dropdownContent.style.display = 'none';
+    dropdownContent.style.position = 'absolute';
+    dropdownContent.style.backgroundColor = '#f9f9f9';
+    dropdownContent.style.minWidth = '100px';
+    dropdownContent.style.boxShadow = '0px 8px 16px 0px rgba(0,0,0,0.2)';
+    dropdownContent.style.zIndex = '1';
+    dropdownContent.style.bottom = '40px'; // Position the dropup content
+    dropdown.appendChild(dropdownContent);
+
+    // Create and add dropdown links
+    const link1 = createDropdownLink('#', 'Link 1');
+    dropdownContent.appendChild(link1);
+
+    const link2 = createDropdownLink('#', 'Link 2');
+    dropdownContent.appendChild(link2);
+
+    const link3 = createDropdownLink('#', 'Link 3');
+    dropdownContent.appendChild(link3);
+
+    // Show the dropdown menu on hover
+    dropdown.addEventListener('mouseover', () => {
+        dropdownContent.style.display = 'block';
+    });
+
+    // Hide the dropdown menu when not hovering
+    dropdown.addEventListener('mouseout', () => {
+        dropdownContent.style.display = 'none';
+    });
+};
+
+// Function to create and style links
+const createNavLink = (href, text) => {
+    const link = document.createElement('a');
+    link.href = href;
+    link.textContent = text;
+    link.style.float = 'left';
+    link.style.fontSize = '16px';
+    link.style.color = 'white';
+    link.style.textAlign = 'center';
+    link.style.padding = '14px 16px';
+    link.style.textDecoration = 'none';
+    link.addEventListener('mouseover', () => {
+        link.style.backgroundColor = 'red';
+    });
+    link.addEventListener('mouseout', () => {
+        link.style.backgroundColor = '#333';
+    });
+    return link;
+};
+
+// Function to create and style dropdown links
+const createDropdownLink = (href, text) => {
+    const link = document.createElement('a');
+    link.href = href;
+    link.textContent = text;
+    link.style.float = 'none';
+    link.style.color = 'black';
+    link.style.padding = '12px 16px';
+    link.style.textDecoration = 'none';
+    link.style.display = 'block';
+    link.style.textAlign = 'left';
+    link.addEventListener('mouseover', () => {
+        link.style.backgroundColor = '#ddd';
+    });
+    link.addEventListener('mouseout', () => {
+        link.style.backgroundColor = '#f9f9f9';
+    });
+    return link;
+};
+
+if (document.body) {
+    createMenuModule();
+} else {
+    document.addEventListener("DOMContentLoaded", () => {
+        createMenuModule();
+    });
 }
 
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  bottom: 40px;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
+</script>
