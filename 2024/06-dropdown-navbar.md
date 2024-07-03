@@ -1,4 +1,63 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/6/30 11:23:42　&b=ly0zl8dm
+## mmenu.js - App look-alike menus with sliding submenus
+https://mmenujs.com/
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/30 11:52:42　&b=ly10miqs
+## adgsm/multi-level-push-menu: MultiLevelPushMenu jQuery Plugin implementation
+https://github.com/adgsm/multi-level-push-menu?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library
+|
+https://multi-level-push-menu.dzunic.net/
+var arrMenu = [
+  {
+    title: 'All Categories',
+    id: 'menuID',
+    icon: 'fa fa-reorder',
+    items: [
+      {
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/29 17:37:55　&b=lxzximpy
+## Simple CSS Dropdown
+https://codepen.io/twodogstar/pen/abyZmy
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/29 17:48:42　&b=lxzxwhcr
+## craigerskine/css-menu: Pure CSS multi-menu navigation system with hover persistence
+https://github.com/craigerskine/css-menu
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/29 17:34:22　&b=lxzxe1yr
+## oziavci/ozmenu-responsive-dropdown-menu: Responsive multi-level menu with pure JavaScript and CSS. You can easily use the design by editing it according to your project.
+https://github.com/oziavci/ozmenu-responsive-dropdown-menu
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/29 16:29:14　&b=lxzv2awm
+# 10 Best Responsive Dropdown Menus In JavaScript & CSS (2024 Update) | jQuery Script
+https://www.jqueryscript.net/blog/best-responsive-dropdown-menus.html
+|
+　　## Cross-platform Multi-level Dropdown Menu - Vegas Nav
+https://www.jqueryscript.net/images/multi-level-dropdown-vegas-nav.jpg
+
+　　## Mobile-friendly Multi-level Dropdown Navigation With jQuery
+https://www.jqueryscript.net/images/mobile-multi-level-dropdown.jpg
+
+## Responsive Multi-level Dropdown Menu For Navbar
+https://github.com/piotr-kmita/dropdown-menu
+<link href="https://www.cssscript.com/demo/responsive-multi-level-dropdown-menu-navbar/dist/main.css" rel="stylesheet" />
+<script src="https://www.cssscript.com/demo/responsive-multi-level-dropdown-menu-navbar/dist/main.js"></script>
+
+https://i2.wp.com/www.cssscript.com/wp-content/uploads/2020/10/Responsive-Multi-level-Dropdown-Menu-For-Navbar.png?fit=571,425&ssl=1
+
+## Responsive Multi-level Dropdown Menu With JavaScript And CSS – ozmenu.js
+https://i0.wp.com/www.cssscript.com/wp-content/uploads/2023/01/Responsive-Multi-level-Dropdown-Menu-With-JavaScript-And-CSS.webp?fit=1214%2C743&ssl=1
+
+## Pure CSS Dropdown Menus:
+https://i0.wp.com/www.cssscript.com/wp-content/uploads/2014/06/Create-A-Multi-Level-Drop-Down-Menu-with-Pure-CSS.jpg?fit=416%2C305&ssl=1
+
+## Pure CSS Multi-level Navigation – menu.css
+https://i0.wp.com/www.cssscript.com/wp-content/uploads/2020/01/Pure-CSS-Multi-level-Navigation-menu.css.png?fit=596%2C435&ssl=1
+
+>　　　　　　　　6//?r=⭐　&d=2024/6/30 11:43:33　&b=ly10ar7y
+## metisMenu - index
+https://onokumus.github.io/metismenu/
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/23 10:58:17　&b=lxqylkyd
 ## How To Create a Dropdown Navigation Bar
 https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
