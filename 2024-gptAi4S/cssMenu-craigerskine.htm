@@ -9,7 +9,7 @@ const uniqueLauncher = () => {
     'already entity');
 };
 
-const preprocessObj = (x, y) => {
+const preprocessObj = () => {
   const strUrl = 'https://6cc.github.io/3/6son.md';
   getFile(strUrl);
   preprocessPrecast();
@@ -19,39 +19,53 @@ const getFile = async (fileURL, targetElem) => {
   const response = await fetch(fileURL);
   const docData = await response.text();
   console.log(decomposeReconstruct(docData));
+
+  const ul_navMenu = document.querySelector('ul.nav-menu');
+  const menuSuit = decomposeReconstruct(docData);
+  ul_navMenu.appendChild(menuSuit);
+
 };
 
-const decomposeReconstruct = (rawInput) => {
-  const paraSFromDoc = arrSpliter(rawInput, '>　　　　　　　　');
-  const ul_navMenu = document.querySelector('ul.nav-menu');
-  for (let i = 0; i < paraSFromDoc.length; i++) {
+const decomposeReconstruct = (docRaw) => {
+  const paraSFromDoc = arrSpliter(docRaw, '>　　　　　　　　');
+  const fragment = new DocumentFragment();
+  
+  for (let i = 1; i < paraSFromDoc.length; i++) {
     const lineSFromPara = arrSpliter(paraSFromDoc[i], '\n');
     const navButtonS = arrSpliter(lineSFromPara[0], ',');
-
-    const liTag = document.createElement('li');
-    const aTag = document.createElement('a');
-    aTag.href = '';
-    aTag.textContent = navButtonS[1];
+    const navMenu = assembMenuUnit(navButtonS[1]);
     const ulTag = document.createElement('ul');
-    liTag.appendChild(aTag);
-    liTag.appendChild(ulTag);
-    ul_navMenu.appendChild(liTag);
+    navMenu.appendChild(ulTag);
+    fragment.appendChild(navMenu);
 
-    for (let j = 0; j < lineSFromPara.length; j++) {
+    for (let j = 1; j < lineSFromPara.length; j++) {
       const strSFromline = arrSpliter(lineSFromPara[j], ',');
-      const liTag = document.createElement('li');
-      const aTag = document.createElement('a');
-      aTag.href = '';
-      aTag.textContent = strSFromline[1];
-      liTag.appendChild(aTag);
-      ulTag.appendChild(liTag);
+      const menuSub_1 = assembMenuUnit(strSFromline[1]);
+      ulTag.appendChild(menuSub_1);
+      const ulSub_1 = document.createElement('ul');
+      menuSub_1.appendChild(ulSub_1);
+
+      for (let k = 6; k > 0; k--) {
+        const menuSub_2 = assembMenuUnit(k);
+        ulSub_1.appendChild(menuSub_2);
+      }
     }
   }
+  return fragment;
 };
 
 const arrSpliter = (textInput, charSpliter) => {
   const arrOutput = textInput.trim().split(charSpliter);
   return arrOutput;
+};
+
+const assembMenuUnit = (textCont) => {
+  const liTag = document.createElement('li');
+  const aTag = document.createElement('a');
+  aTag.href = '';
+  aTag.textContent = textCont;
+  liTag.appendChild(aTag);
+  return liTag;
 };
 
 const createMenu = (text, withSub) => {
@@ -65,23 +79,10 @@ const createMenu = (text, withSub) => {
   return liTag;
 };
 
-const createNav = (textCont) => {
-  const liTag = document.createElement('li');
-  const aTag = document.createElement('a');
-  aTag.href = '';
-  aTag.textContent = textCont;
-  liTag.appendChild(aTag);
-  return liTag;
-};
-
 const preprocessPrecast = () => {
   const navMenu = document.createElement('ul');
   navMenu.className = 'nav-menu';
   document.body.appendChild(navMenu);
-};
-
-const func1 = (x, y) => {
-  console.log(undefined);
 };
 
 if (document.body) {
