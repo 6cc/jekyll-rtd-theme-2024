@@ -8,6 +8,134 @@
 // @description 2024/6/18 06:03:00
 // ==/UserScript==
 
+const uniqueLauncher = () => {
+  const docQuerySel = document.querySelector('div#triggerField');
+  const uniqInit = docQuerySel === null ? preprocessPrecast() :
+  console.log('already entity');
+};
+
+const preprocessPrecast = () => {
+  const strUrl = 'https://6cc.github.io/3/6son.md';
+  createTrigger();
+  createNavBar();
+  const ul_navMenu = document.querySelector('ul.nav-menu');
+  getFileToFrag(strUrl, ul_navMenu);
+  const menuCss = 'https://6cc.github.io/3/craigErskine.css';
+  appendRefer(menuCss);
+};
+
+const getFileToFrag = async (fileURL, targetElem) => {
+  const response = await fetch(fileURL);
+  const docData = await response.text();
+  const menuSuit = decomposTxtConstrucMenu(docData);
+  targetElem.appendChild(menuSuit);
+};
+
+const decomposTxtConstrucMenu = (docRaw) => {
+  const paraSFromDoc = arrSpliter(docRaw, '>　　　　　　　　');
+  const fragment = new DocumentFragment();
+  
+  for (let i = 1; i < paraSFromDoc.length; i++) {
+    const lineSFromPara = arrSpliter(paraSFromDoc[i], '\n');
+    const navButtonS = arrSpliter(lineSFromPara[0], ',');
+    const navMenu = assembMenuUnit(navButtonS[1]);
+    const ulTag = document.createElement('ul');
+    navMenu.appendChild(ulTag);
+    fragment.appendChild(navMenu);
+
+    for (let j = 1; j < lineSFromPara.length; j++) {
+      const strSFromline = arrSpliter(lineSFromPara[j], ',');
+      const menuSub_1 = assembMenuUnit(strSFromline[1]);
+      ulTag.appendChild(menuSub_1);
+      const ulSub_1 = document.createElement('ul');
+      menuSub_1.appendChild(ulSub_1);
+
+      for (let k = 6; k > 0; k--) {
+        const menuSub_2 = assembMenuUnit(k);
+        ulSub_1.appendChild(menuSub_2);
+      }
+    }
+  }
+  return fragment;
+};
+
+const arrSpliter = (textInput, charSpliter) => {
+  const arrOutput = textInput.trim().split(charSpliter);
+  return arrOutput;
+};
+
+const appendRefer = (urlFile) => {
+  const fileExtension = urlFile.match(/\.[^/.]+$/);
+  const referElem = createByExtens(urlFile, fileExtension[0]);
+  const fileName = urlFile.match(/[^\/=\b]+(?=\.[^\/.]*$)/)[0];
+  referElem.id = fileName.replace(/\./g,'_')
+   + fileExtension[0].replace(/\./g,'_');
+  document.documentElement.appendChild(referElem);
+};
+
+const createByExtens = (urlFile, fileExtens) => {
+  switch (fileExtens) {
+    case '.js':
+      const scriptRefer = document.createElement('script');
+      scriptRefer.src = urlFile;
+      return scriptRefer;
+      break;
+    case '.css':
+      const linkRefer = document.createElement('link');
+      linkRefer.href = urlFile;
+      linkRefer.setAttribute('rel', 'stylesheet');
+      return linkRefer;
+      break;
+    default:
+      console.log(fileExtens);
+      break;
+  }
+};
+
+const assembMenuUnit = (textCont) => {
+  const liTag = document.createElement('li');
+  const aTag = document.createElement('a');
+  aTag.href = '#';
+  aTag.textContent = textCont;
+  liTag.appendChild(aTag);
+  return liTag;
+};
+
+const createTrigger = () => {
+  const triggerField = document.createElement('div');
+  triggerField.id = 'triggerField';
+  triggerField.style.position = 'fixed';
+  triggerField.style.bottom = '0px';
+  triggerField.style.right = '0px';
+  triggerField.style.width = '40px';
+  triggerField.style.height = '40px';
+  triggerField.style.backgroundColor = '#333';
+  document.body.appendChild(triggerField);
+};
+
+const createNavBar = () => {
+  const navBar = document.createElement('ul');
+  navBar.className = 'nav-menu';
+  navBar.id = 'navBar';
+  navBar.style.position = 'fixed';
+  navBar.style.bottom = '40px';
+  navBar.style.width = '818px';
+  navBar.style.height = '40px';
+  navBar.style.backgroundColor = '#555';
+  navBar.style.display = 'none';
+
+  const triggerField = document.querySelector('div#triggerField');
+  document.body.insertBefore(navBar, triggerField);
+
+  triggerField.addEventListener('mouseover', () => {
+    navBar.style.display = 'block';
+  });
+
+  navBar.addEventListener('mouseleave', () => {
+    navBar.style.display = 'none';
+  });
+};
+
 const bottomHorizonBar = () => {
   const topBar = document.createElement('div');
   topBar.id = 'topBar';
@@ -173,11 +301,6 @@ const sideVertialBar = () => {
   enableHover.id = 'enableHover';
   enableHover.className = 'tooltiptext';
   sidebar.appendChild(enableHover);
-};
-
-const checkUnique = (strIdentify) => {
-  const docQuerySel = document.querySelector(strIdentify);
-  return docQuerySel === null ? true : false;
 };
 
 const createElem = (createTag, containerElem, attachMethod, schemaOut, valueStr, className, id) => {
@@ -1109,6 +1232,15 @@ pierceElement();
 let statusElem = document.querySelector('#status');
 let progressElem = document.querySelector('progress');
 let loadedImageCount, imageCount;
+
+if (document.body) {
+  uniqueLauncher();
+} else {
+  document.addEventListener("DOMContentLoaded", () => {
+    uniqueLauncher();
+
+  });
+}
 
 document.addEventListener('mouseover', function(event) {
   const hoverElem = event.target;

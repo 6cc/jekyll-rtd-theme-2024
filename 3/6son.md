@@ -4,85 +4,85 @@
 85, open, , , , 
 86, edit , , , , 
 
->　　　　　　　　1 , 坤, ☷, 000, Col.1-sequenceNumber
-1 , 坤　, ䷁, 2 , 坤为地　, 上坤#1, 下坤#1, Field
-2 , 剝　, ䷖, 23, 山地剥　, 上艮#1, 下坤#2, Stripping
-3 , 比　, ䷇, 8 , 水地比　, 上坎#1, 下坤#3, Grouping
-4 , 觀　, ䷓, 20, 风地观　, 上巽#1, 下坤#4, Viewing
-5 , 豫　, ䷏, 16, 雷地豫　, 上震#1, 下坤#5, Providing-For
-6 , 晉　, ䷢, 35, 火地晋　, 上离#1, 下坤#6, Prospering
-7 , 萃　, ䷬, 45, 泽地萃　, 上兑#1, 下坤#7, Clustering
-8 , 否　, ䷋, 12, 天地否　, 上乾#1, 下坤#8, Obstruction
+>　　　　　　　　1 , ☷, 2 , 坤, 地, 000, Col.1-sequenceNumber
+1 , ䷁, 2 , 坤　, 上坤第1, 下坤第1, 坤为地　, Field
+2 , ䷖, 23, 剝　, 上艮第1, 下坤第2, 山地剥　, Stripping
+3 , ䷇, 8 , 比　, 上坎第1, 下坤第3, 水地比　, Grouping
+4 , ䷓, 20, 觀　, 上巽第1, 下坤第4, 风地观　, Viewing
+5 , ䷏, 16, 豫　, 上震第1, 下坤第5, 雷地豫　, Providing-For
+6 , ䷢, 35, 晉　, 上离第1, 下坤第6, 火地晋　, Prospering
+7 , ䷬, 45, 萃　, 上兑第1, 下坤第7, 泽地萃　, Clustering
+8 , ䷋, 12, 否　, 上乾第1, 下坤第8, 天地否　, Obstruction
 
->　　　　　　　　2 , 艮, ☶, 001, Col.2-hexagramNname
-9 , 謙　, ䷎, 15, 地山谦　, 上坤#2, 下艮#1, Humbling
-10, 艮　, ䷳, 52, 艮为山　, 上艮#2, 下艮#2, Bound
-11, 蹇　, ䷦, 39, 水山蹇　, 上坎#2, 下艮#3, Limping
-12, 漸　, ䷴, 53, 风山渐　, 上巽#2, 下艮#4, Infiltrating
-13, 小過, ䷽, 62, 雷山小过, 上震#2, 下艮#5, Small Exceeding
-14, 旅　, ䷷, 56, 火山旅　, 上离#2, 下艮#6, Sojourning
-15, 咸　, ䷞, 31, 泽山咸　, 上兑#2, 下艮#7, Conjoining
-16, 遯　, ䷠, 33, 天山遁　, 上乾#2, 下艮#8, Retiring
+>　　　　　　　　2 , ☶, 52, 艮, 山, 001, Col.2-hexagramNname
+9 , ䷎, 15, 謙　, 上坤第2, 下艮第1, 地山谦　, Humbling
+10, ䷳, 52, 艮　, 上艮第2, 下艮第2, 艮为山　, Bound
+11, ䷦, 39, 蹇　, 上坎第2, 下艮第3, 水山蹇　, Limping
+12, ䷴, 53, 漸　, 上巽第2, 下艮第4, 风山渐　, Infiltrating
+13, ䷽, 62, 小過, 上震第2, 下艮第5, 雷山小过, Small Exceeding
+14, ䷷, 56, 旅　, 上离第2, 下艮第6, 火山旅　, Sojourning
+15, ䷞, 31, 咸　, 上兑第2, 下艮第7, 泽山咸　, Conjoining
+16, ䷠, 33, 遯　, 上乾第2, 下艮第8, 天山遁　, Retiring
 
->　　　　　　　　3 , 坎, ☵, 010, Col.3-hexagramImagery
-17, 師　, ䷆, 7 , 地水师　, 上坤#3, 下坎#1, Leading
-18, 蒙　, ䷃, 4 , 山水蒙　, 上艮#3, 下坎#2, Enveloping
-19, 坎　, ䷜, 29, 坎为水　, 上坎#3, 下坎#3, Gorge
-20, 渙　, ䷺, 59, 风水涣　, 上巽#3, 下坎#4, Dispersing
-21, 解　, ䷧, 40, 雷水解　, 上震#3, 下坎#5, Deliverance
-22, 未濟, ䷿, 64, 火水未济, 上离#3, 下坎#6, Before Completion
-23, 困　, ䷮, 47, 泽水困　, 上兑#3, 下坎#7, Confining
-24, 訟　, ䷅, 6 , 天水讼　, 上乾#3, 下坎#8, Arguing
+>　　　　　　　　3 , ☵, 29, 坎, 水, 010, Col.3-hexagramImagery
+17, ䷆, 7 , 師　, 上坤第3, 下坎第1, 地水师　, Leading
+18, ䷃, 4 , 蒙　, 上艮第3, 下坎第2, 山水蒙　, Enveloping
+19, ䷜, 29, 坎　, 上坎第3, 下坎第3, 坎为水　, Gorge
+20, ䷺, 59, 渙　, 上巽第3, 下坎第4, 风水涣　, Dispersing
+21, ䷧, 40, 解　, 上震第3, 下坎第5, 雷水解　, Deliverance
+22, ䷿, 64, 未濟, 上离第3, 下坎第6, 火水未济,  Completion
+23, ䷮, 47, 困　, 上兑第3, 下坎第7, 泽水困　, Confining
+24, ䷅, 6 , 訟　, 上乾第3, 下坎第8, 天水讼　, Arguing
 
->　　　　　　　　4 , 巽, ☴, 011, Col.4-hexagramSeq.No.
-25, 升　, ䷭, 46, 地风升　, 上坤#4, 下巽#1, Ascending
-26, 蠱　, ䷑, 18, 山风蛊　, 上艮#4, 下巽#2, Correcting
-27, 井　, ䷯, 48, 水风井　, 上坎#4, 下巽#3, Welling
-28, 巽　, ䷸, 57, 巽为风　, 上巽#4, 下巽#4, Ground
-29, 恆　, ䷟, 32, 雷风恒　, 上震#4, 下巽#5, Persevering
-30, 鼎　, ䷱, 50, 火风鼎　, 上离#4, 下巽#6, Holding
-31, 大過, ䷛, 28, 泽风大过, 上兑#4, 下巽#7, Great Exceeding
-32, 姤　, ䷫, 44, 天风姤　, 上乾#4, 下巽#8, Coupling
+>　　　　　　　　4 , ☴, 57, 巽, 风, 011, Col.4-hexagramSeq.No.
+25, ䷭, 46, 升　, 上坤第4, 下巽第1, 地风升　, Ascending
+26, ䷑, 18, 蠱　, 上艮第4, 下巽第2, 山风蛊　, Correcting
+27, ䷯, 48, 井　, 上坎第4, 下巽第3, 水风井　, Welling
+28, ䷸, 57, 巽　, 上巽第4, 下巽第4, 巽为风　, Ground
+29, ䷟, 32, 恆　, 上震第4, 下巽第5, 雷风恒　, Persevering
+30, ䷱, 50, 鼎　, 上离第4, 下巽第6, 火风鼎　, Holding
+31, ䷛, 28, 大過, 上兑第4, 下巽第7, 泽风大过, Great Exceeding
+32, ䷫, 44, 姤　, 上乾第4, 下巽第8, 天风姤　, Coupling
 
->　　　　　　　　5 , 震, ☳, 100, Col.5-trigramPosition
-33, 復　, ䷗, 24, 地雷复　, 上坤#5, 下震#1, Returning
-34, 頤　, ䷚, 27, 山雷颐　, 上艮#5, 下震#2, Swallowing
-35, 屯　, ䷂, 3 , 水雷屯　, 上坎#5, 下震#3, Sprouting
-36, 益　, ䷩, 42, 风雷益　, 上巽#5, 下震#4, Augmenting
-37, 震　, ䷲, 51, 震为雷　, 上震#5, 下震#5, Shake
-38, 噬嗑, ䷔, 21, 火雷噬嗑, 上离#5, 下震#6, Gnawing Bite
-39, 隨　, ䷐, 17, 泽雷随　, 上兑#5, 下震#7, Following
-40, 無妄, ䷘, 25, 天雷无妄, 上乾#5, 下震#8, Innocence
+>　　　　　　　　5 , ☳, 51, 震, 雷, 100, Col.5-trigramPosition
+33, ䷗, 24, 復　, 上坤第5, 下震第1, 地雷复　, Returning
+34, ䷚, 27, 頤　, 上艮第5, 下震第2, 山雷颐　, Swallowing
+35, ䷂, 3 , 屯　, 上坎第5, 下震第3, 水雷屯　, Sprouting
+36, ䷩, 42, 益　, 上巽第5, 下震第4, 风雷益　, Augmenting
+37, ䷲, 51, 震　, 上震第5, 下震第5, 震为雷　, Shake
+38, ䷔, 21, 噬嗑, 上离第5, 下震第6, 火雷噬嗑, Gnawing Bite
+39, ䷐, 17, 隨　, 上兑第5, 下震第7, 泽雷随　, Following
+40, ䷘, 25, 無妄, 上乾第5, 下震第8, 天雷无妄, Innocence
 
->　　　　　　　　6 , 離, ☲, 101, Col.6-upperTrigramSeq.
-41, 明夷, ䷣, 36, 地火明夷, 上坤#6, 下離#1, Intelligence Hidden
-42, 賁　, ䷕, 22, 山火贲　, 上艮#6, 下離#2, Adorning
-43, 既濟, ䷾, 63, 水火既济, 上坎#6, 下離#3, Already Fording
-44, 家人, ䷤, 37, 风火家人, 上巽#6, 下離#4, Dwelling People
-45, 豐　, ䷶, 55, 雷火丰　, 上震#6, 下離#5, Abounding
-46, 離　, ䷝, 30, 离为火　, 上离#6, 下離#6, Radiance
-47, 革　, ䷰, 49, 泽火革　, 上兑#6, 下離#7, Skinning
-48, 同人, ䷌, 13, 天火同人, 上乾#6, 下離#8, Concording People
+>　　　　　　　　6 , ☲, 30, 離, 火, 101, Col.6-upperTrigramSeq.
+41, ䷣, 36, 明夷, 上坤第6, 下離第1, 地火明夷, Intelligence Hidden
+42, ䷕, 22, 賁　, 上艮第6, 下離第2, 山火贲　, Adorning
+43, ䷾, 63, 既濟, 上坎第6, 下離第3, 水火既济, Already Fording
+44, ䷤, 37, 家人, 上巽第6, 下離第4, 风火家人, Dwelling People
+45, ䷶, 55, 豐　, 上震第6, 下離第5, 雷火丰　, Abounding
+46, ䷝, 30, 離　, 上离第6, 下離第6, 离为火　, Radiance
+47, ䷰, 49, 革　, 上兑第6, 下離第7, 泽火革　, Skinning
+48, ䷌, 13, 同人, 上乾第6, 下離第8, 天火同人, Concording People
 
->　　　　　　　　7 , 兌, ☱, 110, Col.7-lowerTrigramSeq.
-49, 臨　, ䷒, 19, 地泽临　, 上坤#7, 下兌#1, Nearing
-50, 損　, ䷨, 41, 山泽损　, 上艮#7, 下兌#2, Diminishing
-51, 節　, ䷻, 60, 水泽节　, 上坎#7, 下兌#3, Articulating
-52, 中孚, ䷼, 61, 风泽中孚, 上巽#7, 下兌#4, Inner Truth
-53, 歸妹, ䷵, 54, 雷泽归妹, 上震#7, 下兌#5, Converting the Maiden
-54, 睽　, ䷥, 38, 火泽睽　, 上离#7, 下兌#6, Polarising
-55, 兌　, ䷹, 58, 兑为泽　, 上兑#7, 下兌#7, Open
-56, 履　, ䷉, 10, 天泽履　, 上乾#7, 下兌#8, Treading
+>　　　　　　　　7 , ☱, 58, 兌, 泽, 110, Col.7-lowerTrigramSeq.
+49, ䷒, 19, 臨　, 上坤第7, 下兌第1, 地泽临　, Nearing
+50, ䷨, 41, 損　, 上艮第7, 下兌第2, 山泽损　, Diminishing
+51, ䷻, 60, 節　, 上坎第7, 下兌第3, 水泽节　, Articulating
+52, ䷼, 61, 中孚, 上巽第7, 下兌第4, 风泽中孚, Inner Truth
+53, ䷵, 54, 歸妹, 上震第7, 下兌第5, 雷泽归妹, Converting the Maiden
+54, ䷥, 38, 睽　, 上离第7, 下兌第6, 火泽睽　, Polarising
+55, ䷹, 58, 兌　, 上兑第7, 下兌第7, 兑为泽　, Open
+56, ䷉, 10, 履　, 上乾第7, 下兌第8, 天泽履　, Treading
 
->　　　　　　　　8 , 乾, ☰, 111, Col.8-possibleBinary
-57, 泰　, ䷊, 11, 地天泰　, 上坤#8, 下乾#1, Pervading
-58, 大畜, ䷙, 26, 山天大畜, 上艮#8, 下乾#2, Great Accumulating
-59, 需　, ䷄, 5 , 水天需　, 上坎#8, 下乾#3, Attending
-60, 小畜, ䷈, 9 , 风天小畜, 上巽#8, 下乾#4, Small Harvest
-61, 大壯, ䷡, 34, 雷天大壮, 上震#8, 下乾#5, Great Invigorating
-62, 大有, ䷍, 14, 火天大有, 上离#8, 下乾#6, Great Possessing
-63, 夬　, ䷪, 43, 泽天夬　, 上兑#8, 下乾#7, Displacement
-64, 乾　, ䷀, 1 , 乾为天　, 上乾#8, 下乾#8, Force
+>　　　　　　　　8 , ☰, 1 , 乾, 天, 111, Col.8-possibleBinary
+57, ䷊, 11, 泰　, 上坤第8, 下乾第1, 地天泰　, Pervading
+58, ䷙, 26, 大畜, 上艮第8, 下乾第2, 山天大畜, Great Accumulating
+59, ䷄, 5 , 需　, 上坎第8, 下乾第3, 水天需　, Attending
+60, ䷈, 9 , 小畜, 上巽第8, 下乾第4, 风天小畜, Small Harvest
+61, ䷡, 34, 大壯, 上震第8, 下乾第5, 雷天大壮, Great Invigorating
+62, ䷍, 14, 大有, 上离第8, 下乾第6, 火天大有, Great Possessing
+63, ䷪, 43, 夬　, 上兑第8, 下乾第7, 泽天夬　, Displacement
+64, ䷀, 1 , 乾　, 上乾第8, 下乾第8, 乾为天　, Force
 
 >　　　　　　　　9 , view, ⭐, 300
 82, zoom in,,,,
