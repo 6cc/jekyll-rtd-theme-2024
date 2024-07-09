@@ -1,10 +1,14 @@
-'{"sp1it1":[62, {"8":12288}], "sp1it2":10, "sp1it3":44}'
->　　　　　　　　0 , 为, 🙊, 400, split-charCode
-84, file, , , ,
-85, open, , , , 
-86, edit , , , , 
+'{"sp1it1":[62, {"8":12288}], "sp1it2":10, "sp1it3":44, 
+"Col.1":sequenceNumber, "Col.2":hexagramImagery, 
+"Col.3":hexagramSeq.No., "Col.4":hexagramName, 
+"Col.5":upperTrigramSeq., "Col.6":lowerTrigramSeq., 
+"Col.7":trigramPosition, "Col.8":englishTranslate}'
+>　　　　　　　　0 , 为, , 🙊, 400, split-charCode
+84, file, , , , , File
+85, open, , , , , Open
+86, edit , , , , , Edit
 
->　　　　　　　　1 , ☷, 2 , 坤, 地, 000, Col.1-sequenceNumber
+>　　　　　　　　1 , ☷, 2 , 坤, 地, ⚏, 太阴第1, 000, Earth
 1 , ䷁, 2 , 坤　, 上坤第1, 下坤第1, 坤为地　, Field
 2 , ䷖, 23, 剝　, 上艮第1, 下坤第2, 山地剥　, Stripping
 3 , ䷇, 8 , 比　, 上坎第1, 下坤第3, 水地比　, Grouping
@@ -14,7 +18,7 @@
 7 , ䷬, 45, 萃　, 上兑第1, 下坤第7, 泽地萃　, Clustering
 8 , ䷋, 12, 否　, 上乾第1, 下坤第8, 天地否　, Obstruction
 
->　　　　　　　　2 , ☶, 52, 艮, 山, 001, Col.2-hexagramNname
+>　　　　　　　　2 , ☶, 52, 艮, 山, ⚏, 太阴第2, 001, Mountain
 9 , ䷎, 15, 謙　, 上坤第2, 下艮第1, 地山谦　, Humbling
 10, ䷳, 52, 艮　, 上艮第2, 下艮第2, 艮为山　, Bound
 11, ䷦, 39, 蹇　, 上坎第2, 下艮第3, 水山蹇　, Limping
@@ -24,17 +28,17 @@
 15, ䷞, 31, 咸　, 上兑第2, 下艮第7, 泽山咸　, Conjoining
 16, ䷠, 33, 遯　, 上乾第2, 下艮第8, 天山遁　, Retiring
 
->　　　　　　　　3 , ☵, 29, 坎, 水, 010, Col.3-hexagramImagery
+>　　　　　　　　3 , ☵, 29, 坎, 水, ⚎, 少阳第1, 010, Water
 17, ䷆, 7 , 師　, 上坤第3, 下坎第1, 地水师　, Leading
 18, ䷃, 4 , 蒙　, 上艮第3, 下坎第2, 山水蒙　, Enveloping
 19, ䷜, 29, 坎　, 上坎第3, 下坎第3, 坎为水　, Gorge
 20, ䷺, 59, 渙　, 上巽第3, 下坎第4, 风水涣　, Dispersing
 21, ䷧, 40, 解　, 上震第3, 下坎第5, 雷水解　, Deliverance
-22, ䷿, 64, 未濟, 上离第3, 下坎第6, 火水未济,  Completion
+22, ䷿, 64, 未濟, 上离第3, 下坎第6, 火水未济, Before Completion
 23, ䷮, 47, 困　, 上兑第3, 下坎第7, 泽水困　, Confining
 24, ䷅, 6 , 訟　, 上乾第3, 下坎第8, 天水讼　, Arguing
 
->　　　　　　　　4 , ☴, 57, 巽, 风, 011, Col.4-hexagramSeq.No.
+>　　　　　　　　4 , ☴, 57, 巽, 风, ⚎, 少阳第2, 011, Wind
 25, ䷭, 46, 升　, 上坤第4, 下巽第1, 地风升　, Ascending
 26, ䷑, 18, 蠱　, 上艮第4, 下巽第2, 山风蛊　, Correcting
 27, ䷯, 48, 井　, 上坎第4, 下巽第3, 水风井　, Welling
@@ -44,7 +48,7 @@
 31, ䷛, 28, 大過, 上兑第4, 下巽第7, 泽风大过, Great Exceeding
 32, ䷫, 44, 姤　, 上乾第4, 下巽第8, 天风姤　, Coupling
 
->　　　　　　　　5 , ☳, 51, 震, 雷, 100, Col.5-trigramPosition
+>　　　　　　　　5 , ☳, 51, 震, 雷, ⚍, 少阴第1, 100, Thunder
 33, ䷗, 24, 復　, 上坤第5, 下震第1, 地雷复　, Returning
 34, ䷚, 27, 頤　, 上艮第5, 下震第2, 山雷颐　, Swallowing
 35, ䷂, 3 , 屯　, 上坎第5, 下震第3, 水雷屯　, Sprouting
@@ -54,7 +58,7 @@
 39, ䷐, 17, 隨　, 上兑第5, 下震第7, 泽雷随　, Following
 40, ䷘, 25, 無妄, 上乾第5, 下震第8, 天雷无妄, Innocence
 
->　　　　　　　　6 , ☲, 30, 離, 火, 101, Col.6-upperTrigramSeq.
+>　　　　　　　　6 , ☲, 30, 離, 火, ⚍, 少阴第2, 101, Flame
 41, ䷣, 36, 明夷, 上坤第6, 下離第1, 地火明夷, Intelligence Hidden
 42, ䷕, 22, 賁　, 上艮第6, 下離第2, 山火贲　, Adorning
 43, ䷾, 63, 既濟, 上坎第6, 下離第3, 水火既济, Already Fording
@@ -64,7 +68,7 @@
 47, ䷰, 49, 革　, 上兑第6, 下離第7, 泽火革　, Skinning
 48, ䷌, 13, 同人, 上乾第6, 下離第8, 天火同人, Concording People
 
->　　　　　　　　7 , ☱, 58, 兌, 泽, 110, Col.7-lowerTrigramSeq.
+>　　　　　　　　7 , ☱, 58, 兌, 泽, ⚌, 太阳第1, 110, Lake
 49, ䷒, 19, 臨　, 上坤第7, 下兌第1, 地泽临　, Nearing
 50, ䷨, 41, 損　, 上艮第7, 下兌第2, 山泽损　, Diminishing
 51, ䷻, 60, 節　, 上坎第7, 下兌第3, 水泽节　, Articulating
@@ -74,7 +78,7 @@
 55, ䷹, 58, 兌　, 上兑第7, 下兌第7, 兑为泽　, Open
 56, ䷉, 10, 履　, 上乾第7, 下兌第8, 天泽履　, Treading
 
->　　　　　　　　8 , ☰, 1 , 乾, 天, 111, Col.8-possibleBinary
+>　　　　　　　　8 , ☰, 1 , 乾, 天, ⚌, 太阳第2, 111, Heaven, Col.8-
 57, ䷊, 11, 泰　, 上坤第8, 下乾第1, 地天泰　, Pervading
 58, ䷙, 26, 大畜, 上艮第8, 下乾第2, 山天大畜, Great Accumulating
 59, ䷄, 5 , 需　, 上坎第8, 下乾第3, 水天需　, Attending
@@ -84,8 +88,8 @@
 63, ䷪, 43, 夬　, 上兑第8, 下乾第7, 泽天夬　, Displacement
 64, ䷀, 1 , 乾　, 上乾第8, 下乾第8, 乾为天　, Force
 
->　　　　　　　　9 , view, ⭐, 300
-82, zoom in,,,,
-83, zoom out, , , , 
+>　　　　　　　　9 , view, , ⭐, 300
+82, zoom in,,,,,Zoom in
+83, zoom out, , , , ,Zoom out
 
->　　　　　　　　10, help, 🐵, 200
+>　　　　　　　　10, help, , 🐵, 200

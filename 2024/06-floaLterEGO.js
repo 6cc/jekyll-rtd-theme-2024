@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floaLterEGO-0.618
+// @name        floaLterEGO-0.709
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/6/18 06:03:00
+// @description 2024/7/09 06:18:00
 // ==/UserScript==
 
 const uniqueLauncher = () => {
@@ -19,12 +19,18 @@ const preprocessPrecast = () => {
   createTrigger();
   createNavBar();
   const ul_navMenu = document.querySelector('ul.nav-menu');
-  getFileToFrag(strUrl, ul_navMenu);
+  getFileToFragment(strUrl, ul_navMenu);
+
+  sideVertialBar();
+  bottomHorizonBar();
+  pierceRefer();
+  pierceElement();
+
   const menuCss = 'https://6cc.github.io/3/craigErskine.css';
   appendRefer(menuCss);
 };
 
-const getFileToFrag = async (fileURL, targetElem) => {
+const getFileToFragment = async (fileURL, targetElem) => {
   const response = await fetch(fileURL);
   const docData = await response.text();
   const menuSuit = decomposTxtConstrucMenu(docData);
@@ -38,14 +44,14 @@ const decomposTxtConstrucMenu = (docRaw) => {
   for (let i = 1; i < paraSFromDoc.length; i++) {
     const lineSFromPara = arrSpliter(paraSFromDoc[i], '\n');
     const navButtonS = arrSpliter(lineSFromPara[0], ',');
-    const navMenu = assembMenuUnit(navButtonS[1]);
+    const navMenu = assembMenuUnit(navButtonS[3]);
     const ulTag = document.createElement('ul');
     navMenu.appendChild(ulTag);
     fragment.appendChild(navMenu);
 
     for (let j = 1; j < lineSFromPara.length; j++) {
       const strSFromline = arrSpliter(lineSFromPara[j], ',');
-      const menuSub_1 = assembMenuUnit(strSFromline[1]);
+      const menuSub_1 = assembMenuUnit(strSFromline[6]);
       ulTag.appendChild(menuSub_1);
       const ulSub_1 = document.createElement('ul');
       menuSub_1.appendChild(ulSub_1);
@@ -119,7 +125,8 @@ const createNavBar = () => {
   navBar.id = 'navBar';
   navBar.style.position = 'fixed';
   navBar.style.bottom = '40px';
-  navBar.style.width = '818px';
+  navBar.style.right = '0px';
+  navBar.style.width = '50%';
   navBar.style.height = '40px';
   navBar.style.backgroundColor = '#555';
   navBar.style.display = 'none';
@@ -1223,24 +1230,18 @@ const func2 = async (x, y) => {
   console.log(undefined);
 };
 
-sideVertialBar();
-bottomHorizonBar();
-let elementContent = '';
-let cpImageSource = '';
-pierceRefer();
-pierceElement();
-let statusElem = document.querySelector('#status');
-let progressElem = document.querySelector('progress');
-let loadedImageCount, imageCount;
-
 if (document.body) {
   uniqueLauncher();
 } else {
   document.addEventListener("DOMContentLoaded", () => {
     uniqueLauncher();
-
   });
 }
+let elementContent = '';
+let cpImageSource = '';
+let statusElem = document.querySelector('#status');
+let progressElem = document.querySelector('progress');
+let loadedImageCount, imageCount;
 
 document.addEventListener('mouseover', function(event) {
   const hoverElem = event.target;
