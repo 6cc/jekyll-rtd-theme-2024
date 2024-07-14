@@ -1,4 +1,7 @@
-/* nav */
+/* Craig @qrayg
+https://github.com/craigerskine/css-menu
+
+nav */
 .nav-menu,.nav-menu ul,.nav-menu li,.nav-menu a { margin: 0; padding: 0; line-height: normal; list-style: none; display: block; position: relative; }
 .nav-menu ul { opacity: 0; position: absolute; bottom: 100%; right: -9999px; z-index: 999; -webkit-transition: opacity .3s; transition: opacity .3s; }
 .nav-menu li:hover > ul { right: 0; opacity: 1; z-index: 1000; }

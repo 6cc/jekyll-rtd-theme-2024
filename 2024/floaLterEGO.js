@@ -15,7 +15,7 @@ const uniqueLauncher = () => {
 };
 
 const preprocessPrecast = () => {
-  const strUrl = 'https://6cc.github.io/3/6son.md';
+  const strUrl = 'https://6cc.github.io/2024/hexagram.md';
   createTrigger();
   createNavBar();
   const ul_navMenu = document.querySelector('ul.nav-menu');
@@ -26,7 +26,7 @@ const preprocessPrecast = () => {
   pierceRefer();
   pierceElement();
 
-  const menuCss = 'https://6cc.github.io/3/craigErskine.css';
+  const menuCss = 'https://6cc.github.io/2024/menu.css';
   appendRefer(menuCss);
 };
 
@@ -50,7 +50,7 @@ const decomposTxtConstrucMenu = (docRaw) => {
   for (let i = 1; i < paraSFromDoc.length; i++) {
     const lineSFromPara = arrSpliter(paraSFromDoc[i], '\n');
     const navButtonS = arrSpliter(lineSFromPara[0], ',');
-    const navMenu = assembMenuUnit(navButtonS[3]);
+    const navMenu = assembMenuUnit(navButtonS[3], navButtonS[1]);
     const ulTag = document.createElement('ul');
     navMenu.appendChild(ulTag);
     fragment.appendChild(navMenu);
@@ -58,9 +58,11 @@ const decomposTxtConstrucMenu = (docRaw) => {
     for (let j = 1; j < lineSFromPara.length; j++) {
       const strSFromline = arrSpliter(lineSFromPara[j], ',');
       const duoBinary = swapBinary(strSFromline[0]);
-      const genericTerm = genericTermCharS[duoBinary[0]]
-       + genericTermCharS[duoBinary[1]] + strSFromline[3];
-      const menuSub_1 = assembMenuUnit(genericTerm);
+      const gTermSymb = trimExceptUndefined(genericTermCharS[duoBinary[0]]);
+      const gTermChar = trimExceptUndefined(genericTermCharS[duoBinary[1]]);
+      const gTermStr = trimExceptUndefined(strSFromline[3]);
+      const genericTerm = '　' + gTermSymb + gTermChar + gTermStr;
+      const menuSub_1 = assembMenuUnit(strSFromline[1], genericTerm);
       ulTag.appendChild(menuSub_1);
       const ulSub_1 = document.createElement('ul');
       menuSub_1.appendChild(ulSub_1);
@@ -113,11 +115,24 @@ const swapBinary = (str) => {
   return [upperNew, lowerNew];
 };
 
-const assembMenuUnit = (textCont) => {
+const trimExceptUndefined = (valueIn) => {
+  const valueOut = valueIn ? valueIn.trim() : valueIn;
+  return valueOut;
+};
+
+const assembMenuUnit = (hexaSymbol, hexaCharacterS) => {
   const liTag = document.createElement('li');
   const aTag = document.createElement('a');
+  const spanSymb = document.createElement('span');
+  spanSymb.textContent = hexaSymbol;
+  spanSymb.addEventListener('mouseover', () => {
+    articuExpress(aTag.textContent);
+  });
+  const spanCharS = document.createElement('span');
+  spanCharS.textContent = hexaCharacterS;
   aTag.href = '#';
-  aTag.textContent = textCont;
+  aTag.appendChild(spanSymb);
+  aTag.appendChild(spanCharS);
   liTag.appendChild(aTag);
   return liTag;
 };
