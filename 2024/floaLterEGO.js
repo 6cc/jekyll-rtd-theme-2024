@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floaLterEGO-0.712
+// @name        floaLterEGO-0.715
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/7/12 06:18:00
+// @description 2024/7/15 06:18:00
 // ==/UserScript==
 
 const uniqueLauncher = () => {
@@ -171,6 +171,15 @@ const createNavBar = () => {
   navBar.addEventListener('mouseleave', () => {
     navBar.style.display = 'none';
   });
+};
+
+//colxi https://stackoverflow.com/questions/7332179/how-to-recursively-search-all-parentnodes
+const parents = (element, _array) => {
+  if(_array === undefined) _array = []; // initial call
+    else _array.push(element); // add current element
+    // do recursion until BODY is reached
+    if(element.tagName !== 'BODY' ) return parents(element.parentNode, _array);
+    else return _array;
 };
 
 const bottomHorizonBar = () => {
@@ -1252,14 +1261,6 @@ const myTree = new Tree('#' + container, {
 });
 };
 
-const func1 = (x, y) => {
-  console.log(undefined);
-};
-
-const func2 = async (x, y) => {
-  console.log(undefined);
-};
-
 if (document.body) {
   uniqueLauncher();
 } else {
@@ -1267,6 +1268,7 @@ if (document.body) {
     uniqueLauncher();
   });
 }
+let hoverElem = '';
 let elementContent = '';
 let cpImageSource = '';
 let statusElem = document.querySelector('#status');
@@ -1274,7 +1276,7 @@ let progressElem = document.querySelector('progress');
 let loadedImageCount, imageCount;
 
 document.addEventListener('mouseover', function(event) {
-  const hoverElem = event.target;
+  hoverElem = event.target;
   elementContent = hoverElem.innerText ||
     hoverElem.href || hoverElem.src ||
     hoverElem.value;
@@ -1305,7 +1307,48 @@ document.addEventListener('keydown', function(event) {
     case ']':
       console.log(undefined);
       break;
-    case '0':
+    case ';':
+      const recursParentS = parents(hoverElem);
+      let querySel = '';
+      for (let i = recursParentS.length -2 ; i > -1; i--) {
+        const classWithOut = number[i].className === '';
+        const classWithSpace = /\s/.test(recursParentS[i].className);
+        const resultClass = classWithOut || classWithSpace ? '' : '.' + number[i].className;
+        querySel = number[i].localName + resultClass + ' ';
+      }
+
+      const imgArr = [];
+      for (const element of array1) {
+        imgArr.push(element.src);
+      }
+      console.log(imgArr);
+      break;
+    case '/':
+      const msnImgS = new articleMsn().retrieveMsn();
+      let msnTxt = '';
+      for (const element of msnImgS) {
+        msnTxt += element + '\n';
+      }
+      navigator.clipboard.writeText(msnTxt);
+      break;
+    case ',':
+        if ( matchHref() === 'msnCn') {
+          elementContent = cpImageSource;
+        }
+        const currentOur = new Date().getHours();
+        const decentVol = currentOur > 10 ? NaN : .2;
+        navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
+        articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
+        break;
+      case '\\':
+        const entityImg = matchHref();
+        const imgCount = 0;
+        const virtualClipboard = `6//?r=⭐\n${document.title}\n${window.location.href}\n|\n${entityImg}${imgCount}图
+        `;
+        const topHorizonPara = document.querySelector('#topHorizonPara');
+        topHorizonPara.title = virtualClipboard;
+        break
+        case '0':
       stackWindow('fiddle', 400, 500, 640, 480);
       break;
     case '1':
@@ -1323,22 +1366,5 @@ document.addEventListener('keydown', function(event) {
     case '4':
       stackWindow('', 40, 200, 640, 480);
       break;
-      case ',':
-        if ( matchHref() === 'msnCn') {
-          elementContent = cpImageSource;
-        }
-        const currentOur = new Date().getHours();
-        const decentVol = currentOur > 10 ? NaN : .2;
-        navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
-        articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
-        break;
-      case '\\':
-        const entityImg = matchHref();
-        const imgCount = 0;
-        const virtualClipboard = `6//?r=⭐\n${document.title}\n${window.location.href}\n|\n${entityImg}${imgCount}图
-        `;
-        const topHorizonPara = document.querySelector('#topHorizonPara');
-        topHorizonPara.title = virtualClipboard;
-        break
   }
 });
