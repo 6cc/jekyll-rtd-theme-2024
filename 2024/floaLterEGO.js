@@ -173,6 +173,25 @@ const createNavBar = () => {
   });
 };
 
+const elemSAsHoveredRoute = () => {
+  const ancestryRecursion = parents(hoverElem);
+  let querySel = '';
+  for (let i = ancestryRecursion.length - 2 ; i > -1; i--) {
+    const classWithOut = ancestryRecursion[i].className === '';
+    const classWithSpace = /\s/.test(ancestryRecursion[i].className);
+    const resultClass = classWithOut || classWithSpace
+    ? '' : '.' + ancestryRecursion[i].className;
+    querySel = ancestryRecursion[i].localName + resultClass + ' ';
+  }
+
+  const retrievedElemS = document.querySelectorAll(querySel + 'img');
+  const srcArr = [];
+  for (const element of retrievedElemS) {
+    srcArr.push(element.src);
+  }
+  console.log(srcArr);
+};
+
 //colxi https://stackoverflow.com/questions/7332179/how-to-recursively-search-all-parentnodes
 const parents = (element, _array) => {
   if(_array === undefined) _array = []; // initial call
@@ -483,12 +502,10 @@ const pierceElem = (hoverElem) => {
   }
 };
 
-const getFile = (fileURL, targetElem) => {
-  (async () => {
-    const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
-    const docData = await response.text();
-    targetElem.value = docData;
-  })();
+const getFile = async (fileURL, targetElem) => {
+  const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
+  const docData = await response.text();
+  targetElem.value = docData;
 };
 
 const decomposeReconstruct = (rawInput) => {
@@ -1308,20 +1325,10 @@ document.addEventListener('keydown', function(event) {
       console.log(undefined);
       break;
     case ';':
-      const recursParentS = parents(hoverElem);
-      let querySel = '';
-      for (let i = recursParentS.length -2 ; i > -1; i--) {
-        const classWithOut = number[i].className === '';
-        const classWithSpace = /\s/.test(recursParentS[i].className);
-        const resultClass = classWithOut || classWithSpace ? '' : '.' + number[i].className;
-        querySel = number[i].localName + resultClass + ' ';
-      }
-
-      const imgArr = [];
-      for (const element of array1) {
-        imgArr.push(element.src);
-      }
-      console.log(imgArr);
+      catchAsHoverRoute();
+      break;
+    case "'":
+      elemSAsHoveredRoute();
       break;
     case '/':
       const msnImgS = new articleMsn().retrieveMsn();

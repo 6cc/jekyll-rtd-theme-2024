@@ -12,6 +12,10 @@ console.log(typeof true);
 const output = void 1;
 valueOf();
 
+element = document.querySelector(selectors);
+
+var matches = document.querySelectorAll("p");
+
 const func2 = (x, y) => {
   return x + y;
 };
