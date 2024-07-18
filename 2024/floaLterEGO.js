@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floaLterEGO-0.715
+// @name        floaLterEGO-0.718
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/7/15 06:18:00
+// @description 2024/7/18 06:18:00
 // ==/UserScript==
 
 const uniqueLauncher = () => {
@@ -195,10 +195,10 @@ const elemSAsHoveredRoute = () => {
 //colxi https://stackoverflow.com/questions/7332179/how-to-recursively-search-all-parentnodes
 const parents = (element, _array) => {
   if(_array === undefined) _array = []; // initial call
-    else _array.push(element); // add current element
-    // do recursion until BODY is reached
-    if(element.tagName !== 'BODY' ) return parents(element.parentNode, _array);
-    else return _array;
+  else _array.push(element); // add current element
+  // do recursion until BODY is reached
+  if(element.tagName !== 'BODY' ) return parents(element.parentNode, _array);
+  else return _array;
 };
 
 const bottomHorizonBar = () => {
@@ -1292,7 +1292,7 @@ let statusElem = document.querySelector('#status');
 let progressElem = document.querySelector('progress');
 let loadedImageCount, imageCount;
 
-document.addEventListener('mouseover', function(event) {
+document.addEventListener('mouseover', (event) => {
   hoverElem = event.target;
   elementContent = hoverElem.innerText ||
     hoverElem.href || hoverElem.src ||
@@ -1316,19 +1316,34 @@ document.addEventListener('mouseover', function(event) {
 
 });
 
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', (event) => {
   switch (event.altKey && event.key) {
     case '[':
-      console.log(undefined);
+      console.log(NaN);
       break;
     case ']':
-      console.log(undefined);
+      console.log(null);
+      break;
+    case '\\':
+      console.log(NaN);
       break;
     case ';':
-      catchAsHoverRoute();
+      console.log(undefined);
       break;
     case "'":
       elemSAsHoveredRoute();
+      break;
+    case ',':
+      if ( matchHref() === 'msnCn') {
+        elementContent = cpImageSource;
+      }
+      const currentOur = new Date().getHours();
+      const decentVol = currentOur > 10 ? NaN : .2;
+      navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
+      articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
+      break;
+    case '.':
+      console.log(NaN);
       break;
     case '/':
       const msnImgS = new articleMsn().retrieveMsn();
@@ -1338,24 +1353,7 @@ document.addEventListener('keydown', function(event) {
       }
       navigator.clipboard.writeText(msnTxt);
       break;
-    case ',':
-        if ( matchHref() === 'msnCn') {
-          elementContent = cpImageSource;
-        }
-        const currentOur = new Date().getHours();
-        const decentVol = currentOur > 10 ? NaN : .2;
-        navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
-        articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
-        break;
-      case '\\':
-        const entityImg = matchHref();
-        const imgCount = 0;
-        const virtualClipboard = `6//?r=⭐\n${document.title}\n${window.location.href}\n|\n${entityImg}${imgCount}图
-        `;
-        const topHorizonPara = document.querySelector('#topHorizonPara');
-        topHorizonPara.title = virtualClipboard;
-        break
-        case '0':
+    case '0':
       stackWindow('fiddle', 400, 500, 640, 480);
       break;
     case '1':
