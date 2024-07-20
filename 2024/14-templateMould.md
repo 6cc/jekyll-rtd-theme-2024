@@ -3,6 +3,9 @@ NaN
 null
 undefined
 
+'https://jsonplaceholder.typicode.com/todos/1'
+const number = 'http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png';
+'https://www.voidtools.com/zh-cn/License.txt'
 const number = '';
 let x = 1;
 const fruits = [];
@@ -16,13 +19,22 @@ element = document.querySelector(selectors);
 
 var matches = document.querySelectorAll("p");
 
-const func2 = (x, y) => {
+<script>
+  const func1 = (x, y) => {
+    
+  };
+</script>
+
+<script src="javascript.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+const func2 = async (x, y) => {
   return x + y;
 };
 
-const func3 = async (x, y) => {
-  return x + y;
-};
+<style>
+  
+</style>
 
 for (let i = 0; i < 9.length; i++) {
   str = str + i;
@@ -37,6 +49,8 @@ isMember ? '$2.00' : '$10.00';
 .textContent
 .localName
 .className
+
+'http://5b0988e595225.cdn.sohucs.com/images/20190214/351f9d6b4b1f4d4689b3cb5f4244771a.jpeg'
 
 \\accurate now Dbq36 encrypt
 console.log((Date.now()).toString(36));
