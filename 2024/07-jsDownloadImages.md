@@ -1,10 +1,41 @@
 
->　　　　　　　　6//?r=⭐　&d=2024/7/20 15:07:54　&b=lytsel3d
+>　　　　　　　　6//?r=⭐⭐　&d=2024/7/20 15:07:54　&b=lytsel3d
 ## Download Images using JavaScript 📸 - DEV Community
 https://dev.to/sbodi10/download-images-using-javascript-51a9
 |
 const imageBlog = await image.blob()
 const imageURL = URL.createObjectURL(imageBlog)
+
+>Divya Vishwakarma
+Mota bhai this doesn't work when there's CORS restriction!!!
+It will fail at the first fetch call itself.
+
+>Dev Slayer.Tech
+Poo performance when using base64 > 1MB in src
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/25 11:35:40　&b=lz0q0x9o
+## Create and save a file with JavaScript - Stack Overflow
+https://stackoverflow.com/questions/13405129/create-and-save-a-file-with-javascript
+|
+var eventMouse = document.createEvent("MouseEvents");
+        eventMouse.initMouseEvent("click", true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/25 11:39:31　&b=lz0q5v9m
+## javascript - CORS issue, using webworker with blob - Stack Overflow
+https://stackoverflow.com/questions/40725483/cors-issue-using-webworker-with-blob
+|
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/25 11:42:49　&b=lz0qa3lm
+## PSA: Public demo server (cors-anywhere.herokuapp.com) will be very limited by January 2021, 31st · Issue #301 · Rob--W/cors-anywhere
+https://github.com/Rob--W/cors-anywhere/issues/301
+|
+https://cors-anywhere.herokuapp.com
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/25 11:44:36　&b=lz0qcemi
+## [feature request] Cross domain blob building fallback · Issue #36 · GoogleChromeLabs/worker-plugin
+https://github.com/GoogleChromeLabs/worker-plugin/issues/36
+|
+return new _Worker(URL.createObjectURL(blob), opts);
 
 >　　　　　　　　6//?r=⭐　&d=2024/7/20 15:20:47　&b=lytsv5k8
 ## Download image from url
@@ -42,6 +73,13 @@ download("hello world", "dlText.txt", "text/plain");
 
 var ajax=new XMLHttpRequest();
 
+>　　　　　　　　6//?r=⭐　&d=2024/7/25 14:15:30　&b=lz0vqgah
+## 常见 MIME 类型列表 - HTTP | MDN
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+|
+
+image/jpeg
+
 >　　　　　　　　6//?r=⭐　&d=2024/7/19 10:27:24　&b=lys2y06k
 ## Download File Using JavaScript/jQuery - Stack Overflow
 https://stackoverflow.com/questions/3749231/download-file-using-javascript-jquery
@@ -66,14 +104,6 @@ https://stackoverflow.com/questions/16245767/creating-a-blob-from-a-base64-strin
 ## eligrey/FileSaver.js: An HTML5 saveAs() FileSaver implementation
 https://github.com/eligrey/FileSaver.js/
 |
-
-FileSaver.js
-
->　　　　　　　　6//?r=⭐　&d=2024/7/19 13:47:00　&b=lysa2pif
-## rndme/download: file downloading using client-side javascript
-https://github.com/rndme/download
-|
-download(data, strFileName, strMimeType);
 
 >　　　　　　　　6//?r=⭐　&d=2024/7/18 15:00:22　&b=lyqx96zg
 ## jimmywarting/StreamSaver.js: StreamSaver writes stream to the filesystem directly asynchronous

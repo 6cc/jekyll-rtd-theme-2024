@@ -6,7 +6,7 @@ undefined
 'https://jsonplaceholder.typicode.com/todos/1'
 const number = 'http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png';
 'https://www.voidtools.com/zh-cn/License.txt'
-const number = '';
+const yuh = 'https://img.acgn.cc/img/2600/2544/102.jpg';
 let x = 1;
 const fruits = [];
 console.log();
@@ -14,6 +14,7 @@ console.log(dog1.toString());
 console.log(typeof true);
 const output = void 1;
 valueOf();
+'https://www.useotools.com/uploads/nulogo[1].png'
 
 element = document.querySelector(selectors);
 
@@ -63,6 +64,9 @@ console.log(new Date(parseInt('lyi63de1', 36)).toLocaleString());
 
 https://www.google.de/
 https://www.google.com/?gl=us&hl=en&pws=0&gws_rd=cr
+https://github1s.com/probtn/www/blob/HEAD/verify-admitad.txt
+https://gitlab1s.com
+https://npmjs1s.com 
 
 console.log(parseInt("lk3elxkh", 36));
 console.log(Date.parse('2023/8/24 11:45:09'));

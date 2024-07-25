@@ -43,23 +43,157 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qltyQ.img?w=800&h=435
 ## INTJ搞笑梗图，真是非常可爱的INTJ人
 https://www.msn.cn/zh-cn/news/other/intj%E6%90%9E%E7%AC%91%E6%A2%97%E5%9B%BE-%E7%9C%9F%E6%98%AF%E9%9D%9E%E5%B8%B8%E5%8F%AF%E7%88%B1%E7%9A%84intj%E4%BA%BA/ss-BB1qj68b?ocid=msedgntp&pc=U531&cvid=669dc3a7559346b5a7605afe3be58d2f&ei=24
 |
+疼吗？没感觉。
+现在呢？
+你永远都没办法学会所有你想学会的知识和技能。
+intj…
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qjmxz.img?w=800&h=435&q=60&m=2&f=jpg
+
+“我对人的共情能力很强""当然只限影视小说"
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qjdeP.img?w=800&h=435&q=60&m=2&f=jpg
+
+认为的独立INTJ认为的独立：只要有一口气在丝毫不影响我下楼拿快递
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qjjZ0.img?w=800&h=435&q=60&m=2&f=jpg
+
+别人：你应该…..你应该….你应该…INTJ：我的生活不需要你来插手谢谢
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qj682.img?w=800&h=435&q=60&m=2&f=jpg
+
+INTJ朕的底气从来都是我自己
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qjjZ7.img?w=800&h=435&q=60&m=2&f=jpg
+笛卡尔
+
+INTJ，xNTj为什么火大：遇到笨蛋，遇到懒蛋，遇到不听我的人，遇到又笨又懒又不听我还怪我为什么不给感情支持的人。
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qjazz.img?w=800&h=435&q=60&m=2&f=jpg
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/23 11:45:23　&b=lyxvhpkj
+## 数学的浪漫——心形线的故事
+https://www.sohu.com/a/222746565_223014
+|
+
+http://5b0988e595225.cdn.sohucs.com/images/20180214/84e6c2574cd54536bd0d0b31063cdb6a.jpeg
 
 >　　　　　　　　6//?r=⭐　&d=2024/7/22 11:16:17　&b=lywf0fng
 ## 笑死我了，快来看，上班开会的小吗喽
 https://www.msn.cn/zh-cn/news/other/%E7%AC%91%E6%AD%BB%E6%88%91%E4%BA%86-%E5%BF%AB%E6%9D%A5%E7%9C%8B-%E4%B8%8A%E7%8F%AD%E5%BC%80%E4%BC%9A%E7%9A%84%E5%B0%8F%E5%90%97%E5%96%BD/ss-BB1pZDVA?ocid=msedgntp&pc=U531&cvid=669dc3a7559346b5a7605afe3be58d2f&ei=19#image=8
 |
+入职一年。TMD又开始给我画饼了
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1pZBqJ.img?w=800&h=435&q=60&m=2&f=jpg
+
+领导人影都见不到
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1pZueO.img?w=800&h=435&q=60&m=2&f=jpg
+
+我脑子里：这踏马是啥，那踏马又是啥？对了，等会吃啥？
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1pZrJP.img?w=800&h=435&q=60&m=2&f=jpg
 
 >　　　　　　　　6//?r=⭐　&d=2024/7/22 11:19:21　&b=lywf4dhx
 ## 史上最强梗图集，笑到眼泪都出来！
 https://www.msn.cn/zh-cn/news/other/%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%BC%BA%E6%A2%97%E5%9B%BE%E9%9B%86-%E7%AC%91%E5%88%B0%E7%9C%BC%E6%B3%AA%E9%83%BD%E5%87%BA%E6%9D%A5/ss-BB1qlqYP?ocid=msedgntp&pc=U531&cvid=669dc3a7559346b5a7605afe3be58d2f&ei=24#image=3
 |
+呀..这块石板上面只够刻到2012年。哈哈！那就这么着吧，这玩意说不定以后还能吓死一帮傻X呢！
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qlqXY.img?w=800&h=435&q=60&m=2&f=jpg
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/23 11:31:26　&b=lyxuzrv4
+## 笑飞，这些梗图又在演我真实状态了！不得不承认NPC的生活就是这样
+https://www.msn.cn/zh-cn/news/other/%E7%AC%91%E9%A3%9E-%E8%BF%99%E4%BA%9B%E6%A2%97%E5%9B%BE%E5%8F%88%E5%9C%A8%E6%BC%94%E6%88%91%E7%9C%9F%E5%AE%9E%E7%8A%B6%E6%80%81%E4%BA%86-%E4%B8%8D%E5%BE%97%E4%B8%8D%E6%89%BF%E8%AE%A4npc%E7%9A%84%E7%94%9F%E6%B4%BB%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7/ar-BB1qp2Wm?ocid=msedgntp&pc=U531&cvid=669f2160e23741ef83fed31f49a1c5db&ei=42#
+|
+5.爸爸带娃就是这样的：
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qp5aj.img?w=459&h=455&m=6&x=108&y=174&s=62&d=62
+Moms and Daughters
+妈妈和女儿
+Fathers and Sons
+父亲和儿子
+
+6.喜欢滑滑梯不分年龄！
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qpcGj.img?w=481&h=457&m=6
+當你三十歲了還去玩
+兒童設施：
+
+8.只有经历过的人才懂：
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qp5au.img?w=534&h=313&m=6&x=187&y=109&s=41&d=41
+刚看完鸡汤准备好好学习
+刚做两道数学题
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/24 13:36:21　&b=lyzew9jl
+## 生命在酷面前不值一提
+https://www.msn.cn/zh-cn/news/other/%E7%94%9F%E5%91%BD%E5%9C%A8%E9%85%B7%E9%9D%A2%E5%89%8D%E4%B8%8D%E5%80%BC%E4%B8%80%E6%8F%90/ss-BB1qwfMo?ocid=msedgntp&pc=U531&cvid=66a0922f5c7041df95100493d299df96&ei=15
+|
+虽然这件衣服不是最暖和的，但看上去很酷。看样子他被冻死了。干，他看上去好酷，同意。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwinD.img?w=800&h=435&q=60&m=2&f=jpg
+
+海鸥：你又不会飞，要这翅膀有何用？
+- 啪！好痛
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwbrf.img?w=800&h=435&q=60&m=2&f=jpg
+
+古人的智慧在现在也是适用的，只要你肯转换思路，只要你敢用于实践，就能收获奇效。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwkFI.img?w=800&h=435&q=60&m=2&f=jpg
+
+对弈，听雨，品茗，莳花，抚琴，酌酒，焚香
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwfMh.img?w=800&h=435&q=60&m=2&f=jpg
+附庸风雅
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/24 13:59:49　&b=lyzfqfp6
+## 今日份的快乐源泉：超有梗图片大赏
+https://www.msn.cn/zh-cn/news/other/%E4%BB%8A%E6%97%A5%E4%BB%BD%E7%9A%84%E5%BF%AB%E4%B9%90%E6%BA%90%E6%B3%89-%E8%B6%85%E6%9C%89%E6%A2%97%E5%9B%BE%E7%89%87%E5%A4%A7%E8%B5%8F/ss-BB1qwdjo?ocid=msedgntp&pc=U531&cvid=66a0970348154997a556770363eeca35&ei=28#image=3
+|
+我，试图召唤那些被传送到异世界的袜子
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qw6BO.img?w=800&h=435&q=60&m=2&f=jpg
+
+今天我學到了海豹在感到安心和滿足時會把自己凹成香蕉形開心的豹豹蕉蕉
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qw40N.img?w=800&h=435&q=60&m=2&f=jpg
+
+「爽啦再滑700張迷因我就下班了」
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwk1J.img?w=800&h=435&q=60&m=2&f=jpg
+
+我的構成：50%蝙蝠俠50%蜘蛛俠。没有超能力，没有錢
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qw8I8.img?w=800&h=435&q=60&m=2&f=jpg
+
+我，在准备去上班时，突然开始怀念无忧无虑的童年时光
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qw40Y.img?w=800&h=435&q=60&m=2&f=jpg
+
+不小心做了尴尬事的我。试图通过自嘲的方式来缓解尴尬，让自己和他人都感到轻松。从此被贴上了“小丑”的标签。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwdji.img?w=800&h=435&q=60&m=2&f=jpg
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/24 17:13:19　&b=lyzmnab0
+## 笑掉大牙！这些梗图揭示生活中的破防瞬间，太过真实了
+https://www.msn.cn/zh-cn/news/other/%E7%AC%91%E6%8E%89%E5%A4%A7%E7%89%99-%E8%BF%99%E4%BA%9B%E6%A2%97%E5%9B%BE%E6%8F%AD%E7%A4%BA%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E7%A0%B4%E9%98%B2%E7%9E%AC%E9%97%B4-%E5%A4%AA%E8%BF%87%E7%9C%9F%E5%AE%9E%E4%BA%86/ar-BB1qwOgw?ocid=msedgntp&pc=U531&cvid=66a0c2d139ff47a993d903f0d33ff328&ei=74#
+|
+-所以你在小时候一直期待着变成大人吗？
+-没错
+-现在你是大人了，你幸福吗？
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwXg8.img?w=534&h=317&m=6
+
+根据天文学
+当你对着星星许愿时
+其实已经晚了几百年
+那颗星星跟你的梦想一样
+都已经死掉了
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwJxC.img?w=534&h=642&m=6&x=148&y=276&s=184&d=153
+
+大家听我说，如果不从
+舒适区里出来的话，
+你们的生活将一成不变
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwLVe.img?w=534&h=373&m=6
+
+当我的大脑在
+回忆我妈交代
+我买的东西时
+旧电视噪点
+当我的大脑在
+记录我犯下的错时
+4K
+UltraHD
+
+我：妈我长得帅吗
+我妈：简直像个王子
+王子：
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwSKA.img?w=534&h=450&m=6&x=226&y=257&s=276&d=166
+
+用想象中的场景打击自己信心
+然后一蹶不振的我：
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwLVn.img?w=515&h=438&m=6
+
+他们：你不开心的时候你做什么？
+我：看梗图。
+他们：可是你每天都在看梗图。
+我：
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwJxZ.img?w=534&h=489&m=6
