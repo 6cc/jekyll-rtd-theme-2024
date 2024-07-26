@@ -197,3 +197,53 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwLVn.img?w=515&h=438
 他们：可是你每天都在看梗图。
 我：
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qwJxZ.img?w=534&h=489&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/26 09:48:12　&b=lz21mkdo
+## 我承认：这一刻我是真的绷不住了！
+https://www.msn.cn/zh-cn/news/other/%E6%88%91%E6%89%BF%E8%AE%A4-%E8%BF%99%E4%B8%80%E5%88%BB%E6%88%91%E6%98%AF%E7%9C%9F%E7%9A%84%E7%BB%B7%E4%B8%8D%E4%BD%8F%E4%BA%86/ar-BB1qBoO8?ocid=msedgntp&pc=U531&cvid=66a2fdb3fd794f1c85d105791c466568&ei=55
+|
+当你太穷无法承担心理咨询
+的费用
+看来我只能把所有事情
+都化作笑话咯
+Guess Illjust tum
+eer /thing into ajoke
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBfq6.img?w=534&h=450&m=6&x=279&y=179&s=109&d=109
+
+我：我絕對不會再浪費錢買
+那些沒用的東西了
+也是我：
+“尼斯湖海怪大湯匙"
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBfqi.img?w=534&h=491&m=6
+
+我：不能再乱花钱买莫名其妙的东西了
+还是我：
+我给冰块买了个小椅子
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBfqo.img?w=534&h=438&m=6
+
+妈妈：你把打游戏的劲儿放到
+学习上就好了！！！
+21小时前
+失败…失败
+23小时前
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBdcz.img?w=534&h=708&m=6&x=207&y=14&s=319&d=195
+
+时隔多年
+你再次打开
+童年最愛的游戏
+意识到
+让你难忘的，
+并不是这个游戏
+而是当年无忧无虑的自己
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBfqB.img?w=534&h=413&m=6
+
+7.没有人能逃得过的时刻：
+这就是一个理发师把你头发剪挫了之后
+抓着你剩余不多的头发在那边想着该怎
+么补救的样子：
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBaxv.img?w=510&h=405&m=6
+
+8.快把我监控拆了！
+你们入睡的时候是数羊还是数水饺
+数我人生里的错误
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBoNx.img?w=534&h=334&m=6
