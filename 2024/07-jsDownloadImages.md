@@ -31,6 +31,38 @@ https://github.com/Rob--W/cors-anywhere/issues/301
 |
 https://cors-anywhere.herokuapp.com
 
+https://cors.bridged.cc/
+https://cors.sh/
+https://cors-proxy.fringe.zone/
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/27 21:08:18　&b=lz45d19s
+## 10 Free to Use CORS Proxies | Nordic APIs |
+https://nordicapis.com/10-free-to-use-cors-proxies/
+|
+
+corsproxy
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/27 21:08:45　&b=lz45dm4a
+## Cors proxies
+https://gist.github.com/jimmywarting/ac1be6ea0297c16c477e17f8fbe51347
+|
+
+Cors proxies
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/27 21:09:00　&b=lz45dxu4
+## CORS proxy | HTMLDriven.com
+https://cors-proxy.htmldriven.com/
+|
+
+https://cors-proxy.htmldriven.com/?url=
+
+>　　　　　　　　6//?r=⭐　&d=2024/7/27 21:10:19　&b=lz45fmsy
+## Rob--W/cors-anywhere: CORS Anywhere is a NodeJS reverse proxy which adds CORS headers to the proxied request.
+https://github.com/Rob--W/cors-anywhere
+|
+
+cors-anywhere
+
 >　　　　　　　　6//?r=⭐　&d=2024/7/25 11:44:36　&b=lz0qcemi
 ## [feature request] Cross domain blob building fallback · Issue #36 · GoogleChromeLabs/worker-plugin
 https://github.com/GoogleChromeLabs/worker-plugin/issues/36
