@@ -526,12 +526,18 @@ https://v.ijujitv.cc/play/51187-5-28.html
 29
 我不想做跟我父亲一样的事。
 
+30
+夫君你从来没有懂过我的心情。
+
+但也要爬到高位才能参政吧？
+这么麻烦的事交给男人就好了。
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/3 11:22:28　&b=lwyenngf
 ## 涅槃2024年#nhk大河剧##致光之君
 https://weibo.com/5442042794
 |
-https://www.alipan.com/s/8kTZQowRdTv
-qub7
+https://www.alipan.com/s/qpB9ZMfPjbf
+aqq5
 
 >　　　　　　　　6//?r=⭐　&d=2024/2/28 10:40:52　&b=lt56wdb8
 # 【日剧】#霸王龙压制... - @喷火小霸王龙的微博 - 微博
