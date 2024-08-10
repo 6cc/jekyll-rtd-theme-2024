@@ -327,6 +327,12 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ojKgq.img?w=534&h=638
 血液
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ojKgx.img?w=534&h=421&m=6
 
+>　　　　　　　　6//?r=⭐　&d=2024/8/9 11:34:56　&b=lzm5lqqb
+## 兼具自卑与自负，这种双向障碍该如何调解？
+https://www.msn.cn/zh-cn/news/other/%E5%85%BC%E5%85%B7%E8%87%AA%E5%8D%91%E4%B8%8E%E8%87%AA%E8%B4%9F-%E8%BF%99%E7%A7%8D%E5%8F%8C%E5%90%91%E9%9A%9C%E7%A2%8D%E8%AF%A5%E5%A6%82%E4%BD%95%E8%B0%83%E8%A7%A3/ar-BB1n4OTh?ocid=msedgntp&pc=U531&cvid=66b58d0e1e4240fc8a38f1dc708b239f&ei=18
+|
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1n4XPy.img?w=432&h=762&m=6
+
 >　　　　　　　　6//?r=⭐　&d=2024/8/7 10:22:37　&b=lzj85202
 ## 自卑与自负交织，如何平衡这一心理困境？
 https://www.msn.cn/zh-cn/news/other/%E8%87%AA%E5%8D%91%E4%B8%8E%E8%87%AA%E8%B4%9F%E4%BA%A4%E7%BB%87-%E5%A6%82%E4%BD%95%E5%B9%B3%E8%A1%A1%E8%BF%99%E4%B8%80%E5%BF%83%E7%90%86%E5%9B%B0%E5%A2%83/ar-BB1o9APL?ocid=msedgntp&pc=U531&cvid=66b2d1957f9d4e3fa57d511a69fdd466&ei=52

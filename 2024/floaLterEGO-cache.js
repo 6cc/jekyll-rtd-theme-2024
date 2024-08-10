@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        floaLterEGO-0.712
+// @name        floaLterEGO-0.8
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
 // @version     1.0
 // @author      -
-// @description 2024/7/12 06:18:00
+// @description 2024/8/9 07:18:00
 // ==/UserScript==
 
 const uniqueLauncher = () => {
@@ -15,7 +15,7 @@ const uniqueLauncher = () => {
 };
 
 const preprocessPrecast = () => {
-  const strUrl = 'https://6cc.github.io/3/6son.md';
+  const strUrl = 'https://6cc.github.io/2024/hexagram.md';
   createTrigger();
   createNavBar();
   const ul_navMenu = document.querySelector('ul.nav-menu');
@@ -26,7 +26,7 @@ const preprocessPrecast = () => {
   pierceRefer();
   pierceElement();
 
-  const menuCss = 'https://6cc.github.io/3/craigErskine.css';
+  const menuCss = 'https://6cc.github.io/2024/menu.css';
   appendRefer(menuCss);
 };
 
@@ -43,24 +43,26 @@ const decomposTxtConstrucMenu = (docRaw) => {
   const genericTermCharS = {};
   for (const element of paraSFromDoc) {
     const lineSFromPara = arrSpliter(element, '\n');
-    const navButtonS = arrSpliter(lineSFromPara[0], ',');
+    const navButtonS = arrSpliter(lineSFromPara[0], '|');
     genericTermCharS[navButtonS[0]] = navButtonS[4];
   }
   
   for (let i = 1; i < paraSFromDoc.length; i++) {
     const lineSFromPara = arrSpliter(paraSFromDoc[i], '\n');
-    const navButtonS = arrSpliter(lineSFromPara[0], ',');
-    const navMenu = assembMenuUnit(navButtonS[3]);
+    const navButtonS = arrSpliter(lineSFromPara[0], '|');
+    const navMenu = assembMenuUnit(navButtonS[3], navButtonS[1]);
     const ulTag = document.createElement('ul');
     navMenu.appendChild(ulTag);
     fragment.appendChild(navMenu);
 
     for (let j = 1; j < lineSFromPara.length; j++) {
-      const strSFromline = arrSpliter(lineSFromPara[j], ',');
+      const strSFromline = arrSpliter(lineSFromPara[j], '|');
       const duoBinary = swapBinary(strSFromline[0]);
-      const genericTerm = genericTermCharS[duoBinary[0]]
-       + genericTermCharS[duoBinary[1]] + strSFromline[3];
-      const menuSub_1 = assembMenuUnit(genericTerm);
+      const gTermSymb = genericTermCharS[duoBinary[0]];
+      const gTermChar = genericTermCharS[duoBinary[1]];
+      const gTermStr = strSFromline[3];
+      const genericTerm = '　' + gTermSymb + gTermChar + gTermStr;
+      const menuSub_1 = assembMenuUnit(strSFromline[1], genericTerm);
       ulTag.appendChild(menuSub_1);
       const ulSub_1 = document.createElement('ul');
       menuSub_1.appendChild(ulSub_1);
@@ -113,11 +115,19 @@ const swapBinary = (str) => {
   return [upperNew, lowerNew];
 };
 
-const assembMenuUnit = (textCont) => {
+const assembMenuUnit = (symbol, characterS) => {
   const liTag = document.createElement('li');
   const aTag = document.createElement('a');
+  const spanSymb = document.createElement('span');
+  spanSymb.textContent = symbol;
+  spanSymb.addEventListener('mouseover', () => {
+    articuExpress(aTag.textContent);
+  });
+  const spanCharS = document.createElement('span');
+  spanCharS.textContent = characterS;
   aTag.href = '#';
-  aTag.textContent = textCont;
+  aTag.appendChild(spanSymb);
+  aTag.appendChild(spanCharS);
   liTag.appendChild(aTag);
   return liTag;
 };
@@ -156,6 +166,34 @@ const createNavBar = () => {
   navBar.addEventListener('mouseleave', () => {
     navBar.style.display = 'none';
   });
+};
+
+const elemSAsHoveredRoute = () => {
+  const ancestryRecursion = parents(hoverElem);
+  let querySel = '';
+  for (let i = ancestryRecursion.length - 2 ; i > -1; i--) {
+    const classWithOut = ancestryRecursion[i].className === '';
+    const classWithSpace = /\s/.test(ancestryRecursion[i].className);
+    const resultClass = classWithOut || classWithSpace
+    ? '' : '.' + ancestryRecursion[i].className;
+    querySel = ancestryRecursion[i].localName + resultClass + ' ';
+  }
+
+  const retrievedElemS = document.querySelectorAll(querySel + 'img');
+  const srcArr = [];
+  for (const element of retrievedElemS) {
+    srcArr.push(element.src);
+  }
+  console.log(srcArr);
+};
+
+//colxi https://stackoverflow.com/questions/7332179/how-to-recursively-search-all-parentnodes
+const parents = (element, _array) => {
+  if(_array === undefined) _array = []; // initial call
+  else _array.push(element); // add current element
+  // do recursion until BODY is reached
+  if(element.tagName !== 'BODY' ) return parents(element.parentNode, _array);
+  else return _array;
 };
 
 const bottomHorizonBar = () => {
@@ -459,12 +497,10 @@ const pierceElem = (hoverElem) => {
   }
 };
 
-const getFile = (fileURL, targetElem) => {
-  (async () => {
-    const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
-    const docData = await response.text();
-    targetElem.value = docData;
-  })();
+const getFile = async (fileURL, targetElem) => {
+  const response = await fetch(fileURL);//Error gets thrown here, because the asset does not exist in the current code state.
+  const docData = await response.text();
+  targetElem.value = docData;
 };
 
 const decomposeReconstruct = (rawInput) => {
@@ -1237,14 +1273,6 @@ const myTree = new Tree('#' + container, {
 });
 };
 
-const func1 = (x, y) => {
-  console.log(undefined);
-};
-
-const func2 = async (x, y) => {
-  console.log(undefined);
-};
-
 if (document.body) {
   uniqueLauncher();
 } else {
@@ -1252,14 +1280,16 @@ if (document.body) {
     uniqueLauncher();
   });
 }
+
+let hoverElem = '';
 let elementContent = '';
 let cpImageSource = '';
 let statusElem = document.querySelector('#status');
 let progressElem = document.querySelector('progress');
 let loadedImageCount, imageCount;
 
-document.addEventListener('mouseover', function(event) {
-  const hoverElem = event.target;
+document.addEventListener('mouseover', (event) => {
+  hoverElem = event.target;
   elementContent = hoverElem.innerText ||
     hoverElem.href || hoverElem.src ||
     hoverElem.value;
@@ -1282,24 +1312,53 @@ document.addEventListener('mouseover', function(event) {
 
 });
 
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', (event) => {
   switch (event.altKey && event.key) {
     case '[':
-      console.log(undefined);
+      console.log(NaN);
       break;
     case ']':
+      console.log(null);
+      break;
+    case '\\':
       console.log(undefined);
+      break
+    case ';':
+        console.log('');
+      break
+    case "'":
+      elemSAsHoveredRoute();
+      break
+    case ',':
+      if ( matchHref() === 'msnCn') {
+        elementContent = cpImageSource;
+      }
+      const currentOur = new Date().getHours();
+      const decentVol = currentOur > 10 ? NaN : .2;
+      navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
+      articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
+      break;
+    case '.':
+      console.log("");
+      break
+    case '/':
+      const msnImgS = new articleMsn().retrieveMsn();
+      let msnTxt = '';
+      for (const element of msnImgS) {
+        msnTxt += element + '\n';
+      }
+      navigator.clipboard.writeText(msnTxt);
       break;
     case '0':
       stackWindow('fiddle', 400, 500, 640, 480);
       break;
     case '1':
       stackWindow('#' + event.key + ' charCodeAt:'
-       + event.key.charCodeAt(), 40, 40, 200, 250);
+      + event.key.charCodeAt(), 40, 40, 200, 250);
       break;
     case '2':
       stackWindow('#' + event.key + ' charCodeAt:'
-       + event.key.charCodeAt(), 400, 400, 200, 250);
+      + event.key.charCodeAt(), 400, 400, 200, 250);
       break;
     case '3':
       stackWindow('floatTree', 200, 200, 320, 240);
@@ -1308,22 +1367,5 @@ document.addEventListener('keydown', function(event) {
     case '4':
       stackWindow('', 40, 200, 640, 480);
       break;
-      case ',':
-        if ( matchHref() === 'msnCn') {
-          elementContent = cpImageSource;
-        }
-        const currentOur = new Date().getHours();
-        const decentVol = currentOur > 10 ? NaN : .2;
-        navigator.clipboard.writeText(titleUrlSelecTime (elementContent));
-        articuExpress(document.title.slice(0, 10) + '共' + 0 + '张屠', decentVol);
-        break;
-      case '\\':
-        const entityImg = matchHref();
-        const imgCount = 0;
-        const virtualClipboard = `6//?r=⭐\n${document.title}\n${window.location.href}\n|\n${entityImg}${imgCount}图
-        `;
-        const topHorizonPara = document.querySelector('#topHorizonPara');
-        topHorizonPara.title = virtualClipboard;
-        break
   }
 });
