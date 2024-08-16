@@ -558,13 +558,17 @@ https://pan.quark.cn/s/d69f7b1ea06e#/list/share/f06b4a1200274840b54a7c086425e67a
 # sayu717博客-sayu717专栏文章-文集-哔哩哔哩视频
 https://space.bilibili.com/1366330/article
 |
->>　　　　　　　　6//?r=⭐　&d=2024/6/17 15:13:10　&b=lxin29d6
-## 《致光之君》第二十五话简报 - 哔哩哔哩
-https://www.bilibili.com/read/cv35260161/?jump_opus=1
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/12 11:29:04　&b=lzqfprhg
+## 大河ドラマ「光る君へ」 - NHK
+https://www.nhk.jp/p/hikarukimie/ts/1YM111N6KW/
 |
 
-《致光之君》第二十五话简报
-2024年06月10日 20:471323浏览 · 19点赞 · 25评论
+第31回「月の下で」は8月18日（日）の放送です。
+
+https://www.nhk.jp/static/assets/images/tvepisode/te/E5GXWWXYJN/E5GXWWXYJN-eyecatches_4375fab2acea110e7f39fdc46bdcd050.jpg
+https://www.nhk.jp/static/assets/images/tvepisode/te/GP7VK2RKY5/GP7VK2RKY5-eyecatch_1219dca4ad854c366119103659719c16.jpg
+https://www.nhk.jp/static/assets/images/tvepisode/te/GJPW62Y6XW/GJPW62Y6XW-eyecatch_b8abb21fd09cbef535fac3a94582ced1.jpg
 
 >　　　　　　　　6//?r=⭐　&d=2024/6/21 09:57:20　&b=lxo1jhlu
 ## 大河字幕组-怎么办家康（2023）
