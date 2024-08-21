@@ -94,6 +94,24 @@ https://dogemanga.com/images/pages/dzJJevSg.jpg
 只有双方都愿意新人对方才有所为的信用，并不是完全听另一方的要求摆布。
 https://dogemanga.com/images/pages/52UOnYHL.jpg
 
+试试看我嫩不能凭借对自己的信仰使用神圣魔法？
+
+我还能利用信仰我的那些人的大脑，增加我自己的演算领域。
+https://dogemanga.com/images/pages/v59z3RDj.jpg
+
+玛利亚蓓儿，
+贪婪者，
+可以看到并刺激对方的欲望，来随心所欲地操纵对方。
+
+她就在这些不幸之上，构筑起自身的荣华富贵，
+
+在玛利亚蓓儿的眼里，不过是一个专供自己赏玩的微观花园。
+
+爷爷虽然有着远超其他人的野心，但同时
+完美克制住欲望的强大意志力。
+
+假使我有什么万一，你一定要继承我的野心。我的愿望是世界和平，在我们罗佐一族的掌控下，实现一个人人平等的世界。
+
 ## 隐语岛
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg

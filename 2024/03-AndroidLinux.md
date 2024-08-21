@@ -1,7 +1,56 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/8/20 13:50:13　&b=m020a3tz
+## 小米6刷Ubuntu Touch系统体验原生Linux[手机刷LINUX系列]_手机_什么值得买
+https://post.smzdm.com/p/aev0lwv4/
+|
+
+2022-07-15 18:41:19
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/21 15:00:48　&b=lxocdr85
 ## 给 Lumia 950 XL 跑 Debian 9 w/ 主线内核 - V2EX
 https://cn.v2ex.com/t/505213
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/21 10:19:03　&b=m0386dia
+## 如何在 Android 设备上运行 Linux - Linux迷
+https://www.linuxmi.com/android-run-linux.html
+|
+要在没有 root 的情况下在 Android 上安装 Linux：
+Debian Noroot
+UserLAnd
+Andronix
+在有根的 Android 设备上安装 Linux：
+使用 Linux 部署
+安装 Kali Linux 进行渗透测试
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/21 09:50:20　&b=m0375ga1
+## 玩转旧手机：红米刷入Linux（Ubuntu touch）系统详细教程
+https://baijiahao.baidu.com/s?id=1749092503265842291
+|
+
+以前写过ksweb、Linuxdeploy，也试过terminal的方法。
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/21 09:50:33　&b=m0375q4k
+## 这些手机都支持刷入Linux（Ubuntu touch）系统，来玩玩呀
+https://baijiahao.baidu.com/s?id=1749367779740754978
+|
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/21 10:03:04　&b=m037ltn7
+## 无需root，就可以在任意安卓手机上都跑linux
+https://baijiahao.baidu.com/s?id=1750845173758353087
+|
+aidlux搭建服务器
+
+使用termux或者zerotermux.
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/20 15:23:34　&b=m023m5aq
+## How to Install WSL 2 on Windows 10 on ARM - Thomas Maurer
+https://www.thomasmaurer.ch/2019/12/how-to-install-wsl-2-on-windows-10-on-arm/
+|
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/20 15:25:38　&b=m023oss7
+## Windows 10 on Arm with WSL 2 - DEV Community
+https://dev.to/aws-builders/windows-10-on-arm-with-wsl-2-2kbg
+|
 
 　6//?r=⭐　&d=2024/4/17 20:55:01　&b=lv3tewxv
 史上最详细的SurfaceRT越狱运行exe教程 – XNA(MonoGame)游戏开发
@@ -58,6 +107,23 @@ https://www.raspberrypi.com/software/
 　6//?r=⭐　&d=2024/4/16 10:49:07　&b=lv1sbvaj
 ARM/SurfaceRT - Ubuntu Wiki
 https://wiki.ubuntu.com/ARM/SurfaceRT
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/20 15:04:17　&b=m022xcc7
+## Release Grub2.04 for RT · mattschwantes/grub-2.04
+https://github.com/mattschwantes/grub-2.04/releases/tag/V1
+|
+
+GRUB204RT.EFI
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/21 10:31:45　&b=m038mpl4
+## 分享|2023 年值得期待的 5 款最佳 Linux 手机
+https://linux.cn/article-15371-1.html
+|
+1、Librem🥇
+2、Pinephone🥈
+3、Pro 1 X – F(X)tec🥉
+4、Volla Phone
+5、Fairphone 4
 
 　6//?r=⭐　&d=2024/4/16 10:27:37　&b=lv1rk84f
 linux & windows手机 （长期更新） - GKLBB - 博客园
