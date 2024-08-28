@@ -1,4 +1,57 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 11:25:44　&b=m065fu61
+## Linux Deploy安卓版应用APK下载
+https://apkpure.com/cn/linux-deploy/ru.meefik.linuxdeploy
+|
+
+Android 5.0+
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 11:26:31　&b=m065gur1
+## UserLAnd安卓版应用APK下载
+https://apkpure.com/cn/userland-linux-on-android/tech.ula
+|
+
+Android 5.0+
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 11:20:17　&b=m0658u85
+## Andronix安卓版应用APK下载
+https://apkpure.com/cn/andronix-linux-on-android/studio.com.techriz.andronix
+|
+Android 6.0+
+- 需要 Termux（F-Droid 版本）。
+Android 版本应至少为 7.0
+- 支持的设备架构：ARMv7、
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 11:27:22　&b=m065hyai
+## Termux安卓版应用APK下载
+https://apkpure.com/cn/termux/com.termux
+|
+
+Android 11.0+
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 11:31:38　&b=m065nfus
+## termux-releases/Releases/Termux_118 at main · AndronixApp/termux-releases
+https://github.com/AndronixApp/termux-releases/tree/main/Releases/Termux_118
+|
+
+com.termux_118.apk
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/28 11:18:53　&b=m0daeay4
+## 在任意手机部署Nethunter - FreeBuf网络安全行业门户
+https://www.freebuf.com/sectool/162071.html
+|
+offical TWRP app
+BusyBox
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/24 17:28:59　&b=m07xuue3
+## Custom TWRP/CWM recovery for MX4pro,MX4 | XDA Forums
+https://xdaforums.com/t/custom-twrp-cwm-recovery-for-mx4pro-mx4.3172573/
+|
+twrp
+busybox
+supersu
+https://xdaforums.com/attachments/img_0162-jpg.3450827/
+
 >　　　　　　　　6//?r=⭐　&d=2024/8/20 13:50:13　&b=m020a3tz
 ## 小米6刷Ubuntu Touch系统体验原生Linux[手机刷LINUX系列]_手机_什么值得买
 https://post.smzdm.com/p/aev0lwv4/
@@ -21,6 +74,12 @@ Andronix
 在有根的 Android 设备上安装 Linux：
 使用 Linux 部署
 安装 Kali Linux 进行渗透测试
+
+huawei p8 ARMv8-A (64-bit)3GB
+海思 Kirin 930
+
+MX4 Pro ARMv7-A (32-bit)3GB
+Exynos 5430
 
 >　　　　　　　　6//?r=⭐　&d=2024/8/21 09:50:20　&b=m0375ga1
 ## 玩转旧手机：红米刷入Linux（Ubuntu touch）系统详细教程
@@ -79,9 +138,22 @@ Moem » Tue Nov 02, 2021 3:35 am
 
 No, that is not possible. That phone has the wrong architecture to run anything but Win8.1 or possibly W10, in the specific ARM version
 
-　6//?r=⭐　&d=2024/4/16 11:39:51　&b=lv1u53rh
-Install Linux on Lumia 950/XL
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 10:41:40　&b=m063v5wq
+## Install Linux on Lumia 950/XL
 https://empyreal96.github.io/Empys-board/LinuxOn950s.html
+|
+bootaa64.efi and grub.cfg
+- MSM8994/8992
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 10:44:32　&b=m063yusr
+## Qualcomm Snapdragon 808/810 (MSM8992/MSM8994) - postmarketOS Wiki
+https://wiki.postmarketos.org/wiki/Qualcomm_Snapdragon_808/810_(MSM8992/MSM8994)
+|
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/23 10:45:47　&b=m0640gwg
+## Qualcomm Snapdragon 800/801 (MSM8974) - postmarketOS Wiki
+https://wiki.postmarketos.org/wiki/Qualcomm_Snapdragon_800/801_(MSM8974)
+|
 
 　6//?r=⭐　&d=2024/4/16 11:25:49　&b=lv1tn2ar
 7 Linux Smartphone Operating Systems to Install on Your Device
@@ -96,6 +168,20 @@ https://www.makeuseof.com/tag/linux-smartphone-operating-systems/
 7. openSUSE
 armbian
 AndroNix
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/22 10:32:39　&b=m04o3qfs
+## 旧手机红米5 plus刷linux，搭建个人网盘、个人音乐网站（二）（基于Alpine postmarketos)_网络存储_什么值得买
+https://post.smzdm.com/p/apmo0l30/
+|
+
+改直供电
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/22 10:33:09　&b=m04o4dcl
+## 旧手机红米5 plus刷linux，改造nas小主机（一）（基于Alpine postmarketos)_网络存储_什么值得买
+https://post.smzdm.com/p/a6p7ne8n/
+|
+没法触屏，调不出键盘，导致连不上ssh。
+phosh，占用少，稳定性好，推荐下载。
 
 　6//?r=⭐　&d=2024/4/16 10:52:22　&b=lv1sg205
 Surface RT / RT2 安装 Linux 文字版教程 - 哔哩哔哩
@@ -219,10 +305,6 @@ postmarketOS，mobian OS和plasma mobile。
 　6//sp1it=1　6//?r=⭐　&d=2024/3/29 10:07:04　&💻=0　&b=luc0wgiw　&!=🌸
 红米2刷Mobian体验原生Linux及软件安装问题处理[ 手机刷LINUX系列] - 知乎
 https://zhuanlan.zhihu.com/p/554022195
-
-　6//sp1it=1　6//?r=⭐　&d=2024/3/27 14:57:06　&💻=0　&b=lu9gdq9c　&!=🌸
-Install Linux on Lumia 950/XL
-https://empyreal96.github.io/Empys-board/LinuxOn950s.html
 
 　6//sp1it=1　6//?r=⭐　&d=2024/3/27 14:45:39　&💻=0　&b=lu9fz0m7　&!=🌸
 Windows on ARM 原生软件集录(WIP) - 知乎
