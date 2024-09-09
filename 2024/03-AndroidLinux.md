@@ -36,21 +36,28 @@ https://github.com/AndronixApp/termux-releases/tree/main/Releases/Termux_118
 
 com.termux_118.apk
 
+>　　　　　　　　6//?r=⭐　&d=2024/8/29 11:16:46　&b=m0eprfkg
+## 刷了Win10 ARM32的Lumia 1520使用体验及教程 - IT之家
+https://www.ithome.com/0/468/534.htm
+|
+把这两个appx和appxbundle复制到test- appx1-新建文件夹-xaps文件夹下。
+
+重复上述步骤
+
+等运行结束，你会发现应用列表里出现了应用商店。
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/29 11:00:37　&b=m0ep6nbu
+## 附教程：看看你的Lumia手机能不能刷安卓！
+https://www.sohu.com/a/212696001_114760
+|
+LK Bootloader installer
+
 >　　　　　　　　6//?r=⭐　&d=2024/8/28 11:18:53　&b=m0daeay4
 ## 在任意手机部署Nethunter - FreeBuf网络安全行业门户
 https://www.freebuf.com/sectool/162071.html
 |
 offical TWRP app
 BusyBox
-
->　　　　　　　　6//?r=⭐　&d=2024/8/24 17:28:59　&b=m07xuue3
-## Custom TWRP/CWM recovery for MX4pro,MX4 | XDA Forums
-https://xdaforums.com/t/custom-twrp-cwm-recovery-for-mx4pro-mx4.3172573/
-|
-twrp
-busybox
-supersu
-https://xdaforums.com/attachments/img_0162-jpg.3450827/
 
 >　　　　　　　　6//?r=⭐　&d=2024/8/20 13:50:13　&b=m020a3tz
 ## 小米6刷Ubuntu Touch系统体验原生Linux[手机刷LINUX系列]_手机_什么值得买
@@ -313,3 +320,10 @@ https://zhuanlan.zhihu.com/p/576532127
 　6//sp1it=1　6//?r=⭐　&d=2024/3/27 14:45:47　&💻=0　&b=lu9fz6q9　&!=🌸
 Windows ARM software | ‎Home
 https://armrepo.ver.lt/
+
+>　　　　　　　　6//?r=⭐　&d=2024/8/29 11:26:32　&b=m0eq3z4x
+## RedGreenBlue09/WFAv7_Installer: Batch script to install Windows 10 ARM desktop version to Lumia devices (dual boot & single boot).
+https://github.com/RedGreenBlue09/WFAv7_Installer
+|
+
+Windows 10 for ARMv7 Installer
