@@ -660,6 +660,43 @@ https://www.bilibili.com/video/BV19p4SesEmA?p=3
 
 您就将您心中的想法告诉，如实告诉陛下吧。
 
+36
+唐国有个叫白居易的诗人，为人敏发声，写下从蒸者应有典范的汉诗集。
+
+>　　　　　　　　6//?r=⭐　&d=2024/9/23 09:28:16　&b=m1ebw75r
+## 七德舞_百度百科
+    https://baike.baidu.com/item/%E4%B8%83%E5%BE%B7%E8%88%9E/4040743
+    |
+    功成理定何神速，速在推心置人腹。
+
+    则知不独善战善乘时，以心感人人心归。
+
+    怨女三千放出宫，死囚四百来归狱。
+
+    太宗意在陈王业，王业艰难示子孙。
+
+    太宗亲自治丧，悲不自禁，有司慌忙奏道：“日在辰，阴阳所忌，不可哭。”太宗却道：“君臣义重，父子之情也。情发于中，安知辰日？”说完痛哭。
+
+我现在精力旺盛，把这个精力发泄在野兽上，总比发泄在人身上好吧。
+
+你要吃肉，却不想弄脏自己的手吗？
+
+>　　　　　　　　6//?r=⭐　&d=2024/9/23 09:49:09　&b=m1ecn1o3
+## 太行路（白居易创作的乐府诗）_百度百科
+    https://baike.baidu.com/item/%E5%A4%AA%E8%A1%8C%E8%B7%AF/10598586
+    |
+
+    人心好恶苦不常，好生毛羽恶生疮。
+
+人喜好与厌恶的心是非常善变的，一旦喜欢就会像生出羽翼一般捧上了天。一旦讨厌，就会怎么看都是缺陷。
+
+形塑一个人的性格的，正是缺陷。
+
+这魔物未免太强了吧？
+
+- 不要把孩子当成政争工具。
+ - 我才不听夫君的呢。
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/3 11:22:28　&b=lwyenngf
 ## 涅槃2024年#nhk大河剧##致光之君
 https://weibo.com/5442042794
@@ -699,6 +736,7 @@ https://www.nhk.jp/p/hikarukimie/ts/1YM111N6KW/
 https://www.nhk.jp/static/assets/images/tvepisode/te/E5GXWWXYJN/E5GXWWXYJN-eyecatches_4375fab2acea110e7f39fdc46bdcd050.jpg
 https://www.nhk.jp/static/assets/images/tvepisode/te/GP7VK2RKY5/GP7VK2RKY5-eyecatch_1219dca4ad854c366119103659719c16.jpg
 https://www.nhk.jp/static/assets/images/tvepisode/te/GJPW62Y6XW/GJPW62Y6XW-eyecatch_b8abb21fd09cbef535fac3a94582ced1.jpg
+https://www.nhk.jp/static/assets/images/tvepisode/te/Z8YMXLYY52/Z8YMXLYY52-eyecatches_485d67af9f46a7cc34ae72fa0d843813.jpg
 
 >　　　　　　　　6//?r=⭐　&d=2024/6/21 09:57:20　&b=lxo1jhlu
 ## 大河字幕组-怎么办家康（2023）
