@@ -1,5 +1,15 @@
 
-# 01
+>　　　　　　　　6//?r=⭐　&d=2024/8/12 11:29:04　&b=lzqfprhg
+# 大河ドラマ「光る君へ」 - NHK
+https://www.nhk.jp/p/hikarukimie/ts/1YM111N6KW/
+|
+致光之君
+https://www.nhk.jp/static/assets/images/tvepisode/te/E5GXWWXYJN/E5GXWWXYJN-eyecatches_4375fab2acea110e7f39fdc46bdcd050.jpg
+https://www.nhk.jp/static/assets/images/tvepisode/te/GP7VK2RKY5/GP7VK2RKY5-eyecatch_1219dca4ad854c366119103659719c16.jpg
+https://www.nhk.jp/static/assets/images/tvepisode/te/GJPW62Y6XW/GJPW62Y6XW-eyecatch_b8abb21fd09cbef535fac3a94582ced1.jpg
+https://www.nhk.jp/static/assets/images/tvepisode/te/Z8YMXLYY52/Z8YMXLYY52-eyecatches_485d67af9f46a7cc34ae72fa0d843813.jpg
+
+## 01
 母亲大人，您最近都不弹琵琶了。
 
 同床共枕几次，就慢慢喜欢上了吧。
@@ -697,6 +707,30 @@ https://www.bilibili.com/video/BV19p4SesEmA?p=3
 - 不要把孩子当成政争工具。
  - 我才不听夫君的呢。
 
+37
+她别扭的性格跟我一模一样。
+
+乙丸哭跟笑都是同一个表情。
+
+就是因为母亲不是正室，我才只能生活在这么穷的家里吧。
+
+说来故事记述着这世上，自神代时期所发生的事。日本书纪也不过是其中的片面而已。故事中正详细记述世间道理吧。
+
+透过女性特有的视点，加上汉籍的素养才完成了前所未有的故事。
+
+这就是身居高位者的从容吧。
+
+38
+不管多为孩子着想，孩子好像都感受不到呢。
+
+夫妻也好，亲子也好。人跟人是不可能完全了解彼此的吧。
+
+我们该达成的目标是，掌握无可动摇的权力，为天下百姓推行德政。
+
+取谁为妻不是凭自己的意思决定的事。
+
+男人的命运是靠妻子决定的。
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/3 11:22:28　&b=lwyenngf
 ## 涅槃2024年#nhk大河剧##致光之君
 https://weibo.com/5442042794
@@ -725,18 +759,6 @@ https://pan.quark.cn/s/d69f7b1ea06e#/list/share/f06b4a1200274840b54a7c086425e67a
 # sayu717博客-sayu717专栏文章-文集-哔哩哔哩视频
 https://space.bilibili.com/1366330/article
 |
-
->　　　　　　　　6//?r=⭐　&d=2024/8/12 11:29:04　&b=lzqfprhg
-## 大河ドラマ「光る君へ」 - NHK
-https://www.nhk.jp/p/hikarukimie/ts/1YM111N6KW/
-|
-
-第31回「月の下で」は8月18日（日）の放送です。
-
-https://www.nhk.jp/static/assets/images/tvepisode/te/E5GXWWXYJN/E5GXWWXYJN-eyecatches_4375fab2acea110e7f39fdc46bdcd050.jpg
-https://www.nhk.jp/static/assets/images/tvepisode/te/GP7VK2RKY5/GP7VK2RKY5-eyecatch_1219dca4ad854c366119103659719c16.jpg
-https://www.nhk.jp/static/assets/images/tvepisode/te/GJPW62Y6XW/GJPW62Y6XW-eyecatch_b8abb21fd09cbef535fac3a94582ced1.jpg
-https://www.nhk.jp/static/assets/images/tvepisode/te/Z8YMXLYY52/Z8YMXLYY52-eyecatches_485d67af9f46a7cc34ae72fa0d843813.jpg
 
 >　　　　　　　　6//?r=⭐　&d=2024/6/21 09:57:20　&b=lxo1jhlu
 ## 大河字幕组-怎么办家康（2023）

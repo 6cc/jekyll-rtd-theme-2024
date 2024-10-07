@@ -1,4 +1,16 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/9/30 22:38:24　&b=m1p479xm
+## 一些黑洞实际上可能是时空的皱纹
+https://www.msn.cn/zh-cn/news/other/%E4%B8%80%E4%BA%9B%E9%BB%91%E6%B4%9E%E5%AE%9E%E9%99%85%E4%B8%8A%E5%8F%AF%E8%83%BD%E6%98%AF%E6%97%B6%E7%A9%BA%E7%9A%84%E7%9A%B1%E7%BA%B9/ar-AA1rp2l1?ocid=msedgntp&pc=U531&cvid=66fab6990b534b8e91acef06667bb4d2&ei=33
+|
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1roVHp.img?w=534&h=321&m=6
+
+解释量子引力的主要候选者是弦理论。它提出了另一种现实模型，它抛弃了三个传统的空间维度，转而支持
+更多。
+超弦理论表明存在 10 个空间维度，包括我们习以为常的三个。M 理论增加了一个额外的维度，使总数达到 11；玻色子弦理论总共需要 26 个空间维度，加上时间。
+
+添加空间维度意味着从现有维度延伸 90 度。例如，如果您从一条一维线开始并以 90 度连接另一条线，您现在就有了一个具有长度和深度的二维对象（或平面）。将该平面从其表面向上（或向下）拉动 90 度，您将得到一个三维物体。因此，添加第四个空间维度需要将 3D 对象再扩展 90 度。
+
 >　　　　　　　　6//?r=⭐　&d=2024/9/24 20:13:33　&b=m1gedvih
 ## 一种新的物理学理论认为穿越虫洞旅行是可能的
 https://www.msn.cn/zh-cn/news/other/%E4%B8%80%E7%A7%8D%E6%96%B0%E7%9A%84%E7%89%A9%E7%90%86%E5%AD%A6%E7%90%86%E8%AE%BA%E8%AE%A4%E4%B8%BA%E7%A9%BF%E8%B6%8A%E8%99%AB%E6%B4%9E%E6%97%85%E8%A1%8C%E6%98%AF%E5%8F%AF%E8%83%BD%E7%9A%84/ar-AA1qqhGG?ocid=msedgntp&pc=U531&cvid=66f231c7b9e24e1a936d1c0eb481ec95&ei=34
