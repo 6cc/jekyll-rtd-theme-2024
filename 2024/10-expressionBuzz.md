@@ -35,3 +35,14 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1s7MkM.img?w=534&h=801
 放学后我们一起回家吧
 可以申请做你的同桌吗
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1s7MkR.img?w=534&h=801&m=6&x=543&y=862&s=129&d=129
+
+Hot Chick Grabs my Junk Jizz in my Pants
+http://www.quickmeme.com/meme/19og
+http://www.quickmeme.com/img/ac/ac94c0210bab0e9c82013e0131ad5a40a3c49d5ab7c210c2347732ebe1b5a0ff.jpg
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/15 10:20:33　&b=m29tg66k
+## 这游戏为了让玩家爽，竟然这么不择手段？
+https://www.msn.cn/zh-cn/gaming/other/%E8%BF%99%E6%B8%B8%E6%88%8F%E4%B8%BA%E4%BA%86%E8%AE%A9%E7%8E%A9%E5%AE%B6%E7%88%BD-%E7%AB%9F%E7%84%B6%E8%BF%99%E4%B9%88%E4%B8%8D%E6%8B%A9%E6%89%8B%E6%AE%B5/ar-AA1rklWs?ocid=msedgntp&pc=U531&cvid=84a3e521c5cc42ecbc83e04f83850dec&ei=25
+|
+闭嘴拿我钱Shut up and take my money
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1rkotC.img?w=534&h=329&m=6
