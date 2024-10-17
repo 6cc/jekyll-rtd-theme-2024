@@ -84,3 +84,147 @@ https://www.msn.cn/zh-cn/news/other/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6-%E7%A9%
 |
 量子力学
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1r95o5.img?w=534&h=291&m=6
+
+>　　　　　　　　6//?r=⭐⭐　&d=2024/10/16 10:44:58　&b=m2b9rexw
+## 你可能不知道：四维时空下所有物体竟以光速飞行！
+https://www.msn.cn/zh-cn/news/other/%E4%BD%A0%E5%8F%AF%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93-%E5%9B%9B%E7%BB%B4%E6%97%B6%E7%A9%BA%E4%B8%8B%E6%89%80%E6%9C%89%E7%89%A9%E4%BD%93%E7%AB%9F%E4%BB%A5%E5%85%89%E9%80%9F%E9%A3%9E%E8%A1%8C/ar-AA1sl0no?ocid=msedgntp&pc=U531&cvid=670f2395b54140489db49affb2f6049b&ei=41
+|
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sl4I1.img?w=534&h=368&m=6
+>表盘，蓝色，发光，多个
+
+“所有事物在四维时空中以光速移动”
+对“四维时空”和“三维空间”的混淆，
+爱因斯坦相对论与牛顿经典力学之间的区别。
+
+狭义相对论是在四维时空（闵可夫斯基时空）的背景下提出的，四维时空中的基本单元是事件，也就是连续发生的事件。每个事件都包含了时间和空间两个要素：一个时间坐标和三个空间坐标。
+
+在四维时空中，时间和空间是平等的，不可分割的整体。
+
+时间（年）
+未来光锥
+现在的超曲面
+观测者
+过去光锥
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1skTrw.img?w=534&h=315&m=6
+
+“时空图”（或者世界线）
+
+prediction预测
+time时间
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1skTrz.img?w=534&h=280&m=6
+
+在四维时空中，一个事件由四个坐标来表示，例如我们可以用事件p1（x1,y1,z1,t1)来表示，同理用p2(x2,y2,z2,t2)来表示另一个事件。从p1移动到p2即为四维时空中的位移（时空距离）
+
+空间
+时间
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1skY3F.img?w=534&h=306&m=6
+
+在沙发上“静止”（三维空间中的静止）的你，速度为零。但在四维时空中，你的时间坐标持续变化，一直在运动，
+你的速度恰好是光速。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1skTrF.img?w=534&h=356&m=6
+
+要想在时间维度中静止
+除非你在空间维度以光速移动！
+
+在空间维度以光速移动时，时间就静止了。这不正是爱因斯坦狭义相对论中描述的“时间膨胀”（钟慢效应）吗？
+
+时间膨胀指出：速度（空间速度）越快，时间就越慢。反之亦然：速度越慢，时间就越快。
+
+质增效应（静止质量）
+尺缩效应（固有长度）
+钟慢效应（固有时间）
+质能公式E=mc^2，V是运动速度，o是光速
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1skY3L.img?w=534&h=457&m=6
+
+速度的最慢极限是
+零。速度为零代表空间上的静止。速度为零时，时间流逝速度最快，即为光速！
+
+即便你坐在沙发上一动不动（空间上的静止），在时间维度上你仍旧以光速移动！
+
+简单来说，想要让时间变慢，就需要快速在空间上移动。想要让时间流速加快，只需要让空间速度尽量减慢即可。
+
+time（years）时间
+future light cone未来光锥
+space空间
+hypersurface of the present现在超表面
+observer观察员
+space
+past light cone过去光锥
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1skTrK.img?w=534&h=475&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/16 10:50:07　&b=m2b9y17p
+## 揭秘宇宙奥秘：为何万物在时空里以光速运动？
+https://www.msn.cn/zh-cn/news/other/%E6%8F%AD%E7%A7%98%E5%AE%87%E5%AE%99%E5%A5%A5%E7%A7%98-%E4%B8%BA%E4%BD%95%E4%B8%87%E7%89%A9%E5%9C%A8%E6%97%B6%E7%A9%BA%E9%87%8C%E4%BB%A5%E5%85%89%E9%80%9F%E8%BF%90%E5%8A%A8/ar-BB1r1LS2?ocid=msedgntp&pc=U531&cvid=dd977b1bd15e4c0bbe22793dd729907a&ei=3
+|
+time（years）时间
+future light cone未来光锥
+space空间
+hypersurface of the present现在超表面
+observer观察员
+space
+past light cone过去光锥
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oryxp.img?w=534&h=474&m=6
+
+在四维时空中，速度被称为四维速度，它不仅是空间位移与时间的比值，更是时空位移与时间的比值。时空位移是物体在四维时空中的路径，而时间则是物体经历的固有时——这是指相对于物体自身的时间，不同于我们通常意义上的绝对时间。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1ortPC.img?w=534&h=280&m=6
+
+狭义相对论告诉我们，所有物体的四维速度的模的平方都等于光速的平方。这意味着，尽管我们通常只感知到物体在空间中的运动，但实际上，它们在时空中的运动速度总是光速。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1ortPD.img?w=534&h=306&m=6
+
+狭义相对论中的一个核心概念是光速极限——没有任何物体可以在时空中的运动速度超过光速。这个极限不仅适用于空间速度，也适用于时间速度。
+
+时间膨胀效应
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1orp3w.img?w=534&h=391&m=6
+
+相对论时间膨胀效应公式
+t
+v2
+c2
+根据公式计算：
+当速度达到光速的0.5倍时，时间膨胀效应为慢1.15倍；
+当速度达到光速的0.9倍时，时间膨胀效应为慢2.29倍；
+当速度达到光速的0.99倍时，时间膨胀效应为慢7倍；
+当速度达到光速的0.9999倍时，时间膨胀效应为慢70倍；
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1ormKj.img?w=534&h=323&m=6&x=754&y=129&s=173&d=173
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/16 21:46:49　&b=m2bxek84
+## 广义相对论很难理解吗？一点也不难，可以这样通俗理解！
+https://www.msn.cn/zh-cn/news/other/%E5%B9%BF%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%E5%BE%88%E9%9A%BE%E7%90%86%E8%A7%A3%E5%90%97-%E4%B8%80%E7%82%B9%E4%B9%9F%E4%B8%8D%E9%9A%BE-%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7%E9%80%9A%E4%BF%97%E7%90%86%E8%A7%A3/ar-AA1pz9YL?ocid=msedgntp&pc=U531&cvid=b40a658a45c34366a93164250cce7a1d&ei=38
+|
+
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pz9X6.img?w=534&h=280&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pz11k.img?w=488&h=488&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pz5EE.img?w=534&h=534&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pzcwg.img?w=500&h=263&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pz808.img?w=534&h=253&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/17 09:55:51　&b=m2cng430
+## 广义相对论难以掌握？揭秘轻松理解的通俗方法！
+https://www.msn.cn/zh-cn/news/other/%E5%B9%BF%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%E9%9A%BE%E4%BB%A5%E6%8E%8C%E6%8F%A1-%E6%8F%AD%E7%A7%98%E8%BD%BB%E6%9D%BE%E7%90%86%E8%A7%A3%E7%9A%84%E9%80%9A%E4%BF%97%E6%96%B9%E6%B3%95/ar-AA1pyiyz?ocid=BingHp01&cvid=2ef7b3f039ca416d877a58dadcf1522c&ei=21
+|
+
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pysE0.img?w=534&h=280&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pyiyg.img?w=488&h=488&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pynvC.img?w=534&h=534&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pynvF.img?w=534&h=271&m=6&x=69&y=179&s=97&d=97
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pysE9.img?w=500&h=263&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pynvO.img?w=534&h=253&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/16 21:43:09　&b=m2bx9uc5
+## 揭秘光速的“霸道”：时间和空间为何是相对的？
+https://www.msn.cn/zh-cn/news/other/%E6%8F%AD%E7%A7%98%E5%85%89%E9%80%9F%E7%9A%84-%E9%9C%B8%E9%81%93-%E6%97%B6%E9%97%B4%E5%92%8C%E7%A9%BA%E9%97%B4%E4%B8%BA%E4%BD%95%E6%98%AF%E7%9B%B8%E5%AF%B9%E7%9A%84/ar-AA1rJws6?ocid=msedgntp&pc=U531&cvid=670fc0f996a34ae1af7708f5535296ed&ei=19
+|
+我们的一生仿佛被一股绵绵不绝的洪流牵引着，我们称之为时间。
+
+然而，时间真的切实存在吗？
+
+在真空中，光速为每秒30万公里（此处为约数）。假设你乘坐一艘以87%光速飞行的飞船（相对于地球上的观察者），即约每秒26万公里的速度飞行。
+
+根据爱因斯坦的相对论，你所经历的一秒钟（你的固有时）在地球上的观察者看来并不是一秒，而是两秒。
+
+在这两秒中，地球上的观察者看到你飞过了52万公里，但在你看来，你只飞了26万公里，
+
+麦克斯韦方程组中推导出 电磁波速度
+E0：是真空介电常数
+W：是真空磁导率
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1r59XZ.img?w=534&h=317&m=6

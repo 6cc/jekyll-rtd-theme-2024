@@ -46,3 +46,19 @@ https://www.msn.cn/zh-cn/gaming/other/%E8%BF%99%E6%B8%B8%E6%88%8F%E4%B8%BA%E4%BA
 |
 闭嘴拿我钱Shut up and take my money
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1rkotC.img?w=534&h=329&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/16 10:12:17　&b=m2b8le43
+## 国内某烤肉店最低俗的一幕曝光：病态现象，正在恶心中国年轻人
+https://www.msn.cn/zh-cn/news/other/%E5%9B%BD%E5%86%85%E6%9F%90%E7%83%A4%E8%82%89%E5%BA%97%E6%9C%80%E4%BD%8E%E4%BF%97%E7%9A%84%E4%B8%80%E5%B9%95%E6%9B%9D%E5%85%89-%E7%97%85%E6%80%81%E7%8E%B0%E8%B1%A1-%E6%AD%A3%E5%9C%A8%E6%81%B6%E5%BF%83%E4%B8%AD%E5%9B%BD%E5%B9%B4%E8%BD%BB%E4%BA%BA/ar-AA1s7WKz?ocid=msedgntp&pc=U531&cvid=b949f84efd1743d9b018d00039625765&ei=19
+|
+物化女性的宣传语：
+“如果你不努力，你的女儿可能被同龄人抱着；你努力，你抱着同龄人的女儿。”
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1scFpT.img?w=534&h=788&m=6
+
+投放后被全民谩骂，公司奖励20万。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1scSOY.img?w=534&h=569&m=6
+
+林迪效应：随着时间的推移，能够经受住时间考验的事物，通常会有更长的预期存续时间。
+
+而那些不能与时间“风险共担”的事物，则会被淘汰。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1scKbP.img?w=534&h=238&m=6

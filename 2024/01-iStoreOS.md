@@ -11,6 +11,14 @@ SSH进去，设置目录权限 777
 
 chmod -R 777 /mnt/sata1-4/smb
 
+>　　　　　　　　6//?r=⭐　&d=2024/10/16 16:23:59　&b=m2blve82
+## 【求帮助】openwrt，aria2，发生错误(16) 文件创建或删除已有文件失败-OPENWRT专版-恩山无线论坛
+https://www.right.com.cn/forum/thread-4019560-1-1.html
+|
+也可能是权限问题，登录到设备console界面，看看是不是读写权限不足，如果是，chmod 777 (下载文件夹)，打开读写权限
+
+chmod 777 /mnt/5/7
+
 　6//sp1it=1　6//?r=⭐　&d=2024/1/28 17:32:00　&💻=0　&b=lrxaxo62　&!=🌸
 OpenWrt 正确编译安装 OpenClash 的方法 - 彧繎博客
 https://opclash.com/article/241.html

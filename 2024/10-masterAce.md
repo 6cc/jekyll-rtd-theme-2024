@@ -82,3 +82,17 @@ https://chat.getloli.com/room/@pure%20land
 https://chat.getloli.com/room/@絵師が集まる場所~
 
 https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/16 14:37:11　&b=m2bi21lm
+## 资源站
+https://darrendanielday.github.io/posts/anime-sites/
+|
+DarrenDanielDay
+https://avatars.githubusercontent.com/u/43780355?v=4
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/16 14:41:37　&b=m2bi7r87
+## GitHub - DarrenDanielDay/script-plus: A scripting plugin for vscode
+https://github.com/DarrenDanielDay/script-plus
+|
+一个可以简单的可通过运行 JS/TS 脚本调用 vscode API 的插件。
+简单来说，此插件是vscode的油猴脚本.
