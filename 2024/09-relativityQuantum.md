@@ -228,3 +228,19 @@ https://www.msn.cn/zh-cn/news/other/%E6%8F%AD%E7%A7%98%E5%85%89%E9%80%9F%E7%9A%8
 E0：是真空介电常数
 W：是真空磁导率
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1r59XZ.img?w=534&h=317&m=6
+
+>　　　　　　　　6//?r=⭐⭐　&d=2024/10/17 15:17:31　&b=m2cyxrnz
+## 9.99级曲速引擎：近光速10000倍，能否开启人类星际旅行新篇章？
+https://www.msn.cn/zh-cn/news/other/9-99%E7%BA%A7%E6%9B%B2%E9%80%9F%E5%BC%95%E6%93%8E-%E8%BF%91%E5%85%89%E9%80%9F10000%E5%80%8D-%E8%83%BD%E5%90%A6%E5%BC%80%E5%90%AF%E4%BA%BA%E7%B1%BB%E6%98%9F%E9%99%85%E6%97%85%E8%A1%8C%E6%96%B0%E7%AF%87%E7%AB%A0/ar-AA1skVTC?ocid=msedgntp&pc=U531&cvid=6710b5dbecd24c48ba36b5391c4c08f9&ei=21
+|
+要想实现真正的星际旅行，超光速旅行是必须的，否则人类将被束缚在太阳系内，
+
+曲速引擎并不像传统发动机那样直接推动航天器前进，而是在航天器周围形成一个“时空泡泡”，通过移动这个泡泡来带动航天器，从而实现超光速旅行。在这个过程中，飞船实际上是相对静止的，只是周围的时空结构发生了变化。这种方式并不违背自然法则。
+
+根据爱因斯坦的广义相对论，这种现象的本质是时空的弯曲。有质量的物体能影响时空结构，使之发生弯曲。时空弯曲在外在的表现形式就是引力。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sl0Gv.img?w=534&h=284&m=6
+
+银河系为例，它的直径大约为200,000光年。即便以3052倍光速穿越银河系，也需要60多年的时间，而在宇宙中，类似银河系这样的星系实在是太普遍了。
+
+与曲速引擎相比，更让人憧憬的星际旅行技术莫过于“太空跳跃”，或者说是“虫洞”。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sl4ZT.img?w=534&h=332&m=6
