@@ -70,7 +70,7 @@ https://post.smzdm.com/p/aev0lwv4/
 ## 给 Lumia 950 XL 跑 Debian 9 w/ 主线内核 - V2EX
 https://cn.v2ex.com/t/505213
 
->　　　　　　　　6//?r=⭐　&d=2024/8/21 10:19:03　&b=m0386dia
+>　　　　　　　　6//?r=⭐⭐　&d=2024/8/21 10:19:03　&b=m0386dia
 ## 如何在 Android 设备上运行 Linux - Linux迷
 https://www.linuxmi.com/android-run-linux.html
 |

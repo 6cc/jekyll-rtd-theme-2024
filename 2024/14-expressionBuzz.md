@@ -69,3 +69,20 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1scSOY.img?w=534&h=569
 
 而那些不能与时间“风险共担”的事物，则会被淘汰。
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1scKbP.img?w=534&h=238&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/19 15:49:03　&b=m2fuy0yn
+## 陪女领导出差第二季 - 搞七捻三 - LINUX DO
+https://linux.do/t/topic/236081/7
+|
+我打了一辈子仗就不能享受享受吗？
+https://linux.do/uploads/default/original/3X/b/f/bf0e65f12aaffacb47d33e33f743ea8c9b4bb066.jpeg
+
+https://puui.qpic.cn/vpic_cover/g3112gx9dg9/g3112gx9dg9_vt.jpg/260?max_age=7776000
+接着奏乐，接着舞
+https://puui.qpic.cn/vpic_cover/k3501bcb225/k3501bcb225_1675351908_hz.jpg/1280
+
+## 网友吵翻！农夫山泉被喷日本元素泛滥，癫子没事找事离谱到新境界... - 知乎
+https://zhuanlan.zhihu.com/p/685968309
+
+https://pic2.zhimg.com/80/v2-92cc8a5a4393cb7f90f24adcb55bd991_1440w.webp
+交流障碍，我，你。

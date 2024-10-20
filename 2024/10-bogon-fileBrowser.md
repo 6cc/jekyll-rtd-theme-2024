@@ -1,3 +1,21 @@
+## bogon
+### TL-WDR8650
+>http://192.168.1.1
+D0-76-E7-95-05-52　\\MAC Address
+TP-LINK TECHNOLOGIES CO.,LTD.
+
+### DESKTOP-VHLI68V
+>192.168.1.117
+58-11-22-B4-74-2F
+ASUSTek COMPUTER INC.
+fe80::5b8:cfbd:73d8:787e　\\Local IPv6
+
+### Latitude E6230
+>http://192.168.1.100
+F0-1F-AF-1A-88-42
+Dell Inc.
+fe80::f21f:afff:fe1a:8842
+
 cd C:\23h2\filebrowser
 .\filebrowser config set --address 192.168.1.115 --port 80
 
