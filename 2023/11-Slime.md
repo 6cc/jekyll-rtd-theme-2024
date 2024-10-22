@@ -112,6 +112,17 @@ https://dogemanga.com/images/pages/v59z3RDj.jpg
 
 假使我有什么万一，你一定要继承我的野心。我的愿望是世界和平，在我们罗佐一族的掌控下，实现一个人人平等的世界。
 
+东之低过
+他们可是吞并了大量周边的过家才逐步成长到今天的贪婪之过啊！
+你们统治阶级基本是难逃一死了。
+https://dogemanga.com/images/pages/6qs5bfHR.jpg
+
+大国贵族的作风还真是不敢苟同呢。
+
+思念传达
+https://dogemanga.com/images/pages/ZHeWh1pH.jpg
+>意念？
+
 ## 隐语岛
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg

@@ -86,3 +86,11 @@ https://zhuanlan.zhihu.com/p/685968309
 
 https://pic2.zhimg.com/80/v2-92cc8a5a4393cb7f90f24adcb55bd991_1440w.webp
 交流障碍，我，你。
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/21 13:46:32　&b=m2ilg6cs
+## 自带味道的游戏《夜勤病栋》上架steam
+https://www.msn.cn/zh-cn/gaming/other/%E8%87%AA%E5%B8%A6%E5%91%B3%E9%81%93%E7%9A%84%E6%B8%B8%E6%88%8F-%E5%A4%9C%E5%8B%A4%E7%97%85%E6%A0%8B-%E4%B8%8A%E6%9E%B6steam/ar-AA1sC268?ocid=msedgntp&pc=U531&cvid=6715e9dc701f47febabaed8a1cf05c7f&ei=29
+|
+你连心爱的女人的大便都不敢吃
+还敢说爱地
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sC95H.img?w=534&h=391&m=6

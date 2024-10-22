@@ -738,6 +738,20 @@ https://www.bilibili.com/video/BV19p4SesEmA?p=3
 
 我不想走跟母亲一样的路。
 
+## 40
+没有罪过的恋爱，就太无趣了啊。
+
+愈是险阻重重的恋情，愈是让人热情如火啊。
+
+源氏物语
+谁也无法像千年松树般长寿不如在那个人会为我凭吊时死去，还有人会因为我的死而哀伤，也算是不枉此生了。
+
+朕想多少体会一下正在受苦的百姓的感受。
+
+道长大人应该时忌惮言灵的力量所以才没说出口吧。
+
+父亲你到底多不把我当一回事？
+
 >　　　　　　　　6//?r=⭐　&d=2024/10/14 10:16:46　&b=m28dvgfe
 ## 百炼镜－辨皇王鉴也_百度百科
 https://baike.baidu.com/item/%E7%99%BE%E7%82%BC%E9%95%9C%EF%BC%8D%E8%BE%A8%E7%9A%87%E7%8E%8B%E9%89%B4%E4%B9%9F/18855703
@@ -762,16 +776,22 @@ https://www.weibo.com/7221437522/NANVqmX0d
 
 https://pan.quark.cn/s/a8dc162b18de#/list/share/42dbb47c562f4d9c834a2fc09449fbea
 
+https://www.alipan.com/s/2UbuaFMm4VQ
+https://pan.baidu.com/share/init?surl=VFMOmuh_61i9JywpuipZlA&pwd=trex
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/5 09:12:47　&b=lx14wklq
-## 微博搜索
-https://s.weibo.com/weibo?q=%23%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B%23
+## 不知名压制小人z
+https://www.weibo.com/7800864480/OCs62eINB
 |
 https://pan.quark.cn/s/d69f7b1ea06e#/list/share/f06b4a1200274840b54a7c086425e67a-%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B
-不知名压制小人z
+
 链接：https://pan.baidu.com/s/1P7eRO8iJ03mSJBCOXdaKyg?pwd=6868 
 提取码：6868 
 
+致光之君
 https://pan.baidu.com/s/1z7uDsTCRIZg75ZNDDisEwA#list/path=%2Fsharelink1101080454690-458871210028042%2F%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B&parentPath=%2Fsharelink1101080454690-458871210028042
+
+https://s.weibo.com/weibo?q=%23%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B%23
 
 >　　　　　　　　6//?r=⭐　&d=2024/6/17 15:13:52　&b=lxin358p
 # sayu717博客-sayu717专栏文章-文集-哔哩哔哩视频
