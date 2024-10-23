@@ -100,7 +100,5 @@ You are from:
 <https://www.ntunhs.net/?HPLang=EN&LV=3&IP=69.50.92.0>
 |
 69.50.92.72
-```note
-https://6cc.github.io/2024/10-c.yaml
-{% raw %}{% include list.liquid all=true %}{% endraw %}
 {% include list.liquid all=true %}
+{% raw %}{% include list.liquid all=true %}{% endraw %}

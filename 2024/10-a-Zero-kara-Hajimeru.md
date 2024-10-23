@@ -1,7 +1,8 @@
+## 10-Zero-kara-Hajimeru-Isekai
 
 >　　　　　　　　6//?r=⭐　&d=2024/10/16 14:32:34　&b=m2bhw43n
 ## 从零 - ACG在一起
-https://so.acg17.cc/s/index.php?searchInput=从零
+https://so.acg17.cc/s/index.php?searchInput=%E4%BB%8E%E9%9B%B6
 |
 原36dm.org
 

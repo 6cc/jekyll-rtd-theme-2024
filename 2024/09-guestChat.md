@@ -11,6 +11,13 @@ select * from message;
 
 .quit
 
+>　　　　　　　　6//?r=⭐　&d=2024/10/23 15:16:24　&b=m2ljjg7s
+## 【docker常用命令系列】Docker容器挂载目录原理方法适用场景示例详解 - 知乎
+https://zhuanlan.zhihu.com/p/667272282
+|
+
+docker run -v /path/to/data:/app/data docker-image
+
 >　　　　　　　　6//?r=⭐　&d=2024/9/26 13:38:20　&b=m1iv5c0p
 ## docker 进入，退出容器命令_进入r后怎样退到docker里面-CSDN博客
     https://blog.csdn.net/weixin_38982591/article/details/103989153

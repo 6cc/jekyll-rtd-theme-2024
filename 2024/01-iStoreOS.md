@@ -1,3 +1,7 @@
+# 6
+/mnt/kimm231/6
+# /root/overlay/upper/etc/docker
+https://docker.1panel.live
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/28 17:10:38　&💻=0　&b=lrxa67kh　&!=🌸
 OpenWrt 安装 OpenClash 插件并配置节点 - 彧繎博客
@@ -11,13 +15,19 @@ SSH进去，设置目录权限 777
 
 chmod -R 777 /mnt/sata1-4/smb
 
+>　　　　　　　　6//?r=⭐　&d=2024/10/23 14:49:07　&b=m2likd8t
+## Linux chmod 命令 | 菜鸟教程
+https://www.runoob.com/linux/linux-comm-chmod.html
+|
+-R : 对目前目录下的所有文件与子目录进行相同的权限变更(即以递归的方式逐个变更)
+
 >　　　　　　　　6//?r=⭐　&d=2024/10/16 16:23:59　&b=m2blve82
 ## 【求帮助】openwrt，aria2，发生错误(16) 文件创建或删除已有文件失败-OPENWRT专版-恩山无线论坛
 https://www.right.com.cn/forum/thread-4019560-1-1.html
 |
 也可能是权限问题，登录到设备console界面，看看是不是读写权限不足，如果是，chmod 777 (下载文件夹)，打开读写权限
 
-chmod 777 /mnt/5/7
+chmod 777 /mnt/kimm231/9/ariaDown
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/28 17:32:00　&💻=0　&b=lrxaxo62　&!=🌸
 OpenWrt 正确编译安装 OpenClash 的方法 - 彧繎博客

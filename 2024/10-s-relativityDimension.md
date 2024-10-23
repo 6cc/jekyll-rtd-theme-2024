@@ -278,3 +278,24 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sGk3x.img?w=534&h=357
 其实，那座山就是你想象中的“未来”，绿洲是你心目中的“过去”，而你对自己存在的认知就是“现在”。它们都是你意识的一部分，共同存在于一个叫做“宇宙”的超级大沙漠里。
 
 “过去”和“未来”都是假的，时间这玩意儿根本就不存在，它只是空间运动给你造成的一种错觉。在这片沙漠里，无论你把大山和绿洲的位置互换，还是把它们放在你的左边或者右边，都改变不了你坐在原地不动的现实，
+
+>　　　　　　　　6//?r=⭐⭐　&d=2024/10/22 22:16:32　&b=m2kj3w3n
+## 量子力学中的“量子”到底什么意思？是一种基本粒子吗？
+https://www.msn.cn/zh-cn/news/other/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84-%E9%87%8F%E5%AD%90-%E5%88%B0%E5%BA%95%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D-%E6%98%AF%E4%B8%80%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%B2%92%E5%AD%90%E5%90%97/ar-AA1sHbsO?ocid=msedgntp&pc=U531&cvid=6717b2d94d934e71a82d05ec9e7f0c1d&ei=9
+|
+
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sH0l6.img?w=534&h=287&m=6
+
+量子一词听上去与分子、原子、电子、质子等粒子非常相似，很容易让人误以为它也是一种具体的粒子。然而，量子并不代表一种具体的粒子。
+
+它并不是一个实体的“东西”，而是一种物理概念。简单说来，量子就是一种物理量中不可再分割的最小单位。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sH9fU.img?w=534&h=334&m=6
+
+假设将全人类视为一个物理量，那么这个物理量的最小单位便是“一个人”，不存在半个人，“一个人”便是全人类这个物理量的量子。
+
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sH0mS.img?w=534&h=465&m=6
+
+分解一个300位的大数，用传统计算机可能需要15万年，而利用量子叠加技术并行运算，仅需一秒钟即可完成。
+
+量子通信则主要利用了量子的纠缠特性。当多个量子互相作用后，他们的状态会形成一个不可分割的整体，所有受作用的量子将处于“纠缠态”。即便将这些量子分开至遥远的距离，它们的总体状态依然保持不变。
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sH0ox.img?w=534&h=301&m=6
