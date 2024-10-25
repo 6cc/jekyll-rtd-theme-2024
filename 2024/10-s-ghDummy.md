@@ -7,10 +7,19 @@ cf worker版本部署
 https://workers.cloudflare.com
 
 Docker部署
+
 https://gh.api.99988866.xyz/
 https://ghproxy.net/
 https://cf.ghproxy.cc/
 https://mirror.v2gh.com/
+
+GitMirror 提供
+https://hub.gitmirror.com
+https://gh.con.sh
+其他
+https://ghproxy.com
+https://ghps.cc
+https://gh.ddlc.top
 
 https://hub.gitmirror.com/https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 
@@ -60,3 +69,69 @@ https://ghproxy.com/
 　https://ghps.cc/
 
 https://gh.ddlc.top/
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/24 10:18:59　&b=m2moctgm
+## Github RAW 加速服务 | 7ED
+https://www.7ed.net/gitmirror/raw.html
+|
+前往 Telegram @dockermirror_bot 生成您的私有加速链接
+或者原拉取镜像
+docker pull YOUR_PRIVATE.LINK/library/alpine:latest
+
+Bing 每日图片
+https://7ed.net/bing/api
+https://api.7ed.net/bing/api
+
+Soup 毒鸡汤
+https://www.7ed.net/soup/api
+https://api.7ed.net/soup/api
+
+<p id="badsoup">有人一笑就很好看，你是一看就挺好笑。</p>
+<script>
+  var xhr = new XMLHttpRequest();
+  xhr.open('get', 'https://www.7ed.net/soup/api');
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      var data = JSON.parse(xhr.responseText);
+      var badsoup = document.getElementById('badsoup');
+      badsoup.innerText = data.badsoup;
+    }
+  }
+  xhr.send();
+</script>
+
+弱智吧言论
+https://www.7ed.net/ruozi/api
+https://api.7ed.net/ruozi/api
+
+天气这么冷，为什么不发明一种洗澡的时候不用脱的衣服——@废纸篓战神
+王老汉通过尸变改掉了赖床的坏习惯——建议封楼主永久
+有钱人的孩子就是不一样，才上幼儿园就会背韭韭惩罚表 ——劣永周
+历史是由胜利者书写的，所以整个春秋战国没人打的过司马迁。——皓月明云
+
+https://raw.gitmirror.com/imagehosted/images/master/2019/06/20190612115457.png
+
+https://gist.gitmirror.com/dimitardanailov/6acdd54ab67d5a25c0229b2fe5bbb42b/raw/397f0873922a6aa48895074cc28d7f71c8261b81/create_user.sh
+​
+https://cdn.gitmirror.com/gh/ntdevlabs/tiny11builder/main/tiny11maker.ps1
+
+https://cdn.gitmirror.com/gh/imagehosted/images/master/2022/06/01/c4001b42c2142f548d2d8b83be72ff37.png
+
+https://raw.gitmirror.com/NiceVPN123/NiceVPN/main/images/workflows.jpg
+https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/images/workflows.jpg
+
+囚k3s熒
+https://cdn.gitmirror.com/gh/y0ngb1n/image-hosting-01/main/images/2022-11-16-21-30-B950B9C1.png
+https://cdn.gitmirror.com/gh/y0ngb1n/image-hosting-01/master/images/2022-11-16-21-30-B950B9C1.png
+https://github.com/y0ngb1n/image-hosting-01/blob/main/images/2022-11-16-21-30-B950B9C1.png
+https://raw.githubusercontent.com/y0ngb1n/image-hosting-01/main/images/2022-11-16-21-30-B950B9C1.png
+
+k3s Server k3s Agent Process
+https://cdn.gitmirror.com/gh/y0ngb1n/image-hosting-01/main/images/2022-11-16-21-30-BCB83DF4.png
+https://github.com/y0ngb1n/image-hosting-01/blob/main/images/2022-11-16-21-30-BCB83DF4.png
+https://raw.githubusercontent.com/y0ngb1n/image-hosting-01/main/images/2022-11-16-21-30-BCB83DF4.png
+
+囚
+https://cdn.gitmirror.com/gh/y0ngb1n/image-hosting-01/main/images/2022-11-19-23-30-81C56943.png
+https://github.com/y0ngb1n/image-hosting-01/blob/main/images/2022-11-19-23-30-81C56943.png
+https://raw.githubusercontent.com/y0ngb1n/image-hosting-01/main/images/2022-11-19-23-30-81C56943.png

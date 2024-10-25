@@ -16,6 +16,17 @@ https://nodefree.org/dy/2024/11/20241113.txt
 
 https://nodefree.org/dy/2024/11/20241113.yaml
 
+>　　　　　　　　6//?r=⭐　&d=2024/10/25 11:21:47　&b=m2o61ffq
+## 【2024年10月25日】每日更新！高速免费节点，SSR/V2ray/Clash订阅链接 | 免费高速节点推荐
+https://free.datiya.com/post/20241025/
+|
+https://freenode.openrunner.net/uploads/20241101-clash.yaml
+
+https://freenode.openrunner.net/uploads/20241101-v2ray.txt
+
+OpenRunner
+https://github.com/OpenRunner/clash-freenode
+
 　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:23:27　&💻=0　&b=lr8l5359　&!=🌸
 v2rayShare – SSR/V2ray/Clash免费节点
 https://v2rayshare.com

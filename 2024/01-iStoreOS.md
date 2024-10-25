@@ -3,6 +3,8 @@
 # /root/overlay/upper/etc/docker
 https://docker.1panel.live
 
+/mnt/sata1-4
+
 　6//sp1it=1　6//?r=⭐　&d=2024/1/28 17:10:38　&💻=0　&b=lrxa67kh　&!=🌸
 OpenWrt 安装 OpenClash 插件并配置节点 - 彧繎博客
 https://opclash.com/article/80.html
@@ -67,6 +69,21 @@ https://cdn.jsdelivr.net/gh/weilining/img@main/img/valinebg.webp
 
 https://kkgithub.com/williamleecn/tpclash2
 https://kkgithub.com/LaoYutang/clash-and-dashboard
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/25 14:16:17　&b=m2oc9ukp
+## 最强软路由系统iStoreOS_X86安装体验，极简化设置、一键旁路由、小白强烈推荐_NAS存储_什么值得买
+https://post.smzdm.com/p/a0qrvdgw/
+|
+vi /etc/config/network
+
+config interface 'lan'
+	option device 'br-lan'
+	option ipaddr '192.168.1.162'
+	option netmask '255.255.255.0'
+	option proto 'static'
+
+option proto 'dhcp'
+option defaultroute '0'
 
 　6//sp1it=1　6//?r=⭐　&d=2024/2/7 13:58:30　&💻=0　&b=lsbdpn7s　&!=🌸
 配置iStoreOS虚拟机 | 渊澄

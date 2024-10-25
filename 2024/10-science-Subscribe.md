@@ -99,8 +99,26 @@ https://github.com/ts-sf/fly
 
 https://mirror.v2gh.com/https://raw.githubusercontent.com/ts-sf/fly/main/clash
 
+## WebberHuang
+https://gist.github.com/WebberHuang/5acd146d03047129bc85e847e78bf21a
+
 >　　　　　　　　6//?r=⭐　&d=2024/10/21 10:02:19　&b=m2idftt5
 ## GitHub - 9Knight9n/v2ray-aggregator: A super aggregator for some other free v2ray aggregators
 https://github.com/9Knight9n/v2ray-aggregator
 |
 merged_24h.txt
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/24 09:54:46　&b=m2mnho11
+## GitHub - NiceVPN123/NiceVPN: 一个开放的节点库，为了自由的隐私
+https://github.com/NiceVPN123/NiceVPN
+|
+https://raw.gitmirror.com/NiceVPN123/NiceVPN/main/Clash.yaml
+https://ghproxy.net/https://raw.githubusercontent.com/NiceVPN123/NiceVPN/refs/heads/main/Clash.yaml
+时间表
+
+1. 2022年12月 Exodus，出埃及记
+2. 2023年1月-2023年6月 Odyssey，奥迪赛
+3. 2023年7月-2023年8月 Great Voyage，伟大航程
+4. 2023年9月-2024年3月 Apollo，阿波罗
+5. 2024年3月-2025年9月 Star Trek，星际旅行
+6. 2025年 Eternity，永恒之地
