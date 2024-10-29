@@ -759,11 +759,23 @@ https://baike.baidu.com/item/%E7%99%BE%E7%82%BC%E9%95%9C%EF%BC%8D%E8%BE%A8%E7%9A
 
 百炼镜，镕范非常规，日辰处所灵且祇，江心波上舟中铸，五月五日日午时。琼粉金膏磨莹已，化为一片秋潭水。镜成将献蓬莱宫，扬州长吏手自封。人间臣妾不合照，背有九五飞天龙。人人呼为天子镜，我有一言闻太宗。太宗常以人为镜，鉴古鉴今不鉴容。四海安危居掌内，百王治乱悬心中。乃知天子别有镜，不是扬州百炼铜。
 
+41
+我不喜欢生气。
+我不会对母亲以外的人发脾气。
+
+我希望能在陛下在世时多跟他写歌交流，好想再多跟他聊聊跟他谈笑。
+
+而且有了同伴，比自己一个人还要有乐趣，也会为了同伴变得更强。
+
+我活泼一点母亲就很高兴，所以我才表现出喜欢跑来跑去的样子。
+
+说什么手足之间不要竞争，但你总是只对我的孩子说这种话。
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/3 11:22:28　&b=lwyenngf
 ## 涅槃2024年#nhk大河剧##致光之君
 https://weibo.com/5442042794
 |
-https://www.alipan.com/s/12jhe4JmAQd
+https://www.alipan.com/s/12jhe4JmAQd/folder/66ab2ec063cd1a0dd3e9409798965b24a7c18b04
 j3jd
 https://www.alipan.com/s/qpB9ZMfPjbf
 aqq5
@@ -787,7 +799,11 @@ https://pan.quark.cn/s/d69f7b1ea06e#/list/share/f06b4a1200274840b54a7c086425e67a
 链接：https://pan.baidu.com/s/1P7eRO8iJ03mSJBCOXdaKyg?pwd=6868 
 提取码：6868 
 
-致光之君
+迅雷
+链接：https://pan.xunlei.com/s/VNnYp3DsuZa9f1p7PuoKUahlA1?pwd=gwhk#
+
+https://pan.baidu.com/share/init?surl=z7uDsTCRIZg75ZNDDisEwA
+
 https://pan.baidu.com/s/1z7uDsTCRIZg75ZNDDisEwA#list/path=%2Fsharelink1101080454690-458871210028042%2F%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B&parentPath=%2Fsharelink1101080454690-458871210028042
 
 https://s.weibo.com/weibo?q=%23%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B%23

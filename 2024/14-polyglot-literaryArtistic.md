@@ -11,8 +11,14 @@ Quadrilingual – speaks 4 languages
 Pentalingual – speaks 5 languages
 Polyglot – speaks many languages
 
+# A
+anonymous匿名
+
 # H
 hypothesis猜想，假说
+
+# L
+Lorem Ipsum乱文假数
 
 # M
 myth神话

@@ -1,9 +1,12 @@
 # 6
-/mnt/kimm231/6
+/mnt/data_sda4/6/d
 # /root/overlay/upper/etc/docker
 https://docker.1panel.live
 
 /mnt/sata1-4
+
+Docker 根目录
+/overlay/upper/opt/docker
 
 　6//sp1it=1　6//?r=⭐　&d=2024/1/28 17:10:38　&💻=0　&b=lrxa67kh　&!=🌸
 OpenWrt 安装 OpenClash 插件并配置节点 - 彧繎博客
