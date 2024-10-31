@@ -122,3 +122,20 @@ https://ghproxy.net/https://raw.githubusercontent.com/NiceVPN123/NiceVPN/refs/he
 4. 2023年9月-2024年3月 Apollo，阿波罗
 5. 2024年3月-2025年9月 Star Trek，星际旅行
 6. 2025年 Eternity，永恒之地
+
+## adiwzx
+https://github.com/adiwzx/freenode
+https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml
+
+Clash音乐净化订阅
+https://raw.githubusercontent.com/adiwzx/freenode/main/adinetmuisc.yml
+
+v2ray订阅
+https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/31 10:05:49　&b=m2wnyup1
+## GitHub - bq2015/FreeProxies: 永久免费翻墙/科学上网，节点每10分钟自动更新，仅保留可用节点。订阅链接可一键导入，无需频繁更换。如果觉得有帮助，请点个星星支持一下。为了防止链接丢失，建议fork到自己的仓库。
+https://github.com/bq2015/FreeProxies
+|
+天边外
+https://blue2sea.com/clash/2930b532dc3dd2bb91bfe0f4406ac9cd

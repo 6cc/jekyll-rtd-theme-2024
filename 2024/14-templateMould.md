@@ -86,3 +86,10 @@ console.log(Date.parse('2023/8/24 11:45:09'));
 console.log(new Date(1692778480347).toLocaleString());
 console.log((12345).toString(36));
 console.log(parseInt("lo5gi977", 36));
+
+https://api.ocr.space/parse/imageurl?apikey=K88766003188957&url=https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1t6Ke5.img&language=jpn&OCREngine=1&detectOrientation=true&TextOrientation=0
+
+https://api.ocr.space/parse/imageurl?apikey=K88766003188957&url=https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1t6Vdt.img&language=chs&OCREngine=1&detectOrientation=true&TextOrientation=0
+
+'90'
+"270"

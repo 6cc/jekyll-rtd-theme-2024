@@ -18,3 +18,11 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1r6vqt.img?w=534&h=305
 ## 细胞被放大3000倍后，科学家发现其内部结构，活脱脱一个微型宇宙
 https://www.msn.cn/zh-cn/news/other/%E7%BB%86%E8%83%9E%E8%A2%AB%E6%94%BE%E5%A4%A73000%E5%80%8D%E5%90%8E-%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%8F%91%E7%8E%B0%E5%85%B6%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84-%E6%B4%BB%E8%84%B1%E8%84%B1%E4%B8%80%E4%B8%AA%E5%BE%AE%E5%9E%8B%E5%AE%87%E5%AE%99/ar-AA1smnes?ocid=msedgntp&pc=U531&cvid=6710b5dbecd24c48ba36b5391c4c08f9&ei=8
 |
+
+>　　　　　　　　6//?r=⭐　&d=2024/10/31 22:38:07　&b=m2xeub72
+## 宇宙早已进化出意识，奈何人类身处维度过低，听不懂它的语言
+https://www.msn.cn/zh-cn/news/other/%E5%AE%87%E5%AE%99%E6%97%A9%E5%B7%B2%E8%BF%9B%E5%8C%96%E5%87%BA%E6%84%8F%E8%AF%86-%E5%A5%88%E4%BD%95%E4%BA%BA%E7%B1%BB%E8%BA%AB%E5%A4%84%E7%BB%B4%E5%BA%A6%E8%BF%87%E4%BD%8E-%E5%90%AC%E4%B8%8D%E6%87%82%E5%AE%83%E7%9A%84%E8%AF%AD%E8%A8%80/ar-AA1teUW6?ocid=msedgntp&pc=U531&cvid=672393f2ddf74edb8a65aec10631aea1&ei=9
+|
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1teSFh.img?w=534&h=279&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1teXtW.img?w=534&h=241&m=6
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tf2hv.img?w=534&h=276&m=6
