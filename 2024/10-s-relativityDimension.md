@@ -198,6 +198,13 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pz5EE.img?w=534&h=534
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pzcwg.img?w=500&h=263&m=6
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pz808.img?w=534&h=253&m=6
 
+>　　　　　　　　6//?r=⭐　&d=2024/11/3 22:14:00　&b=m31oaur7
+## 广义相对论很难理解吗？一点也不难，可以这样通俗理解！
+https://www.msn.cn/zh-cn/news/other/%E5%B9%BF%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%E5%BE%88%E9%9A%BE%E7%90%86%E8%A7%A3%E5%90%97-%E4%B8%80%E7%82%B9%E4%B9%9F%E4%B8%8D%E9%9A%BE-%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7%E9%80%9A%E4%BF%97%E7%90%86%E8%A7%A3/ar-AA1pr2ll?ocid=anaheim-ntp-feeds&pc=U531&cvid=672783e9a8a74735a81948b1f8cd135d&ei=31
+|
+
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pqVhV.img?w=534&h=280&m=6
+
 >　　　　　　　　6//?r=⭐　&d=2024/10/17 09:55:51　&b=m2cng430
 ## 广义相对论难以掌握？揭秘轻松理解的通俗方法！
 https://www.msn.cn/zh-cn/news/other/%E5%B9%BF%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA%E9%9A%BE%E4%BB%A5%E6%8E%8C%E6%8F%A1-%E6%8F%AD%E7%A7%98%E8%BD%BB%E6%9D%BE%E7%90%86%E8%A7%A3%E7%9A%84%E9%80%9A%E4%BF%97%E6%96%B9%E6%B3%95/ar-AA1pyiyz?ocid=BingHp01&cvid=2ef7b3f039ca416d877a58dadcf1522c&ei=21

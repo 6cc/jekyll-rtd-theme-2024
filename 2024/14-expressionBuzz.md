@@ -111,3 +111,20 @@ https://www.msn.cn/zh-cn/gaming/other/%E6%B5%B7%E8%B4%BC%E7%8E%8B1131%E8%AF%9D%E
 |
 得早做了断了，否则世界将陷入皿众相互争夺安全场所的惨状
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tbf72.img?w=534&h=292&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/1 09:43:12　&b=m2y2lm63
+## 好评率仅17%的诈骗游戏，从MMORPG改成了单机后大翻盘了
+https://www.msn.cn/zh-cn/news/other/%E5%A5%BD%E8%AF%84%E7%8E%87%E4%BB%8517-%E7%9A%84%E8%AF%88%E9%AA%97%E6%B8%B8%E6%88%8F-%E4%BB%8Emmorpg%E6%94%B9%E6%88%90%E4%BA%86%E5%8D%95%E6%9C%BA%E5%90%8E%E5%A4%A7%E7%BF%BB%E7%9B%98%E4%BA%86/ar-AA1tfN7P?ocid=msedgdhp&pc=U531&cvid=67242d076eab48d89215acf47cd52f1b&ei=37
+|
+老子来为你送终
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tfJsL.img?w=534&h=401&m=6&x=459&y=68&s=95&d=95
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/1 09:45:30　&b=m2y2okdx
+## 傻子表情包大全：我妈不让我跟傻子玩、楼上是傻子、你怕是个傻子
+https://www.sohu.com/a/239004433_99925148
+|
+关爱傻子的目光
+https://5b0988e595225.cdn.sohucs.com/images/20180703/15857c18cd1e43be810d32ac1767b734.jpeg
+
+关爱傻子的笑容
+https://5b0988e595225.cdn.sohucs.com/images/20180703/015db77e80c3441398731839c965d2d0.jpeg

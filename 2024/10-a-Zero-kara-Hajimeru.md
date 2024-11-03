@@ -12,7 +12,7 @@ https://garden.breadio.wiki/resources/1?search=%5B%22%E4%BB%8E%E9%9B%B6%22%5D
 
 >　　　　　　　　6//?r=⭐　&d=2024/10/16 14:32:34　&b=m2bhw43n
 ## 从零 - ACG在一起
-https://so.acg17.cc/s/index.php?searchInput=Re%3A从
+https://so.acg17.cc/s/index.php?searchInput=%E4%BB%8E%E9%9B%B6&searchButton=
 |
 原36dm.org
 
