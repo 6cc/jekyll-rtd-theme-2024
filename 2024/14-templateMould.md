@@ -91,5 +91,7 @@ https://api.ocr.space/parse/imageurl?apikey=K88766003188957&url=https://img-s-ms
 
 https://api.ocr.space/parse/imageurl?apikey=K88766003188957&url=https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1t6Vdt.img&language=chs&OCREngine=1&detectOrientation=true&TextOrientation=0
 
+https://api.ocr.space/parse/imageurl?apikey=K88766003188957&url=https://bkimg.cdn.bcebos.com/pic/3801213fb80e7bec27b2325e272eb9389b506b20&language=chs&OCREngine=1&detectOrientation=true&TextOrientation=0
+
 '90'
 "270"
