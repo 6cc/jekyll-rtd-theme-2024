@@ -766,3 +766,20 @@ https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBax4.img?w=534&h=500
 成年人看到的：
 孩子们看到的：
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qBmjz.img?w=527&h=500&m=6
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/7 09:49:04　&b=m36ng9tj
+## 15 岁山东少年当 CTO：码龄 7 年，靠“玩”出来的开源项目已赚取数百万元
+https://www.msn.cn/zh-cn/news/other/15-%E5%B2%81%E5%B1%B1%E4%B8%9C%E5%B0%91%E5%B9%B4%E5%BD%93-cto-%E7%A0%81%E9%BE%84-7-%E5%B9%B4-%E9%9D%A0-%E7%8E%A9-%E5%87%BA%E6%9D%A5%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E5%B7%B2%E8%B5%9A%E5%8F%96%E6%95%B0%E7%99%BE%E4%B8%87%E5%85%83/ar-AA1tBkBx?ocid=msedgntp&pc=U531&cvid=51c6ed53d0654f83f3199918aaa4cb3a&ei=16#
+|
+我需要一個工作
+你要先有經驗
+但我需要工作
+來獲得經驗
+那就工作啊！
+這就是為什麼我在這裡！
+你的經驗呢！
+我，要怎麼在
+沒工作的狀態下獲得
+經驗
+工作！
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tB3ub.img?w=534&h=611&m=6&x=498&y=39&s=70&d=663

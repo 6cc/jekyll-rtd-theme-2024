@@ -1,8 +1,26 @@
 # 6
-/mnt/sata1-4/6/a
+
+4982272
+终止扇区
+0 - 500118191 - 232 * 2 * 1024 * 1024 = 
+新建9384623
+
+/mnt/sata1-4
 /mnt/sata1-4/6/d
+/mnt/sata1-4/6/a
+
+vi /etc/config/network
+config interface 'lan'
+	option ipaddr '192.168.1.162'
+
 /mnt/sata1-4/9/dS
 /mnt/sata1-4/9/dS/aD
+
+qBittorrent
+/mnt/sata1-4/6/q
+/mnt/sata1-4/9/dS/qD
+admin
+adminadmin
 
 # /root/overlay/upper/etc/docker
 https://docker.1panel.live
