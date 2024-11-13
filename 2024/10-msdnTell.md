@@ -1,4 +1,16 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/11/13 15:45:31　&b=m3fktrzw
+## 7-Zip 24.08 (2024-08-11)
+https://www.7-zip.org/download.html
+|
+https://github.com/ip7z/7zip/releases/download/24.08/7z2408-x64.exe
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/13 15:43:32　&b=m3fkr88q
+## Chrome v109.0.5414.120
+https://www.iplaysoft.com/tools/chrome/#google_vignette
+|
+https://edgedl.me.gvt1.com/edgedl/release2/chrome/czao2hrvpk5wgqrkz4kks5r734_109.0.5414.120/109.0.5414.120_chrome_installer.exe
+
 >　　　　　　　　6//?r=⭐　&d=2024/10/7 16:38:33　&b=m1yrfglu
 ## MSDN, 我告诉你
 https://next.itellyou.cn/Original/Index#cbp=Product?ID=42e87ac8-9cd6-eb11-bdf8-e0d4e850c9c6

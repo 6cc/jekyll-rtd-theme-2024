@@ -144,3 +144,19 @@ https://www.msn.cn/zh-cn/news/other/1983%E5%B9%B4-17%E5%B2%81%E5%B0%91%E5%B9%B4%
 许反帝
 我比我的同龄人都蠢得多
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tE8pY.img?w=534&h=320&m=6&x=1830&y=1003&s=1220&d=1220
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/13 14:03:53　&b=m3fh72sl
+## 一人之下：田晋中为什么一定要让龚庆杀了自己
+https://www.msn.cn/zh-cn/news/other/%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B-%E7%94%B0%E6%99%8B%E4%B8%AD%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E5%AE%9A%E8%A6%81%E8%AE%A9%E9%BE%9A%E5%BA%86%E6%9D%80%E4%BA%86%E8%87%AA%E5%B7%B1/ar-AA1tVz0R?ocid=msedgntp&pc=U531&cvid=67343f45def646afa6cf920da3620ffc&ei=28
+|
+一群到
+处胡作非为的
+畜生⋯⋯
+一群有人生
+没人养的王
+八羔子！
+自以为横行天
+下，其实是只
+知破坏，没种
+承担的狗！
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tVmXZ.img?w=534&h=390&m=6

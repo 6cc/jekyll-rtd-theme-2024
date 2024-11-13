@@ -1,4 +1,10 @@
-# 6
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/13 10:45:53　&b=m3fa4gbx
+## iStore更新公告 · Issue #22 · linkease/istore · GitHub
+https://github.com/linkease/istore/issues/22
+|
+通知: 2024-11-12 服务器故障，请切换的新服务器
+sh -c "$(curl -sSL https://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
 
 4982272
 终止扇区

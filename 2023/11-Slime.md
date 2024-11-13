@@ -123,6 +123,32 @@ https://dogemanga.com/images/pages/6qs5bfHR.jpg
 https://dogemanga.com/images/pages/ZHeWh1pH.jpg
 >意念？
 
+以魔过联邦为中心，构建起了一个人魔共荣圈。
+https://dogemanga.com/images/pages/fkDFKDHK.jpg
+
+人类会排挤那些发色不同的同类。
+不过人类的贪婪也是推动给他们提高生活水平，扩展更多娱乐活动的原动力。
+https://dogemanga.com/images/pages/mqm5Zm8e.jpg
+
+我听说所有意愿的立场都是平等的，
+这句花得加一个表面上的前缀。
+https://dogemanga.com/images/pages/DvstzOZW.jpg
+
+会场内有多名人员的波长通精神干涉系统一致，证明他们被某种术式诱导影响了思维。
+但是主人的愤怒波长使得系统出现了破绽。
+https://dogemanga.com/images/pages/qKCnDt5t.jpg
+
+只是干涉了精神让他们的视野变得很狭窄。
+https://dogemanga.com/images/pages/sGHPrzsu.jpg
+
+反正你这职位就是个花瓶，
+是给那些色老头红衣主教色诱上位的吧？
+https://dogemanga.com/images/pages/uNNrajTy.jpg
+
+议长：
+没有公平性的评议会没有存在的价值！
+https://dogemanga.com/images/pages/e82SKgWX.jpg
+
 ## 隐语岛
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg
