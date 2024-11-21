@@ -35,3 +35,9 @@ https://dogemanga.com/images/pages/ZDgtOl1x.jpg
 ## 搜尋: 服部充 (共 747 結果) - 漫畫狗
 https://dogemanga.com/?q=%E6%9C%8D%E9%83%A8%E5%85%85
 |
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/20 21:44:18　&b=m3pxq4xv
+## 校园迷糊大王 - 漫畫狗
+https://dogemanga.com/m/YTNjXcCx
+|
+小林尽

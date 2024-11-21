@@ -11,6 +11,37 @@ https://github.com/OpenRunner/clash-freenode
 
 <del>https://clashnode.com/wp-content/uploads/2024/11/20241113.yaml</del>
 
+　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:20:15　&💻=0　&b=lr8l0yy5　&!=🌸
+## freeClash_免费的Clash/v2ray节点订阅
+https://freeclash.org
+|
+https://freeclash.org/wp-content/uploads/2024/10/1103.yaml
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/4 16:34:19　&b=m32rlvb9
+## 免费高速节点推荐
+https://free.datiya.com/
+|
+https://freenode.openrunner.net/uploads/20241103-clash.yaml
+
+　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:22:50　&💻=0　&b=lr8l4apk　&!=🌸
+## NodeFree | SSR/V2ray/Clash免费节点
+https://nodefree.org
+|
+https://nodefree.org/dy/2024/11/20241103.yaml
+
+　6//sp1it=1　6//?r=⭐　&d=2024/1/11 10:23:27　&💻=0　&b=lr8l5359　&!=🌸
+v2rayShare – SSR/V2ray/Clash免费节点
+https://v2rayshare.com
+|
+https://v2rayshare.com/wp-content/uploads/2024/11/20241103.yaml
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/4 22:05:34　&b=m333fv79
+## 「11月03日」2024年最新高速10.7M/S免费节点，免费公益SSR/V2ray/Shadowrocket/Clash节点/小火箭订阅链接|科学上网|免费梯子 - 免费clash节点|科学上网
+https://clashgithub.com/clashnode-20241103.html
+|
+
+https://clashgithub.com/wp-content/uploads/rss/20241103.yml
+
 　6//sp1it=1　6//?r=⭐　&d=2023/11/24 11:30:35　&💻=0　&b=lpc2ejb6　&!=🌸
 免费Clash节点订阅地址链接推荐 | Clash饭
 https://clashfan.com/freenode/
