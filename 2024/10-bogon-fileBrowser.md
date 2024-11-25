@@ -8,7 +8,13 @@ TP-LINK TECHNOLOGIES CO.,LTD.
 >192.168.1.117
 58-11-22-B4-74-2F
 ASUSTek COMPUTER INC.
-fe80::5b8:cfbd:73d8:787e　\\Local IPv6
+fe80::5b8:cfbd:73d8:787e　\\Link Local IPv6 Address
+
+### bogon
+>192.168.1.110
+D0-50-99-2F-0E-9C
+ASRock Incorporation
+fe80::d250:99ff:fe2f:e9c　\\Local IPv6
 
 ### Latitude E6230
 >http://192.168.1.100

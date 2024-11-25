@@ -20,6 +20,14 @@ https://learn.microsoft.com/zh-cn/windows/wsl/install-manual#step-2---check-requ
 
 对于 x64 系统：版本 1903 或更高版本，内部版本为 18362.1049 或更高版本。
 
+>　　　　　　　　6//?r=⭐　&d=2024/11/25 15:19:42　&b=m3wp6t7n
+## 原版软件
+https://next.itellyou.cn/Original/#cbp=Product?ID=f905b2d9-11e7-4ee3-8b52-407a8befe8d1
+|
+
+Windows 10 (consumer editions), version 1903 (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_10_consumer_editions_version_1903_x64_dvd_8f05241d.iso|4905476096|F28FDC23DA34D55BA466BFD6E91DD311|/
+
 >　　　　　　　　6//?r=⭐　&d=2024/11/19 10:54:44　&b=m3nv2y4q
 ## 解决wsl 安装出现Installing, this may take a few minutes… 时间长。且重新打开进入root用户问题 - 子の雨 - 博客园
 https://www.cnblogs.com/ziyulab/p/18446092

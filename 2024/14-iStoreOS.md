@@ -1,15 +1,49 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/11/25 13:58:10　&b=m3wm9yhu
+## KoolCenter 固件下载服务器
+https://fw.koolcenter.com/iStoreOS/
+|
+"$(curl -sSL http://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
+
+option ipaddr '192.168.1.162'
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/25 14:01:11　&b=m3wmdtm1
+## 折腾路由QWRT_qwrt固件-CSDN博客
+https://blog.csdn.net/weixin_43408641/article/details/142282535
+|
+g内可用docker镜像加速器
+https://dockerproxy.cn/
+https://docker.1panel.live/
+https://dockerpul1.com/
+https://docker.m.daocloud.io/
+https://registry.linkease.net:5443/ 
+
+fix-istore.sh
+```tip
+
+#!/bin/bash
+
+sed -i 's/istore.linkease.com/istore.istoreos.com/g' /bin/is-opkg
+sed -i 's/istore.linkease.com/istore.istoreos.com/g' /etc/opkg/compatfeeds.conf
+sed -i 's/istore.linkease.com/istore.istoreos.com/g' /www/luci-static/istore/index.js
+
+is-opkg update
+```
 >　　　　　　　　6//?r=⭐　&d=2024/11/13 10:45:53　&b=m3fa4gbx
 ## iStore更新公告 · Issue #22 · linkease/istore · GitHub
 https://github.com/linkease/istore/issues/22
 |
+sh -c "$(curl -sSL http://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
+
 通知: 2024-11-12 服务器故障，请切换的新服务器
 sh -c "$(curl -sSL https://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
 
+KimMiDi SSD TB90
 4982272
 终止扇区
 0 - 500118191 - 232 * 2 * 1024 * 1024 = 
-新建9384623
+新建 9384623
+uefi 9384590
 
 /mnt/sata1-4
 /mnt/sata1-4/6/d

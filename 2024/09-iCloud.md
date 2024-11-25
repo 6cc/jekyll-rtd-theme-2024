@@ -32,7 +32,6 @@ limbo
 nethunter
 aidlux
 deploy
-WinfrGUl Recuva 以及 Photorec
 
 应该说，不懂中医的人太多了，所以我不相信我找的中医真的懂中医
 

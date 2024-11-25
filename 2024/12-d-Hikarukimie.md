@@ -817,6 +817,21 @@ https://book.douban.com/review/1119302/
 
 大部分的男人都不会吧心里话说出口，所以我们得要明白他们的心意啊。
 
+45
+她做得好就称赞她，做错事也会训斥她。
+
+稿姬
+
+明明无法得到彼此，还要继续待在对方身边，到底有什么意义呢。
+
+年过五十了，一路走到现在，还能这样全员到齐，真让人感慨万千。
+
+转眼间一切都过去了，人的一生还真是空虚啊。
+
+净在无谓小事上坚持不下，拖延阵定的议程。
+
+大臣要除职，除非是本人主动请辞，再不然就是过世的时候。
+
 >　　　　　　　　6//?r=⭐　&d=2024/11/18 10:12:22　&b=m3me4lff
 ## 致光之君第44集
 https://vidhub1.cc/player/?u=gAAyJznoiQfWRplGLIKDznfswmGp21jlRcOXWnq4GiVCCwi4ODCYk1dnGDF8HjZ0MDrtV8fIhg0sHKFoDX68lp6fqbNvlIvAGUFAJPkP0qi7gRkT5aNpmq1BcH4-451s4XRYzWZ13xPRqTVgnGVmnQ&i=238890&n=44&t=15
