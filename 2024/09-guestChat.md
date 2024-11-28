@@ -3,7 +3,6 @@
 ## Docker 搭建留言板 sayhello 进阶使用教程
 https://powersee.github.io/2023/02/about-sayhello/
 |
-　　https://docker.1panel.live
 docker run -d -p 5000:5000 --name sayhello powersee/sayhello
 
 docker exec -it sayhello /bin/sh
@@ -40,3 +39,12 @@ https://www.devmax.cn/a/80069.html
 |
 
 基于nodejs express art-template的留言板功能。包含列表界面、添加界面和发送留言功能。
+
+\\192.168.1.162\KimMiD234\docker\overlay2\87eb1e816ad1b5ce0f48a24ed0d68bf1d60f472b1d06d6b8d1bef656e3ffec1b\diff\sayhello\data
+镜像
+
+\\192.168.1.162\KimMiD234\docker\overlay2\7b5424494c479ea33b84b9d521f01c96efaede872d76c24d98ac80a254114d55\diff\sayhello\data
+容器，停止后更新
+
+\\192.168.1.162\KimMiD234\docker\overlay2\87eb1e816ad1b5ce0f48a24ed0d68bf1d60f472b1d06d6b8d1bef656e3ffec1b\merged\sayhello\data
+实时，不可用

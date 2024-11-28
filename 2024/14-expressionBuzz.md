@@ -160,3 +160,6 @@ https://www.msn.cn/zh-cn/news/other/%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B-%E7%94%
 知破坏，没种
 承担的狗！
 https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1tVmXZ.img?w=534&h=390&m=6
+
+可可爱爱，没有脑袋
+https://raw.githubusercontent.com/ermaozi/meme/refs/heads/main/cat/99.JPG

@@ -1,4 +1,14 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/11/26 11:38:28　&b=m3xwq4vj
+## 如何在 Windows 10 上安装 WSL 2（已更新）
+https://cn.linux-console.net/?p=20304
+|
+(2004) 上启用虚拟机平台，
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+（1903、1909）上启用虚拟机平台，
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart
+
 >　　　　　　　　6//?r=⭐　&d=2024/11/19 11:14:23　&b=m3nvs7jd
 ## 关于windows安装wsl，出现WslRegisterDistribution failed with error: 0x8007019e The Windows Subsystem错误的解决方案-CSDN博客
 https://blog.csdn.net/qq_37109456/article/details/109669455
@@ -10,8 +20,33 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ## Window10安装linux子系统及子系统安装1Panel面板 - Stars-one - 博客园
 https://www.cnblogs.com/stars-one/p/17764763.html
 |
+wsl_update_x64.msi文件下载: 
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
-Stars-one
+https://github.com/microsoft/WSL/releases
+
+wsl.2.0.4.0.x64.msi
+
+需要用到systemd命令,需要更新环境
+
+3.Linux系统使用国内仓库源
+由于账号需要使用到ifconfig来查看IP地址信息,所以要先设置下使用国内的Linux软件仓库源
+
+1、将系统源文件复制一份备用
+
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+
+2、用vi编辑器打开源文件
+
+sudo vi /etc/apt/sources.list
+
+3、找到国内源复制粘贴
+
+阿里源地址https://developer.aliyun.com/mirror/?spm=a2c6h.12883283.1364563.38.6c69201cmnp0oi
+
+输入49dd清除全部内容,如果你的是22.04版本,可以直接复制下面内容
+
+deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse 
 
 >　　　　　　　　6//?r=⭐　&d=2024/11/19 11:10:25　&b=m3nvn3nd
 ## 旧版 WSL 的手动安装步骤 | Microsoft Learn

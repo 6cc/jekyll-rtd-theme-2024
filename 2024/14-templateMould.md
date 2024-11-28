@@ -10,6 +10,8 @@ tc　Tag of Category
 st　stamp of time
 iu　Identifier of Unique
 
+<del>
+</del>
 NaN
 ''
 ""

@@ -96,3 +96,14 @@ https://github.com/DarrenDanielDay/script-plus
 |
 一个可以简单的可通过运行 JS/TS 脚本调用 vscode API 的插件。
 简单来说，此插件是vscode的油猴脚本.
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/26 14:30:10　&b=m3y2uybd
+## Crayon 代码高亮插件的一点美化 – solstice23
+https://archive-blog.s23.moe/archives/999
+|
+https://archive-blog.s23.moe/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/26 14:31:26　&b=m3y2wl45
+## 暴力数据结构 : 珂朵莉树 (ODT) – solstice23
+https://archive-blog.s23.moe/archives/1518.html
+|
