@@ -1,11 +1,38 @@
 
+KimMiD234
+KimMiDi SSD TB90
+4982272
+终止扇区
+0 - 500118191 - 234 * 2 * 1024 * 1024 = 
+新建 9384623
+<del>uefi 9384590</del>
+
+option ipaddr '192.168.1.162'
+
 >　　　　　　　　6//?r=⭐　&d=2024/11/25 13:58:10　&b=m3wm9yhu
 ## KoolCenter 固件下载服务器
 https://fw.koolcenter.com/iStoreOS/
-|
+|<del>
 "$(curl -sSL http://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
+</del>
 
-option ipaddr '192.168.1.162'
+>　　　　　　　　6//?r=⭐⭐　&d=2024/9/25 09:44:58　&b=m1h7ddjl
+## Docker/DockerHub 国内镜像源/加速列表（0921更新） - 轩源的网络日志 - Xuanyuan's Blog
+https://xuanyuan.me/blog/archives/1154
+|
+<del>
+https://dockerproxy.cn
+</del>
+
+https://docker.rainbond.cc
+https://docker.udayun.com
+https://docker.211678.top
+
+docker run -d -p 5000:5000 --name sayhello powersee/sayhello
+docker run -d -p 5310:5310 --name mihomo metacubex/mihomo
+>m40wwq7i
+docker build --tag 'sing-box' .
+docker run -p 5000:5000 sing-box:latest
 
 >　　　　　　　　6//?r=⭐　&d=2024/11/25 14:01:11　&b=m3wmdtm1
 ## 折腾路由QWRT_qwrt固件-CSDN博客
@@ -38,13 +65,6 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
 通知: 2024-11-12 服务器故障，请切换的新服务器
 sh -c "$(curl -sSL https://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
 
-KimMiDi SSD TB90
-4982272
-终止扇区
-0 - 500118191 - 232 * 2 * 1024 * 1024 = 
-新建 9384623
-uefi 9384590
-
 /mnt/sata1-4
 /mnt/sata1-4/6/d
 /mnt/sata1-4/6/a
@@ -70,8 +90,6 @@ https://docker.1panel.live
 ### Docker 根目录
 /overlay/upper/opt/docker
 /mnt/data_sda4
-
-option ipaddr '192.168.1.162'
 
 >　　　　　　　　6//?r=⭐　&d=2024/10/25 14:16:17　&b=m2oc9ukp
 ## 最强软路由系统iStoreOS_X86安装体验，极简化设置、一键旁路由、小白强烈推荐_NAS存储_什么值得买

@@ -16,15 +16,6 @@ DaoCloud 镜像站　https://docker.m.daocloud.io　白名单模式
 　x：
 每次拉取一次docker,都会诅咒这个该死的组织
 
->　　　　　　　　6//?r=⭐　&d=2024/9/25 09:44:58　&b=m1h7ddjl
-## Docker/DockerHub 国内镜像源/加速列表（0921更新） - 轩源的网络日志 - Xuanyuan's Blog
-https://xuanyuan.me/blog/archives/1154
-|
-https://dockerproxy.cn
-https://docker.rainbond.cc
-https://docker.udayun.com
-https://docker.211678.top
-
 >　　　　　　　　6//?r=⭐　&d=2024/9/20 14:19:43　&b=m1abzfpb
 ## Docker更换镜像源（附国内可用镜像源地址） | Patrick's Blog
 https://patzer0.com/archives/configure-docker-registry-mirrors-with-mirrors-available-in-cn-mainland

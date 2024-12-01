@@ -81,6 +81,13 @@ https://chat.getloli.com/room/@%E6%9D%82%E8%B4%A8
 https://chat.getloli.com/room/@pure%20land
 https://chat.getloli.com/room/@絵師が集まる場所~
 
+>　　　　　　　　6//?r=⭐　&d=2024/11/30 17:44:10　&b=m43zjusa
+## 这个播放量破十亿的MV，不仅成为鬼畜区常客，且骗了无数人 - 知乎
+https://zhuanlan.zhihu.com/p/433014782
+|
+“Rickroll”，中文叫“瑞克摇”。
+
+## never gonna give you up
 https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4
 
 >　　　　　　　　6//?r=⭐　&d=2024/10/16 14:37:11　&b=m2bi21lm
