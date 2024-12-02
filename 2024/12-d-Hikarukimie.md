@@ -852,6 +852,25 @@ https://vidhub1.cc/player/?u=gAAyJznoiQfWRplGLIKDznfswmGp21jlRcOXWnq4GiVCCwi4ODC
 
 除了父亲和哥哥，没人觉得高兴。
 
+46
+到了这个年纪，早就没那个勇气和体力了。
+
+没有战事是好事啊。
+
+有需要的花费都用私财，品性高洁。
+
+我不需要钱，有伙伴就够了。
+
+有一群不知来自何方的贼人袭来，把一岐的老弱妇孺全杀了，剩下的人也被掳走。作物及牛马都被他们吃光，除我之外的僧人也全被杀了。
+
+世上还没有用假名文字写下的史书。
+
+到底是人家抛弃你，还是你抛弃了人家呢？
+
+明明一无所有了，却不想面对这个事实。
+
+要写作在哪里都可以写，只要有纸有笔有墨。
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/3 11:22:28　&b=lwyenngf
 ## 涅槃2024年#nhk大河剧##致光之君
 https://weibo.com/5442042794
@@ -875,10 +894,10 @@ https://pan.baidu.com/share/init?surl=VFMOmuh_61i9JywpuipZlA&pwd=trex
 ## 不知名压制小人z
 https://www.weibo.com/7800864480/OCs62eINB
 |
-https://pan.quark.cn/s/d69f7b1ea06e#/list/share/f06b4a1200274840b54a7c086425e67a-%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B
-
 链接：https://pan.baidu.com/s/1P7eRO8iJ03mSJBCOXdaKyg?pwd=6868 
-提取码：6868 
+提取码：6868
+
+https://pan.quark.cn/s/d69f7b1ea06e#/list/share/f06b4a1200274840b54a7c086425e67a-%E8%87%B4%E5%85%89%E4%B9%8B%E5%90%9B
 
 迅雷
 链接：https://pan.xunlei.com/s/VNnYp3DsuZa9f1p7PuoKUahlA1?pwd=gwhk#

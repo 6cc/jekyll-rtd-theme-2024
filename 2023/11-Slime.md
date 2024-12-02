@@ -149,6 +149,18 @@ https://dogemanga.com/images/pages/uNNrajTy.jpg
 没有公平性的评议会没有存在的价值！
 https://dogemanga.com/images/pages/e82SKgWX.jpg
 
+圣人算什么东西，不过是被人哄抬到这个地位的，你的好日子今天就到头了。
+
+那些笨蛋都被当成一次性的棋子使用了。
+https://dogemanga.com/images/pages/iS69C19-.jpg
+
+我基本上都是和平主义的啦。
+https://dogemanga.com/images/pages/LkARhhxe.jpg
+
+我不适合和这帮议员勾心斗角，这种事情今后还是交给智慧之王老师吧。
+
+## 史莱姆，利姆鲁
+
 ## 隐语岛
 姐姐
 https://dogemanga.com/images/pages/amoQhhE0.jpg
