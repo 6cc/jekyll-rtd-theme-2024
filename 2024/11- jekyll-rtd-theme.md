@@ -1,11 +1,48 @@
 
->　　　　　　　　6//?r=⭐　&d=2024/11/21 14:21:07　&b=m3qxc2dl
-## 快速免费的公用 CDN —— jsDelivr - Rogn - 博客园
-https://www.cnblogs.com/lfri/p/12212878.html
+>　　　　　　　　6//?r=⭐　&d=2024/12/3 10:09:18　&b=m47tmfxq
+## jaxbulsara/jekyll-rtd-theme
+https://github.com/jaxbulsara/jekyll-rtd-theme/tags
 |
-原github链接：https://raw.githubusercontent.com/growvv/img/master/images/20200118222911.jpeg
+https://github.com/jaxbulsara/jekyll-rtd-theme/archive/refs/tags/v2.0.10.zip
 
-CDN后的链接：https://cdn.jsdelivr.net/gh/growvv/img@master/images/20200118222911.jpeg
+>　　　　　　　　6//?r=⭐　&d=2024/12/3 10:07:20　&b=m47tjwi5
+## GitHub - jaxbulsara/jekyll-rtd-theme-starter at jekyll-themes.com
+https://github.com/jaxbulsara/jekyll-rtd-theme-starter?ref=jekyll-themes.com
+|
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/3 10:04:51　&b=m47tgpi5
+## Appdynamics/jekyll-rtd-theme
+https://github.com/Appdynamics/jekyll-rtd-theme/tags
+|
+https://github.com/Appdynamics/jekyll-rtd-theme/archive/refs/tags/v0.1.6.zip
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/3 10:45:59　&b=m47uxm76
+## analysis-framework/docs/faq at master · AliceO2Group/analysis-framework · GitHub
+https://github.com/AliceO2Group/analysis-framework
+|
+https://aliceo2group.github.io/analysis-framework/
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/3 10:42:14　&b=m47ussua
+## jekyll-theme-read-the-docs · Read the Docs like Jekyll Theme for GitHub Pages
+https://jv-conseil.github.io/jekyll-theme-read-the-docs/
+|
+https://jv-conseil.github.io/jekyll-theme-read-the-docs/
+https://github.com/JV-conseil/jekyll-theme-read-the-docs/zipball/main
+https://codeload.github.com/JV-conseil/jekyll-theme-read-the-docs/legacy.zip/refs/heads/main
+
+https://codeload.github.com/rundocs/jekyll-rtd-theme/legacy.zip/refs/heads/master
+https://codeload.github.com/rundocs/jekyll-rtd-theme/zip/refs/tags/v2.0.10
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/3 10:13:31　&b=m47truo4
+## jekyll-rtd-theme | RubyGems.org | 您的社区 Gem 托管中心
+https://rubygems.org/gems/jekyll-rtd-theme
+|
+2.0.10
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/3 10:05:14　&b=m47th7et
+## carlosperate/jekyll-theme-rtd
+https://github.com/carlosperate/jekyll-theme-rtd
+|
 
 <a class="d-flex flex-items-baseline " href="/2024/14-ipAddressLocation.html">14-ipAddressLocation.md</a>
 

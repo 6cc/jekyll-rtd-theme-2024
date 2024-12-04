@@ -1,5 +1,4 @@
 
-KimMiD234
 KimMiDi SSD TB90
 4982272
 终止扇区
@@ -7,7 +6,11 @@ KimMiDi SSD TB90
 新建 9384623
 <del>uefi 9384590</del>
 
+/root/etc/config/network
+option proto 'dhcp'
 option ipaddr '192.168.1.162'
+
+KimMiD234
 
 >　　　　　　　　6//?r=⭐　&d=2024/11/25 13:58:10　&b=m3wm9yhu
 ## KoolCenter 固件下载服务器

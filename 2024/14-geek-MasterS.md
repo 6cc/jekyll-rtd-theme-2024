@@ -1,3 +1,11 @@
+```note
+技术大佬Geek Master
+```
+>　　　　　　　　6//?r=⭐　&d=2024/12/4 14:40:49　&b=m49irgh5
+## 技术大佬竟是网黄主播
+https://m.chenkuan.com/232/232981/
+|
+他只想让她舒服。
 
 >　　　　　　　　6//?r=⭐　&d=2024/10/15 10:51:04　&b=m29ujf5d
 ## journey-ad (Jad) · GitHub
@@ -114,3 +122,18 @@ https://archive-blog.s23.moe/wp-content/plugins/crayon-syntax-highlighter/js/min
 ## 暴力数据结构 : 珂朵莉树 (ODT) – solstice23
 https://archive-blog.s23.moe/archives/1518.html
 |
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/4 14:32:53　&b=m49ih9g4
+## 人生苦短，我用 workflow
+https://blackwinmin.github.io/posts/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD-%E6%88%91%E7%94%A8-workflow/
+|
+
+在科技巨头的阴影之下，如此天马行空的天才想必不能天长地久，但好在我们曾一起拥有。
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/4 14:29:27　&b=m49icujp
+## Automator 图床
+https://blackwinmin.github.io/posts/Automator-%E5%9B%BE%E5%BA%8A/
+|
+
+没有菜单栏图标，没有 Dock 栏图标，只需要一个启动按钮和一声提示音
+只使用系统命令，不依赖任何第三方包

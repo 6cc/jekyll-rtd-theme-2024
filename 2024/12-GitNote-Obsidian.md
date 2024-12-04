@@ -1,8 +1,24 @@
 
+>　　　　　　　　6//?r=⭐　&d=2024/12/4 14:19:26　&b=m49hzyj5
+## Obsidian 的 Android 伴侣：GitJournal 使用指南 - 少数派
+https://sspai.com/post/65316
+|
+「Obsidian Git」
+「Vault backup interval」控制自动保存到远程库的时间间隔，
+
 >　　　　　　　　6//?r=⭐　&d=2024/12/1 11:24:50　&b=m451fvkc
 ## Obsidian入门之三：仓库、笔记本和文件夹
 https://www.msn.cn/zh-cn/news/other/obsidian%E5%85%A5%E9%97%A8%E4%B9%8B%E4%B8%89-%E4%BB%93%E5%BA%93-%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/ar-AA1uTNU2?ocid=msedgntp&pc=U531&cvid=674bcafeecfe4192b94ca1a45e386944&ei=25
 |
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/4 14:44:55　&b=m49iwqpm
+## Obsidian - Sharpen your thinking
+https://obsidian.md/
+|
+
+Sharpen your thinking.
+
+Obsidian Web Clipper
 
 >　　　　　　　　6//?r=⭐　&d=2024/12/1 11:19:50　&b=m4519flp
 ## 也许你可以这样记笔记 GitHub Desktop + Typora + PicGo - 知乎
