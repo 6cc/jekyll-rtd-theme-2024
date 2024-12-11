@@ -13,6 +13,30 @@ https://github.com/journey-ad
 |
 https://avatars.githubusercontent.com/u/16256221?v=4
 
+>　　　　　　　　6//?r=⭐　&d=2024/12/6 11:24:14　&b=m4c6mdcf
+## zsm1703/chat-room - Docker Image | Docker Hub
+https://hub.docker.com/r/zsm1703/chat-room
+|
+
+mkdir /chat-room && touch /chat-room/msg.db
+docker run --name my-chat-room -p 3080:3000 -d -v /chat-room/msg.db:/chat-room/msg.db zsm1703/chat-room
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/6 11:24:25　&b=m4c6ml3j
+## chat-room - Replit
+https://replit.com/@journeyad/chat-room#index.js
+|
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/6 11:26:56　&b=m4c6pu0m
+## Node.js 與 Socket.io - 即時聊天室實作 - Single.9
+https://single9.net/2017/12/node-js-%e8%88%87-socket-io-%e5%8d%b3%e6%99%82%e8%81%8a%e5%a4%a9%e5%ae%a4%e5%af%a6%e4%bd%9c/
+|
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/6 11:31:47　&b=m4c6w2sv
+## Node.js 與 Socket.io – 即時聊天室實作：資料庫 - Single.9
+https://single9.net/2018/04/node-js-%e8%88%87-socket-io-%e5%8d%b3%e6%99%82%e8%81%8a%e5%a4%a9%e5%ae%a4%e5%af%a6%e4%bd%9c-%e8%b3%87%e6%96%99%e5%ba%ab/
+|
+mLab 是一個免費的 MongoDB 線上資料庫服務，他最低的沙盒免費方案提供我們 0.5GB 的儲存容量，這對於學習與實驗的我們其實就相當夠用了，還免除了繁雜的 MongoDB 安裝步驟。在 mLab 我們只需要申請帳號、設定資料庫、啟動！就能開始操作啦～
+
 >　　　　　　　　6//?r=⭐　&d=2024/10/15 10:25:57　&b=m29tn42t
 ## 1::user_fishb::PADuO3l::demo:: - Chat Room
 https://chat.getloli.com/room/@demo

@@ -12,12 +12,16 @@ option ipaddr '192.168.1.162'
 
 KimMiD234
 
->　　　　　　　　6//?r=⭐　&d=2024/11/25 13:58:10　&b=m3wm9yhu
-## KoolCenter 固件下载服务器
-https://fw.koolcenter.com/iStoreOS/
-|<del>
-"$(curl -sSL http://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
-</del>
+qBittorrent v4.5.2 Web UI (64-bit)
+默认用户名：admin
+默认密码：adminadmin
+>　　　　　　　　6//?r=⭐　&d=2024/12/5 14:35:44　&b=m4ay0ro3
+## 关于新版本qBittorrent“无效的用户名和密码”，其实可以这么解决_NAS存储_什么值得买
+https://post.smzdm.com/p/aklpv7x9/
+|
+4.6.1版本开始，
+不在沿用之前默认的
+初始密码。
 
 >　　　　　　　　6//?r=⭐⭐　&d=2024/9/25 09:44:58　&b=m1h7ddjl
 ## Docker/DockerHub 国内镜像源/加速列表（0921更新） - 轩源的网络日志 - Xuanyuan's Blog
@@ -45,7 +49,7 @@ docker pull docker.udayun.com/library/alpine:latest
 
 docker run -d -p 5110:5000 --name sayhello powersee/sayhello
 docker run -d -p 5010:5000 --name mihomo metacubex/mihomo
->m40wwq7i
+>m40wwq7i，前外端口，后内端口
 docker build --tag 'sing-box' .
 docker run -p 5000:5000 sing-box:latest
 
@@ -67,6 +71,13 @@ https://docker.m.daocloud.io/
 </del>
 
 https://registry.linkease.net:5443/ 
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/6 10:17:51　&b=m4c4900v
+## 渡渡鸟镜像同步站
+https://docker.aityp.com/
+|
+
+全站镜像索引数量: 8293 同步:5957 GB
 
 fix-istore.sh
 ```tip
@@ -203,3 +214,10 @@ config interface ‘lan’
 option ipaddr ‘192.168.1.1’
 
 修改完毕后，按下 Esc，输入 “:wq”(保存并退出)，退出 vi 编辑器。
+
+>　　　　　　　　6//?r=⭐　&d=2024/11/25 13:58:10　&b=m3wm9yhu
+## KoolCenter 固件下载服务器
+https://fw.koolcenter.com/iStoreOS/
+|<del>
+"$(curl -sSL http://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
+</del>

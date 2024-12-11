@@ -172,5 +172,9 @@ https://moeyy.cn/gh-proxy
 ## GitHubRaw
 https://githubraw.com/
 |
+https://cdn.githubraw.com/66e/a766b9f78a98888da159f821a27a484f/raw/9de422a2d6c55a5f37f5698ffb301d4ac2eaaa17/Welcome%20file.md
+https://githubraw.com/66e/a766b9f78a98888da159f821a27a484f/raw/9de422a2d6c55a5f37f5698ffb301d4ac2eaaa17/Welcome%20file.md
+https://gist.gitmirror.com/66e/a766b9f78a98888da159f821a27a484f/raw/9de422a2d6c55a5f37f5698ffb301d4ac2eaaa17/Welcome%20file.md
+
 https://cdn.githubraw.com/WebberHuang/5acd146d03047129bc85e847e78bf21a/raw/d9b1b9c3e6a56e91d739d951ff50a064acbd3e76/clash.yaml
 https://githubraw.com/WebberHuang/5acd146d03047129bc85e847e78bf21a/raw/d9b1b9c3e6a56e91d739d951ff50a064acbd3e76/clash.yaml

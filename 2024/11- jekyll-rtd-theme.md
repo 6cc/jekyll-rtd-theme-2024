@@ -10,11 +10,13 @@ https://github.com/jaxbulsara/jekyll-rtd-theme/archive/refs/tags/v2.0.10.zip
 https://github.com/jaxbulsara/jekyll-rtd-theme-starter?ref=jekyll-themes.com
 |
 
->　　　　　　　　6//?r=⭐　&d=2024/12/3 10:04:51　&b=m47tgpi5
+>　　　　　　　　6//?r=⭐⭐　&d=2024/12/3 10:04:51　&b=m47tgpi5
 ## Appdynamics/jekyll-rtd-theme
 https://github.com/Appdynamics/jekyll-rtd-theme/tags
 |
 https://github.com/Appdynamics/jekyll-rtd-theme/archive/refs/tags/v0.1.6.zip
+>https://github.com/rundocs/jekyll-rtd-theme/archive/refs/tags/v2.0.10.zip
+
 
 >　　　　　　　　6//?r=⭐　&d=2024/12/3 10:45:59　&b=m47uxm76
 ## analysis-framework/docs/faq at master · AliceO2Group/analysis-framework · GitHub
@@ -70,6 +72,8 @@ https://web.archive.org/web/20230317225704/https://github.com/rundocs/jekyll-rtd
 
 https://codeload.github.com/rundocs/jekyll-rtd-theme/zip/refs/tags/v2.0.10
 
+https://github.com/single9/api-wrapper/archive/refs/tags/v0.2.0.zip
+https://github.com/rundocs/jekyll-rtd-theme/archive/refs/tags/v2.0.10.zip
 >　　　　　　　　6//?r=⭐　&d=2024/11/21 13:31:45　&b=m3qvkk5e
 ## RubyGems - jekyll-rtd-theme - Versions diffs - 2.0.9 → 2.0.10 - Mend - Supply Chain Defender
 https://my.diffend.io/gems/jekyll-rtd-theme/2.0.9/2.0.10
