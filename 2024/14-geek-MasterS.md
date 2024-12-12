@@ -161,3 +161,20 @@ https://blackwinmin.github.io/posts/Automator-%E5%9B%BE%E5%BA%8A/
 
 没有菜单栏图标，没有 Dock 栏图标，只需要一个启动按钮和一声提示音
 只使用系统命令，不依赖任何第三方包
+
+>　　　　　　　　6//?r=⭐⭐0　&d=2024/12/12 11:56:16　&b=m4kseock
+## Three.js 之 13 Galaxy 银河效果生成器
+https://gaohaoyang.github.io/2022/06/27/three-galaxy/
+|
+
+https://gw.alicdn.com/imgextra/i2/O1CN01e4GDed1v8DSaHo3dL_!!6000000006127-1-tps-510-267.gif
+
+demo 链接
+https://gaohaoyang.github.io/threeJourney/19-galaxy-generator/
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/12 11:54:36　&b=m4kscj5w
+## Three.js 之 19 realistic render 真实渲染
+https://gaohaoyang.github.io/2022/10/09/three-realistic-render/
+|
+
+https://gw.alicdn.com/imgextra/i4/O1CN01WHVNSw1uptdSV1SwA_!!6000000006087-2-tps-1229-922.png

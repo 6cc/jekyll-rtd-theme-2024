@@ -194,3 +194,29 @@ https://www.sohu.com/a/758742533_118622
 ## 10月非税收入高增39.6%，税收首次实现年内增长_腾讯新闻
 https://news.qq.com/rain/a/20241119A08FRY00
 |
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/12 14:54:37　&b=m4kys0s4
+## 异世界爽番推荐
+https://www.msn.cn/zh-cn/news/other/%E5%BC%82%E4%B8%96%E7%95%8C%E7%88%BD%E7%95%AA%E6%8E%A8%E8%8D%90/ar-AA1vuka2?ocid=msedgntp&pc=U531&cvid=675a8826208642d8b1fadb8daf3ba4df&ei=8
+|
+1、彼得格里尔的贤者时间
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vusY5.img?w=534&h=334&m=6
+https://n.sinaimg.cn/sinakd10109/160/w640h320/20200803/b6dc-ixeeirz6494908.jpg
+
+3、关于我转生变成史莱姆这档事
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vuhUj.img?w=534&h=333&m=6
+
+4、带着智能手机闯荡异世界
+
+5、爆肝工程师的异世界狂想曲
+因为程序是自己写的随便开挂，看见了吧，这就是程序员。
+
+6、OVERLORD 
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vuoK4.img?w=480&h=640&m=6
+>头痛，欲裂
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/12 14:56:57　&b=m4kyv0rv
+## 《彼得·格里尔的贤者时间2》无修版：涩涩才是第一生产力_哥布林_时候_世界
+https://www.sohu.com/a/591923275_121118770
+|
+毕竟涩涩是第一生产力，总不可能不表扬它吧？

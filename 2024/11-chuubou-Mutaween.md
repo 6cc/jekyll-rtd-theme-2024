@@ -97,6 +97,12 @@ Sweet Baby Inc公司已经变得声名狼藉，因为许多玩家认为该公司
 
 Sweet Baby Inc公司的破事太多了，渐渐的从偏执的LGBT公司到现在，已经变味了，嘴上喊着“觉醒主义”心里全是生意。
 
+>　　　　　　　　6//?r=⭐　&d=2024/12/11 22:51:13　&b=m4k0d37a
+## 玩家吐槽《漫威金刚狼》对比网易版本：简直就是娘炮
+https://www.msn.cn/zh-cn/gaming/other/%E7%8E%A9%E5%AE%B6%E5%90%90%E6%A7%BD-%E6%BC%AB%E5%A8%81%E9%87%91%E5%88%9A%E7%8B%BC-%E5%AF%B9%E6%AF%94%E7%BD%91%E6%98%93%E7%89%88%E6%9C%AC-%E7%AE%80%E7%9B%B4%E5%B0%B1%E6%98%AF%E5%A8%98%E7%82%AE/ar-AA1vFkZY?ocid=msedgntp&pc=U531&cvid=6759a520d3d141cdb40efde782cfc211&ei=13
+|
+https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vFnDi.img?w=534&h=510&m=6
+
 >　　　　　　　　6//?r=⭐　&d=2024/11/5 14:45:41　&b=m34360ir
 ## 《黑神话：悟空》被政治正确团队勒索 700 万美元“指导费”？引发国内外热议 - IT之家
 https://www.ithome.com/0/775/534.htm

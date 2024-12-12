@@ -5,6 +5,18 @@ https://github.com/MetaCubeX/metacubexd
 |
 docker run -d --restart always -p 9097:80 --name metacubexd ghcr.io/metacubex/metacubexd
 
+>　　　　　　　　6//?r=⭐　&d=2024/12/11 21:42:39　&b=m4jxwwr0
+## liheji/mihomo-yacd
+https://github.com/liheji/mihomo-yacd
+|
+
+docker run -d \
+  --name clash \
+  -v /root/mihomo-config:/root/.config/mihomo \
+  -p 7890:7890 \
+  -p 9080:8080 \
+  yilee01/mihomo-yacd:latest
+
 >　　　　　　　　6//?r=⭐　&d=2024/12/11 10:22:06　&b=m4j9lpon
 ## 在 docker 中使用 mihomo - windowBR的博客
 https://windowbr.top/2024/11/02/mihomo-docker/
@@ -12,7 +24,8 @@ https://windowbr.top/2024/11/02/mihomo-docker/
 docker run -d \
   --name mihomo \
   -v /root/mihomo:/root/.config/mihomo \
-  --network host \
+  -p 7890:7890 \
+  -p 9080:8080 \
   metacubex/mihomo
 
 sudo docker run -d \

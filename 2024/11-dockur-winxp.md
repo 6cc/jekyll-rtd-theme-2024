@@ -89,6 +89,11 @@ https://www.youtube.com/watch?v=3h1KtrL3CYQ
 
 docker compose pull
 
+>　　　　　　　　6//?r=⭐　&d=2024/12/12 11:06:20　&b=m4kqmfym
+## 玩家福音｜NAS一键部署Windows，Docker轻松实现
+https://www.msn.cn/zh-cn/news/other/%E7%8E%A9%E5%AE%B6%E7%A6%8F%E9%9F%B3-nas%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2windows-docker%E8%BD%BB%E6%9D%BE%E5%AE%9E%E7%8E%B0/ar-AA1vHy3B?ocid=msedgdhp&pc=U531&cvid=675a52cb1a25494596b500dcf58bc90e&ei=7
+|
+
 >　　　　　　　　6//?r=⭐　&d=2024/11/17 14:11:06　&b=m3l77riy
 ## docker使用alpine镜像_如何吧alpine镜像拉取到本地-CSDN博客
 https://blog.csdn.net/ichen820/article/details/117879520
