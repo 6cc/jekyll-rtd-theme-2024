@@ -108,3 +108,14 @@ https://segmentfault.com/a/1190000043791161
 Docker部署后默认使用http://IP:4999进行访问，如果需要使用域名访问，可通过Nginx反向代理来完成。下方是一个nginx反向代理的配置实例：
 
 showdoc/123456
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/14 14:42:27　&b=m4nt836r
+## 开放API
+https://www.showdoc.com.cn/page/102098
+|
+
+参数：
+api_key
+api_token
+page_title
+page_content

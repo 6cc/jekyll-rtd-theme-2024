@@ -29,5 +29,8 @@ principle原理，法则
 # T
 theory理论
 
+# V
+verbose罗嗦
+
 # W
 waddle蹒跚
