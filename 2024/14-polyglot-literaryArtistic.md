@@ -17,6 +17,9 @@ anonymous匿名
 # H
 hypothesis猜想，假说
 
+# I
+issue发表；公布；问题，争论点
+
 # L
 Lorem Ipsum乱文假数
 

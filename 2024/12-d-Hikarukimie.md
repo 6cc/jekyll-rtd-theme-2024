@@ -871,6 +871,14 @@ https://vidhub1.cc/player/?u=gAAyJznoiQfWRplGLIKDznfswmGp21jlRcOXWnq4GiVCCwi4ODC
 
 要写作在哪里都可以写，只要有纸有笔有墨。
 
+48
+听闻旧友纷纷离世，尘世喧嚣也宛如深山般孤寂
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/15 21:54:05　&b=m4po30vk
+## 妇人苦_百度百科
+https://baike.baidu.com/item/%E5%A6%87%E4%BA%BA%E8%8B%A6/14107076
+|
+
 >　　　　　　　　6//?r=⭐　&d=2024/6/3 11:22:28　&b=lwyenngf
 ## 涅槃2024年#nhk大河剧##致光之君
 https://weibo.com/5442042794

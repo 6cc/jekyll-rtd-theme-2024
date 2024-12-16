@@ -8,7 +8,7 @@ KimMiDi SSD TB90
 
 /root/etc/config/network
 option proto 'dhcp'
-option ipaddr '192.168.1.162'
+	option ipaddr '192.168.1.162'
 
 KimMiD234
 

@@ -94,9 +94,14 @@ http://kenshin54.github.io/popline/
 ## StackEdit
 https://stackedit.io/app#
 |
-
- Welcome to StackEdit!
 https://gist.github.com/66e/a766b9f78a98888da159f821a27a484f
+>push github file
+
+>　　　　　　　　6//?r=⭐　&d=2024/12/15 17:58:22　&b=m4pfnw8p
+## bangle.io
+https://app.bangle.io/landing
+|
+>write disk file
 
 >　　　　　　　　6//?r=⭐　&d=2024/12/8 11:37:25　&b=m4f1z0bf
 ## CodeMirror 5

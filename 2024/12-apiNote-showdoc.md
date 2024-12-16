@@ -13,6 +13,11 @@ https://craigary.notion.site/Slack-df7bf63d33cb4aa3bfa44fae8943241c
 
 将 Slack 消息发送到 Notion 数据库
 
+>　　　　　　　　6//?r=⭐　&d=2024/12/15 21:03:25　&b=m4pm9v0l
+## 使用 notion 作为静态博客的编辑器 | YouXam's Blog
+https://youxam.one/posts/notion/using-the-notion-as-static-blog-editor.html
+|
+
 >　　　　　　　　6//?r=⭐　&d=2024/12/12 15:11:14　&b=m4kzde6u
 ## rainyear/HackVisionPro: 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.)
 https://github.com/rainyear/HackVisionPro
