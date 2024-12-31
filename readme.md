@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0;url=/2024/13.html" />
+<meta http-equiv="refresh" content="0;url=https://6cc.github.io/2024/13.html" />
