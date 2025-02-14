@@ -24,7 +24,7 @@ const number = 'http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@
 const yuh = 'https://img.acgn.cc/img/2600/2544/102.jpg';
 let x = 1;
 const fruits = [];
-console.log();
+console.log(undefined);
 console.log(dog1.toString());
 console.log(typeof true);
 const output = void 1;
@@ -38,7 +38,13 @@ var matches = document.querySelectorAll("p");
 <script>
   const func1 = (x, y) => {
     
-  };
+  }
+  
+  if (a > 0) {
+    result = "positive";
+  } else {
+    result = "NOT positive";
+  }
 </script>
 
 <script src="javascript.js"></script>
@@ -46,7 +52,7 @@ var matches = document.querySelectorAll("p");
 
 const func2 = async (x, y) => {
   return x + y;
-};
+}
 
 <style>
   
